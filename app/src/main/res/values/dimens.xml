@@ -2,7 +2,7 @@
     <!-- Padding / Margin -->
     <dimen name="horizontal_padding">16dp</dimen>
     <dimen name="vertical_padding">16dp</dimen>
-    <dimen name="margin_normal">12dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>     <!-- 기존 12dp → 16dp로 확대 -->
     <dimen name="margin_small">8dp</dimen>
 
     <dimen name="padding_button">12dp</dimen>
@@ -10,9 +10,9 @@
     <dimen name="padding_input">12dp</dimen>
 
     <!-- Text Sizes -->
-    <dimen name="text_button">17sp</dimen>       <!-- 플레이/체크/종료 버튼 -->
-    <dimen name="text_input">16sp</dimen>        <!-- EditText 안 텍스트 -->
-    <dimen name="text_result">17sp</dimen>       <!-- 결과 (정답/오답) 텍스트 -->
-    <dimen name="text_normal">15sp</dimen>       <!-- 해석/문장 등 일반 텍스트 -->
-    <dimen name="text_small">13sp</dimen>        <!-- 통계/속도 안내 등 부가 텍스트 -->
+    <dimen name="text_button">18sp</dimen>       <!-- 기존 17sp → 18sp로 강조 -->
+    <dimen name="text_input">16sp</dimen>
+    <dimen name="text_result">18sp</dimen>       <!-- 기존 17sp → 18sp로 강조 -->
+    <dimen name="text_normal">15sp</dimen>
+    <dimen name="text_small">13sp</dimen>        <!-- 그대로 유지 (통계/속도 안내 등) -->
 </resources>

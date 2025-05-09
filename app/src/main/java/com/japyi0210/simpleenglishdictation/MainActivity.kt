@@ -27,9 +27,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tts: TextToSpeech
     private lateinit var resultView: TextView
     private lateinit var translationView: TextView
-    private lateinit var statsView: TextView
     private lateinit var input: EditText
     private lateinit var checkBtn: Button
+    private lateinit var playBtn: Button
     private lateinit var voiceModeGroup: RadioGroup
     private lateinit var radioFixed: RadioButton
     private lateinit var radioRandom: RadioButton
@@ -59,13 +59,12 @@ class MainActivity : AppCompatActivity() {
         val adRequest = AdRequest.Builder().build()
         adView.loadAd(adRequest)
 
-        val playBtn = findViewById<Button>(R.id.button_play)
+        playBtn = findViewById(R.id.button_play)
         checkBtn = findViewById(R.id.button_check)
         input = findViewById(R.id.editText_input)
         val speed = findViewById<SeekBar>(R.id.speedSeekBar)
         resultView = findViewById(R.id.textView_result)
         translationView = findViewById(R.id.textView_translation)
-        statsView = findViewById(R.id.text_stats)
         val exitBtn = findViewById<Button>(R.id.button_exit)
 
         voiceModeGroup = findViewById(R.id.voiceModeGroup)
@@ -94,7 +93,7 @@ class MainActivity : AppCompatActivity() {
 
         lifecycleScope.launch {
             dao.clearAll()
-            statsView.text = "통계 초기화됨"
+            updateResultWithStats()
         }
 
         tts = TextToSpeech(this) { status ->
@@ -142,17 +141,23 @@ class MainActivity : AppCompatActivity() {
             }
 
             tts.speak(currentSentence.english, TextToSpeech.QUEUE_FLUSH, null, null)
-            resultView.text = ""
             translationView.text = ""
             translationView.visibility = TextView.GONE
 
             checkBtn.text = "✅ 정답 확인"
             checkBtn.isEnabled = true
             checkBtn.backgroundTintList = ColorStateList.valueOf(Color.parseColor("#00AA77"))
+
+            // ✅ 정답 확인 전엔 다시 듣기로 변경
+            playBtn.text = "🎧 문장 다시 듣기"
+
+            lifecycleScope.launch {
+                updateResultWithStats()
+            }
         }
 
         checkBtn.setOnClickListener {
-            if (checkBtn.text == "다시듣기") {
+            if (checkBtn.text == "🔊 다시 듣기") {
                 tts.speak(currentSentence.english, TextToSpeech.QUEUE_FLUSH, null, null)
                 return@setOnClickListener
             }
@@ -165,8 +170,8 @@ class MainActivity : AppCompatActivity() {
             val isCorrect = similarity >= 85
 
             val message = when {
-                similarity == 100 -> "✅ 정답입니다!"
-                similarity >= 85 -> "🟡 거의 정답이에요! ($similarity% 일치)"
+                similarity == 100 -> "⭕️ 정답입니다!"
+                similarity >= 85 -> "🟥 거의 정답이에요! ($similarity% 일치)"
                 else -> "❌ 오답입니다. ($similarity% 일치)"
             }
             resultView.text = message
@@ -187,13 +192,14 @@ class MainActivity : AppCompatActivity() {
             resultView.startAnimation(AnimationUtils.loadAnimation(this, R.anim.fade_in))
 
             input.setText("")
-
             val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
             imm.hideSoftInputFromWindow(input.windowToken, 0)
 
-            checkBtn.text = "다시듣기"
+            checkBtn.text = "🔊 다시 듣기"
             checkBtn.isEnabled = true
             checkBtn.backgroundTintList = ColorStateList.valueOf(Color.parseColor("#FFA500"))
+
+            playBtn.text = "🎧 다음 문장 듣기"
 
             isSentencePlayed = false
 
@@ -206,11 +212,6 @@ class MainActivity : AppCompatActivity() {
                         correct = isCorrect
                     )
                 )
-
-                val total = dao.getTotalCount()
-                val correctCount = dao.getCorrectCount()
-                val rate = if (total == 0) 0 else (correctCount * 100) / total
-                statsView.text = "정답률: ${rate}% ($correctCount/$total)"
             }
         }
 
@@ -221,6 +222,7 @@ class MainActivity : AppCompatActivity() {
                 speechRate = progress / 10f
                 tts.setSpeechRate(speechRate)
             }
+
             override fun onStartTrackingTouch(seekBar: SeekBar?) {}
             override fun onStopTrackingTouch(seekBar: SeekBar?) {}
         })
@@ -236,6 +238,7 @@ class MainActivity : AppCompatActivity() {
                                 interstitialAd = null
                                 finishAffinity()
                             }
+
                             override fun onAdFailedToShowFullScreenContent(adError: AdError) {
                                 finishAffinity()
                             }
@@ -256,6 +259,14 @@ class MainActivity : AppCompatActivity() {
             tts.shutdown()
         }
         super.onDestroy()
+    }
+
+    private suspend fun updateResultWithStats() {
+        val total = dao.getTotalCount()
+        val correctCount = dao.getCorrectCount()
+        val rate = if (total == 0) 0 else (correctCount * 100) / total
+        resultView.text = "현재 정답률: ${rate}% ($correctCount/$total)"
+        resultView.setTextColor(Color.BLACK)
     }
 
     data class Sentence(val english: String, val korean: String)

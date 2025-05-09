@@ -18,6 +18,7 @@
         android:paddingTop="@dimen/vertical_padding"
         android:paddingBottom="@dimen/vertical_padding">
 
+        <!-- 📢 상단 배너 광고 -->
         <com.google.android.gms.ads.AdView
             android:id="@+id/adView"
             android:layout_width="match_parent"
@@ -26,6 +27,7 @@
             ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
             android:layout_marginBottom="@dimen/margin_small" />
 
+        <!-- 🎧 문장 듣기 버튼 -->
         <Button
             android:id="@+id/button_play"
             android:layout_width="match_parent"
@@ -37,6 +39,7 @@
             android:padding="@dimen/padding_button"
             android:layout_marginBottom="@dimen/margin_normal" />
 
+        <!-- ✍️ 입력창 -->
         <EditText
             android:id="@+id/editText_input"
             android:layout_width="match_parent"
@@ -48,6 +51,7 @@
             android:textSize="@dimen/text_input"
             android:layout_marginBottom="@dimen/margin_normal" />
 
+        <!-- ✅ 정답 확인 버튼 -->
         <Button
             android:id="@+id/button_check"
             android:layout_width="match_parent"
@@ -59,6 +63,7 @@
             android:padding="@dimen/padding_button"
             android:layout_marginBottom="@dimen/margin_normal" />
 
+        <!-- 🇰🇷 해석 영역 -->
         <TextView
             android:id="@+id/textView_translation"
             android:layout_width="match_parent"
@@ -71,6 +76,7 @@
             android:visibility="gone"
             android:layout_marginBottom="@dimen/margin_small" />
 
+        <!-- 🔊 속도 조절 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -87,6 +93,7 @@
             android:progress="10"
             android:layout_marginBottom="@dimen/margin_small" />
 
+        <!-- 결과 텍스트 -->
         <TextView
             android:id="@+id/textView_result"
             android:layout_width="match_parent"
@@ -99,17 +106,7 @@
             android:gravity="center"
             android:layout_marginBottom="@dimen/margin_small" />
 
-        <TextView
-            android:id="@+id/text_stats"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="통계: 준비 중..."
-            android:textSize="@dimen/text_small"
-            android:textColor="#333333"
-            android:gravity="center"
-            android:paddingBottom="2dp" />
-
-        <!-- 🔘 목소리 방식 선택 -->
+        <!-- 🗣️ 목소리 선택 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -144,10 +141,10 @@
                     android:layout_height="wrap_content"
                     android:text="랜덤 모드"
                     android:layout_marginStart="16dp" />
-
             </RadioGroup>
         </LinearLayout>
 
+        <!-- ⛔ 종료 버튼 -->
         <Button
             android:id="@+id/button_exit"
             android:layout_width="match_parent"
