@@ -1,0 +1,18 @@
+<resources>
+    <!-- Padding / Margin -->
+    <dimen name="horizontal_padding">16dp</dimen>
+    <dimen name="vertical_padding">16dp</dimen>
+    <dimen name="margin_normal">12dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+
+    <dimen name="padding_button">12dp</dimen>
+    <dimen name="padding_text">10dp</dimen>
+    <dimen name="padding_input">12dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_button">17sp</dimen>       <!-- 플레이/체크/종료 버튼 -->
+    <dimen name="text_input">16sp</dimen>        <!-- EditText 안 텍스트 -->
+    <dimen name="text_result">17sp</dimen>       <!-- 결과 (정답/오답) 텍스트 -->
+    <dimen name="text_normal">15sp</dimen>       <!-- 해석/문장 등 일반 텍스트 -->
+    <dimen name="text_small">13sp</dimen>        <!-- 통계/속도 안내 등 부가 텍스트 -->
+</resources>

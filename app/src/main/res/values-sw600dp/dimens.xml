@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="horizontal_padding">24dp</dimen>
+    <dimen name="vertical_padding">24dp</dimen>
+    <dimen name="margin_normal">12dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+
+    <dimen name="padding_button">14dp</dimen>
+    <dimen name="padding_text">12dp</dimen>
+    <dimen name="padding_input">12dp</dimen>
+
+    <dimen name="text_button">18sp</dimen>
+    <dimen name="text_input">16sp</dimen>
+    <dimen name="text_result">18sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="text_small">15sp</dimen>
+</resources>

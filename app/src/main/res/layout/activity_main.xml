@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="600dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:paddingStart="@dimen/horizontal_padding"
+        android:paddingEnd="@dimen/horizontal_padding"
+        android:paddingTop="@dimen/vertical_padding"
+        android:paddingBottom="@dimen/vertical_padding">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="🎧 문장 듣기"
+            android:backgroundTint="#0066CC"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:padding="@dimen/padding_button"
+            android:layout_marginBottom="@dimen/margin_normal" />
+
+        <EditText
+            android:id="@+id/editText_input"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="top|start"
+            android:hint="답안을 입력하세요"
+            android:background="@android:drawable/edit_text"
+            android:padding="@dimen/padding_input"
+            android:textSize="@dimen/text_input"
+            android:layout_marginBottom="@dimen/margin_normal" />
+
+        <Button
+            android:id="@+id/button_check"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="✅ 정답 확인"
+            android:backgroundTint="#00AA77"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:padding="@dimen/padding_button"
+            android:layout_marginBottom="@dimen/margin_normal" />
+
+        <TextView
+            android:id="@+id/textView_translation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/text_normal"
+            android:textColor="#444444"
+            android:padding="@dimen/padding_text"
+            android:background="#EEEEEE"
+            android:visibility="gone"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔊 음성 속도 조절"
+            android:textSize="@dimen/text_small"
+            android:textColor="#666666"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <SeekBar
+            android:id="@+id/speedSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="20"
+            android:progress="10"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/textView_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="#FFFFFF"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_result"
+            android:padding="@dimen/padding_text"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <TextView
+            android:id="@+id/text_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="통계: 준비 중..."
+            android:textSize="@dimen/text_small"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:paddingBottom="2dp" />
+
+        <!-- 🔘 목소리 방식 선택 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_small">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🗣️ 목소리 방식:"
+                android:textSize="@dimen/text_small"
+                android:textColor="#444444"
+                android:layout_marginEnd="8dp" />
+
+            <RadioGroup
+                android:id="@+id/voiceModeGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_fixed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="고정 모드" />
+
+                <RadioButton
+                    android:id="@+id/radio_random"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="랜덤 모드"
+                    android:layout_marginStart="16dp" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_exit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="⛔ 종료"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:padding="@dimen/padding_button"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_marginBottom="32dp" />
+
+    </LinearLayout>
+</ScrollView>
