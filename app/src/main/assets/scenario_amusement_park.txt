@@ -1,0 +1,49 @@
+Where can I purchase tickets for the amusement park?	놀이공원 입장권은 어디에서 구매할 수 있나요?
+What time does the park open and close?	놀이공원은 몇 시에 열고 닫나요?
+Are there any discounts available for groups or families?	단체나 가족을 위한 할인 혜택이 있나요?
+Is there a separate fee for each ride, or is it included in the admission?	놀이기구마다 요금이 따로 있나요, 아니면 입장료에 포함되어 있나요?
+Could you provide a map of the park?	공원 지도를 받을 수 있을까요?
+Where can I find the main attractions?	주요 놀이기구는 어디에서 찾을 수 있나요?
+Is there a height requirement for this ride?	이 놀이기구에는 키 제한이 있나요?
+I am afraid of heights. Are there any less intense rides?	고소공포증이 있는데, 덜 무서운 놀이기구가 있을까요?
+How long is the wait time for the roller coaster?	롤러코스터 대기 시간은 얼마나 되나요?
+Are there any fast pass or express entry options?	패스트패스나 빠른 입장 옵션이 있나요?
+Where is the entrance to the water park section?	워터파크 구역 입구는 어디인가요?
+Is outside food allowed inside the park?	외부 음식물 반입이 가능한가요?
+Are there any vegetarian or allergy-friendly food options available?	채식이나 알레르기 친화적인 음식이 있나요?
+Where is the nearest restroom from here?	여기서 가장 가까운 화장실은 어디에 있나요?
+Are there lockers available for rent?	보관함을 대여할 수 있나요?
+How much does it cost to rent a stroller or a wheelchair?	유모차나 휠체어를 대여하는 데 비용이 얼마나 드나요?
+What attractions are suitable for young children?	어린이에게 적합한 놀이기구는 무엇인가요?
+Is there a first aid station in the park?	공원 안에 응급처치소가 있나요?
+Where can I report a lost item?	분실물을 어디에 신고할 수 있나요?
+I think I have lost my child. Can you help me find them?	아이를 잃어버린 것 같습니다. 도와주실 수 있나요?
+Is there a designated meeting point for emergencies?	비상 상황을 위한 지정된 만남 장소가 있나요?
+How do I get to the parade viewing area?	퍼레이드를 관람할 수 있는 구역은 어떻게 가나요?
+At what time does the fireworks show begin?	불꽃놀이 쇼는 몇 시에 시작하나요?
+Are there any shows or performances scheduled today?	오늘 예정된 쇼나 공연이 있나요?
+Do I need a reservation for the popular rides?	인기 있는 놀이기구는 예약이 필요한가요?
+Is re-entry allowed if I leave the park temporarily?	잠시 공원을 나갔다 다시 들어올 수 있나요?
+Can I use a credit card at food stands and souvenir shops?	음식점과 기념품 가게에서 신용카드를 사용할 수 있나요?
+Where can I buy official merchandise or souvenirs?	공식 기념품은 어디에서 살 수 있나요?
+Is there a shuttle service from the parking lot to the entrance?	주차장에서 입구까지 셔틀 서비스가 있나요?
+What are the safety guidelines for the rides?	놀이기구의 안전 수칙은 무엇인가요?
+Are there any rides that may not be suitable for people with heart conditions?	심장 질환자에게 적합하지 않은 놀이기구가 있나요?
+Can I leave my belongings somewhere safe while on a ride?	놀이기구를 탈 동안 물건을 안전하게 맡길 수 있나요?
+Do you offer guided tours of the park?	공원 내 가이드 투어가 제공되나요?
+Is this ride operational today?	이 놀이기구는 오늘 운행하나요?
+Can I bring a camera on this ride?	이 놀이기구에 카메라를 가지고 탈 수 있나요?
+Are pets allowed inside the amusement park?	놀이공원에 애완동물을 데려올 수 있나요?
+Where can I find a shaded area to rest?	쉴 수 있는 그늘진 곳은 어디에 있나요?
+What do I do if it starts raining?	비가 오기 시작하면 어떻게 해야 하나요?
+Is there a place where I can charge my phone?	휴대폰을 충전할 수 있는 곳이 있나요?
+Are the attractions open during off-season months?	비수기에도 놀이기구가 운영되나요?
+Is there an age limit for this ride?	이 놀이기구에 나이 제한이 있나요?
+Do you have any multilingual staff or translation services?	다국어 가능한 직원이나 통역 서비스가 있나요?
+What time should I arrive to avoid long lines?	긴 줄을 피하려면 몇 시에 도착해야 하나요?
+Can I upgrade my ticket to a season pass?	티켓을 시즌권으로 업그레이드할 수 있나요?
+Is there a family package available for admission?	입장료에 가족 패키지가 있나요?
+Can I get a refund if I need to leave early?	일찍 나가야 할 경우 환불받을 수 있나요?
+Where is the lost and found located?	분실물 보관소는 어디에 있나요?
+What is the park’s policy on cancellations due to bad weather?	악천후로 인한 취소에 대한 공원의 정책은 무엇인가요?
+May I see a schedule of today’s events and activities?	오늘의 행사 및 활동 일정표를 볼 수 있을까요?

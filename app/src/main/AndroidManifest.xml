@@ -3,11 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.japyi0210.simpleenglishdictation">
 
-    <!-- ✅ 광고에 필요한 권한 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <!-- ✅ 태블릿 대응 설정 -->
     <supports-screens
         android:smallScreens="true"
         android:normalScreens="true"
@@ -23,14 +21,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
-        <!-- ✅ Google AdMob App ID (테스트용) -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
 
         <activity android:name=".StatisticsActivity" />
 
-        <!-- ✅ SplashActivity를 앱 시작 지점으로 등록 -->
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="stateVisible|adjustPan"
+            android:exported="true" />
+
+        <activity
+            android:name=".ScenarioSelectActivity"
+            android:exported="true" />
+
+        <!-- ✅ SplashActivity를 다시 앱 시작점으로 등록 -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -40,10 +46,5 @@
             </intent-filter>
         </activity>
 
-        <!-- ✅ MainActivity: adjustPan으로 변경 -->
-        <activity
-            android:name=".MainActivity"
-            android:windowSoftInputMode="stateVisible|adjustPan"
-            android:exported="true" />
     </application>
 </manifest>

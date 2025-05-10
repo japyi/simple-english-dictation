@@ -1,0 +1,49 @@
+I would like to make an appointment with a doctor.	의사 선생님과 진료 예약을 하고 싶습니다.
+Is this the right department for internal medicine?	이곳이 내과가 맞나요?
+Could you tell me where the emergency room is located?	응급실이 어디에 있는지 알려주실 수 있나요?
+I am not feeling well and would like to see a physician.	몸이 안 좋아서 의사 선생님을 뵙고 싶습니다.
+How long is the expected wait time for walk-in patients?	예약 없이 방문했을 때 예상 대기 시간은 얼마인가요?
+Do I need to bring any medical records with me?	진료 시 필요한 의무 기록이 있나요?
+Can I request a doctor who speaks my native language?	모국어를 하는 의사 선생님을 요청할 수 있나요?
+What is the process for checking in at this hospital?	이 병원에서 접수 절차는 어떻게 되나요?
+Is health insurance required for treatment here?	이곳에서 진료를 받으려면 건강보험이 필요한가요?
+Do you accept international or travel insurance plans?	해외 보험이나 여행자 보험을 받으시나요?
+I need to see a specialist. Could you provide a referral?	전문의 진료가 필요합니다. 진료 의뢰서를 발급해 주시겠어요?
+I would like to schedule a follow-up appointment.	추후 진료 예약을 하고 싶습니다.
+Can I get a copy of the test results for my records?	검사 결과를 제 기록용으로 복사해 주실 수 있나요?
+Are there any risks or side effects associated with this treatment?	이 치료에 수반되는 위험이나 부작용이 있나요?
+Could you please explain the diagnosis in more detail?	진단 내용을 좀 더 자세히 설명해 주실 수 있나요?
+Is this medication safe to take with my current prescriptions?	이 약은 제가 복용 중인 다른 약과 함께 복용해도 안전한가요?
+What are the alternatives to surgery in my case?	제 경우 수술 외에 어떤 다른 치료 방법이 있나요?
+I would like a second opinion from another doctor.	다른 의사 선생님의 소견도 듣고 싶습니다.
+How soon can I receive the results of this blood test?	혈액 검사 결과를 언제쯤 받을 수 있나요?
+Do I need to fast before this test or procedure?	이 검사나 시술 전에 금식을 해야 하나요?
+Is anesthesia required for this procedure?	이 시술에 마취가 필요한가요?
+What should I do to prepare for my upcoming surgery?	앞으로 있을 수술을 위해 어떤 준비를 해야 하나요?
+Can a family member accompany me during the consultation?	상담 중에 가족이 동행할 수 있나요?
+Is this hospital equipped for overnight stays?	이 병원은 입원이 가능한가요?
+Could you explain the discharge process to me?	퇴원 절차에 대해 설명해 주시겠어요?
+Do I need to schedule a post-operative check-up?	수술 후 진료 예약을 해야 하나요?
+Where can I pay my bill and get a detailed receipt?	진료비를 결제하고 상세 영수증을 받을 수 있는 곳이 어디인가요?
+Are payment plans available for expensive treatments?	고액 치료에 대해 할부 결제가 가능한가요?
+Is there a pharmacy inside the hospital?	병원 내에 약국이 있나요?
+How long will I have to wait for my prescription to be filled?	처방전을 조제받는 데 시간이 얼마나 걸리나요?
+What is the hospital’s visitation policy?	병원의 면회 정책은 어떻게 되나요?
+Are translators or interpreters available for non-English speakers?	영어를 못하는 환자를 위한 통역 서비스가 있나요?
+Where can I report a concern or give feedback about my care?	진료에 대한 우려 사항이나 피드백은 어디에 전달할 수 있나요?
+Is mental health support or counseling offered here?	이 병원에서 정신 건강 상담이나 지원이 제공되나요?
+Do you provide rehabilitation or physical therapy services?	재활 치료나 물리치료 서비스를 제공하시나요?
+Is there a department for women’s health or prenatal care?	여성 건강이나 산전 진료 부서가 있나요?
+Can I get vaccinated or receive immunization shots here?	여기서 예방접종을 받을 수 있나요?
+Do you conduct COVID-19 testing or vaccination?	코로나19 검사나 백신 접종을 하고 있나요?
+Where can I go for imaging services like X-rays or MRIs?	X레이나 MRI 같은 영상 검사는 어디에서 받을 수 있나요?
+Is this a teaching hospital affiliated with a university?	이 병원은 대학과 제휴된 교육 병원인가요?
+Are private rooms available for inpatients?	입원 환자를 위한 개인 병실이 있나요?
+What are the visiting hours for admitted patients?	입원 환자를 위한 면회 시간은 어떻게 되나요?
+Can you assist with arranging medical transportation?	의료 교통편을 마련하는 데 도움을 받을 수 있나요?
+Is there a cafeteria or food service available for visitors?	방문객을 위한 식당이나 식사 서비스가 있나요?
+Are spiritual care or chaplain services available here?	영적 돌봄이나 병원 목회자의 서비스가 제공되나요?
+Can I get medical documentation for my employer or school?	직장이나 학교에 제출할 의사 소견서를 받을 수 있나요?
+Is there a patient portal for accessing my medical history online?	온라인에서 진료 기록을 열람할 수 있는 환자 포털이 있나요?
+Do you offer home health services after discharge?	퇴원 후 가정 의료 서비스를 제공하시나요?
+Can you provide proof of treatment for travel or visa purposes?	여행이나 비자 신청용 치료 확인서를 발급해 주실 수 있나요?

@@ -1,0 +1,49 @@
+I would like to schedule a professional photo shoot.	전문 사진 촬영을 예약하고 싶습니다.
+Do you offer packages for family or group portraits?	가족이나 단체 사진 촬영 패키지가 있나요?
+Can I see samples of your previous work or portfolio?	이전 촬영 작업이나 포트폴리오를 볼 수 있을까요?
+Do you have a specific photographer I can request?	지정할 수 있는 특정 사진작가가 있나요?
+What is included in your basic photo session package?	기본 촬영 패키지에는 어떤 것이 포함되어 있나요?
+How long does a standard photo session usually take?	일반 사진 촬영은 보통 얼마나 걸리나요?
+Is professional makeup or hair styling included in the package?	전문 메이크업이나 헤어 스타일링이 포함되어 있나요?
+Can I bring my own stylist or makeup artist?	제가 직접 스타일리스트나 메이크업 아티스트를 데려가도 되나요?
+Do you offer clothing or wardrobe consultation before the shoot?	촬영 전에 의상 상담을 해주시나요?
+Are pets allowed during the photo shoot?	촬영 시 반려동물도 동반할 수 있나요?
+Can you provide props or themed backgrounds for the session?	촬영 소품이나 테마 배경을 제공하시나요?
+Do you offer passport or ID photo services?	여권 사진이나 신분증 사진 서비스도 제공하시나요?
+What are the requirements for passport photos in this country?	이 나라의 여권 사진 규정은 어떻게 되나요?
+Can I receive both printed and digital copies of my photos?	인쇄본과 디지털 파일을 모두 받을 수 있나요?
+How many edited photos are included in the package?	패키지에 포함된 보정 사진은 몇 장인가요?
+Can I select which images will be edited?	보정할 사진을 제가 직접 선택할 수 있나요?
+Is retouching or skin correction included in the editing?	보정이나 피부 보정이 포함되어 있나요?
+Do you offer black-and-white or vintage style editing options?	흑백 또는 빈티지 스타일 보정 옵션이 있나요?
+What is the turnaround time for receiving the final photos?	최종 사진을 받는 데까지 소요되는 시간은 얼마나 되나요?
+Can I request express processing or same-day delivery?	급행 처리나 당일 배송이 가능한가요?
+Are additional prints available for purchase?	추가 인화본을 구매할 수 있나요?
+What sizes do you offer for printed photos?	어떤 크기의 사진 인화가 가능한가요?
+Do you provide framing or canvas mounting services?	액자나 캔버스 마운팅 서비스도 제공하시나요?
+Can you restore or retouch old or damaged photos?	오래되거나 손상된 사진을 복원하거나 보정해 주실 수 있나요?
+Do you offer photo printing from USB drives or cloud storage?	USB나 클라우드에서 사진 인화가 가능한가요?
+Can I get photos printed on merchandise like mugs or T-shirts?	머그컵이나 티셔츠에 사진 인쇄도 가능한가요?
+Is it possible to take outdoor or location-based portraits?	야외나 원하는 장소에서 촬영이 가능한가요?
+Do you offer event photography services such as for weddings?	웨딩 등 행사 촬영 서비스도 제공하시나요?
+How early should I book a session for special occasions?	특별한 날을 위한 촬영은 얼마나 일찍 예약해야 하나요?
+Can I reschedule or cancel a session if needed?	필요할 경우 촬영 일정을 변경하거나 취소할 수 있나요?
+Is there a cancellation fee or policy I should know about?	취소 수수료나 정책이 있나요?
+Do you have a dressing room or changing area available?	갈아입을 수 있는 공간이나 탈의실이 있나요?
+What types of backdrops or studio setups do you have?	어떤 종류의 배경이나 스튜디오 세트가 있나요?
+Can I bring multiple outfits and change during the shoot?	촬영 중 여러 벌의 의상을 가져와서 갈아입을 수 있나요?
+Do you offer maternity or newborn photography packages?	임신부나 신생아를 위한 촬영 패키지가 있나요?
+Are there any promotions or discounts available this month?	이번 달에 진행 중인 할인이나 프로모션이 있나요?
+Do you offer loyalty points or a membership program?	멤버십이나 포인트 적립 프로그램이 있나요?
+What forms of payment do you accept?	어떤 결제 수단을 받으시나요?
+Can I pay a deposit now and the balance later?	지금 계약금을 지불하고 잔금은 나중에 낼 수 있나요?
+Do you offer corporate headshots or business portraits?	기업용 프로필 사진이나 비즈니스 인물 사진도 촬영하나요?
+Can I receive the photos in both high and web resolution?	웹용과 고화질 파일을 모두 받을 수 있나요?
+Do you keep backup copies of client photos in case of loss?	고객 사진의 백업본을 보관하시나요?
+Are all photo sessions conducted by appointment only?	모든 촬영은 예약제로 운영되나요?
+Can you travel to my office or home for a shoot?	직장이나 자택으로 출장을 와서 촬영해 주실 수 있나요?
+Is parking available near the studio?	스튜디오 근처에 주차 공간이 있나요?
+What is the best time of day to schedule a portrait session?	인물 사진 촬영은 하루 중 언제가 가장 좋은 시간인가요?
+May I use these photos for commercial or social media use?	이 사진들을 상업적 용도나 SNS에 사용할 수 있나요?
+Do you require a model release form for public usage?	사진을 공개적으로 사용하려면 모델 동의서가 필요한가요?
+Can I give feedback or request revisions after viewing the proofs?	샘플 사진을 본 후 피드백이나 수정 요청을 할 수 있나요?

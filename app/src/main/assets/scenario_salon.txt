@@ -1,0 +1,49 @@
+I would like to make an appointment for a haircut.	헤어컷 예약을 하고 싶습니다.
+Do you have any openings this afternoon or tomorrow?	오늘 오후나 내일 빈 시간이 있나요?
+Could I request a specific stylist for my appointment?	예약할 때 특정 스타일리스트를 지정할 수 있을까요?
+How much do you charge for a basic haircut and blow-dry?	기본 커트와 드라이 가격은 얼마인가요?
+Do you offer a consultation before starting the service?	시술 전에 상담을 받을 수 있나요?
+I am looking for a low-maintenance hairstyle.	손질이 간편한 스타일을 원합니다.
+Can you recommend a cut that suits my face shape?	제 얼굴형에 어울리는 컷을 추천해 주실 수 있나요?
+I want to keep the length but add more layers.	길이는 유지하고 레이어만 넣고 싶습니다.
+Could you trim just the split ends, please?	끝이 갈라진 부분만 다듬어 주세요.
+I would like to get a short bob with bangs.	앞머리가 있는 짧은 보브컷으로 하고 싶습니다.
+Can you show me examples of hairstyles you have done?	그동안 시술하신 스타일 사진을 볼 수 있을까요?
+I want something trendy but still professional-looking.	유행도 타고 너무 과하지 않은 스타일이었으면 좋겠습니다.
+Do you offer hair coloring services?	염색도 하시나요?
+I would like to change my hair color completely.	머리 색을 완전히 바꾸고 싶습니다.
+Can I get a balayage or ombré style?	발레아쥬나 옴브레 스타일로 염색할 수 있을까요?
+Do you offer ammonia-free or organic hair dye options?	무암모니아나 유기농 염색 제품도 사용하시나요?
+How long does the coloring process usually take?	염색은 보통 얼마나 걸리나요?
+Will the color fade quickly, or is it long-lasting?	이 색상은 빨리 빠지나요, 아니면 오래가나요?
+I want to cover my gray hair but keep it natural-looking.	새치 커버는 하되 자연스럽게 하고 싶습니다.
+Can I do a patch test before coloring to check for allergies?	염색 전에 알레르기 테스트를 할 수 있나요?
+Do you also do perms or straightening treatments?	펌이나 매직 스트레이트도 하시나요?
+I want a soft wave perm, not too curly.	너무 곱슬하지 않은 부드러운 웨이브 펌을 원합니다.
+Is the straightening treatment permanent or temporary?	매직 시술은 영구적인가요, 아니면 일시적인가요?
+Will this damage my hair, and how can I prevent it?	머리가 손상될 수 있나요, 방지하려면 어떻게 해야 하나요?
+Do you offer keratin or deep conditioning treatments?	케라틴 또는 집중 트리트먼트 시술도 있나요?
+Can I add a scalp massage or spa treatment to my visit?	두피 마사지나 스파 서비스를 추가할 수 있나요?
+Do you provide services for curly or textured hair?	곱슬이나 텍스처가 있는 머리에도 시술하시나요?
+Can you style my hair for a formal event or wedding?	결혼식이나 공식 행사용으로 스타일링해 주실 수 있나요?
+Do you offer updos or special occasion hairstyling?	업스타일이나 특별한 날을 위한 헤어 스타일링도 가능하신가요?
+Do you provide bridal packages or group bookings?	신부용 패키지나 단체 예약도 받으시나요?
+Can I schedule a trial session before the actual event?	행사 전에 리허설 스타일링을 예약할 수 있나요?
+Are children’s or men’s cuts also available?	아이들이나 남성용 커트도 가능한가요?
+Do you follow the latest hairstyle trends and techniques?	최신 스타일 트렌드나 기법도 반영하시나요?
+Do you sell the hair products you use during the session?	시술 중 사용하신 제품을 판매도 하시나요?
+Which shampoo or conditioner do you recommend for my hair type?	제 모발에 맞는 샴푸나 컨디셔너를 추천해 주시겠어요?
+Can you show me how to maintain this style at home?	집에서 이 스타일을 유지하는 방법을 알려주실 수 있나요?
+Is tipping customary here, and how much is appropriate?	팁을 드리는 것이 일반적인가요, 적정 금액은 얼마인가요?
+Can I pay by card, or do you accept mobile payments?	카드나 모바일 결제가 가능한가요?
+Do you offer any first-time customer discounts or packages?	처음 방문하는 고객에게 할인이나 패키지가 있나요?
+How far in advance should I book for weekends?	주말 예약은 얼마나 일찍 해야 하나요?
+What is your cancellation or rescheduling policy?	예약 취소나 변경 정책은 어떻게 되나요?
+Can I request a quiet session with minimal conversation?	조용한 분위기에서 말 없이 시술받을 수 있을까요?
+Do you sanitize tools and equipment between clients?	고객마다 도구를 소독하시나요?
+Are your staff trained in handling sensitive scalps or hair loss?	민감성 두피나 탈모에 대해서도 숙련된 직원이 있나요?
+Is this salon wheelchair accessible?	이 미용실은 휠체어로 출입이 가능한가요?
+Can I leave my coat or belongings somewhere safe?	외투나 소지품을 안전하게 맡길 수 있나요?
+Do you have loyalty rewards or referral programs?	단골 고객이나 추천 고객을 위한 혜택이 있나요?
+May I leave feedback about my experience today?	오늘 서비스에 대한 피드백을 남길 수 있을까요?
+Can I follow your salon on social media for updates and offers?	업데이트나 혜택을 보기 위해 SNS 팔로우할 수 있을까요?

@@ -1,0 +1,49 @@
+Where can I purchase admission tickets for the museum?	미술관 입장권은 어디에서 구매할 수 있나요?
+Are there any discounts for students or seniors?	학생이나 노인을 위한 할인 혜택이 있나요?
+What are the museum’s opening and closing hours?	미술관의 개관 및 폐관 시간은 어떻게 되나요?
+Is photography allowed inside the galleries?	전시실 안에서 사진 촬영이 가능한가요?
+Are guided tours available in English?	영어로 된 가이드 투어가 있나요?
+How long does the average visit take?	평균적으로 관람에는 얼마나 시간이 걸리나요?
+Where can I find the special exhibition area?	특별 전시 구역은 어디에 있나요?
+Do I need to book in advance for the special exhibit?	특별 전시는 사전 예약이 필요한가요?
+Is there a brochure or map of the museum available?	미술관의 안내 책자나 지도가 있나요?
+Can I re-enter the museum with the same ticket?	같은 티켓으로 미술관에 재입장할 수 있나요?
+Where is the information desk located?	안내 데스크는 어디에 있나요?
+Are audio guides available for rent?	오디오 가이드를 대여할 수 있나요?
+Is there a specific route you recommend for first-time visitors?	처음 방문하는 사람에게 추천하는 동선이 있나요?
+Where can I find paintings from the Impressionist period?	인상주의 작품은 어디에서 볼 수 있나요?
+Which section features contemporary art?	현대미술 전시 구역은 어디인가요?
+Are there any interactive exhibits or installations?	체험형 전시나 설치미술이 있나요?
+What is the museum’s most famous artwork?	이 미술관에서 가장 유명한 작품은 무엇인가요?
+Is there a quiet place to sit and observe the art?	작품을 조용히 감상할 수 있는 공간이 있나요?
+Are food or drinks allowed in any part of the museum?	미술관 내 어느 구역에서도 음식이나 음료가 허용되나요?
+Where is the museum café or restaurant located?	미술관 내 카페나 식당은 어디에 있나요?
+Is there a gift shop where I can buy souvenirs?	기념품을 살 수 있는 상점이 있나요?
+Can I purchase prints or replicas of the artworks?	작품의 인쇄물이나 복제품을 구입할 수 있나요?
+Do you offer any workshops or educational programs?	워크숍이나 교육 프로그램이 제공되나요?
+Is there a coat check or locker facility available?	물품 보관소나 코트 보관 서비스가 있나요?
+Are there any family-friendly exhibits for children?	아이들을 위한 가족 친화적 전시가 있나요?
+What is the museum’s policy on sketching or drawing?	스케치나 그림 그리기에 대한 미술관의 정책은 무엇인가요?
+Do you have wheelchairs or accessibility services available?	휠체어나 장애인 접근 서비스를 제공하나요?
+Is there a membership program for frequent visitors?	자주 방문하는 사람을 위한 멤버십 프로그램이 있나요?
+Can I attend a lecture or seminar during my visit?	방문 중 강연이나 세미나에 참석할 수 있나요?
+What safety measures are currently in place?	현재 시행 중인 안전 수칙은 무엇인가요?
+Where are the nearest restrooms from this gallery?	이 전시실에서 가장 가까운 화장실은 어디인가요?
+May I speak with a curator or staff about a specific artwork?	특정 작품에 대해 큐레이터나 직원과 이야기할 수 있나요?
+Is there a time limit for how long I can stay inside the exhibit?	전시실에 머무를 수 있는 시간 제한이 있나요?
+Do I need a separate ticket for the temporary exhibition?	임시 전시를 보려면 별도의 티켓이 필요한가요?
+Are there any events happening later today?	오늘 나중에 열리는 행사가 있나요?
+Can I volunteer or participate in museum activities?	미술관 활동에 자원봉사나 참여할 수 있나요?
+Is this artwork part of the permanent collection?	이 작품은 상설 소장품인가요?
+What is the historical significance of this piece?	이 작품의 역사적 중요성은 무엇인가요?
+Are donations accepted for supporting the museum?	미술관 운영을 위한 기부를 받을 수 있나요?
+Can I bring a backpack into the galleries?	갤러리 안에 배낭을 가지고 들어갈 수 있나요?
+Where can I find exhibitions featuring local artists?	지역 작가들의 전시는 어디에서 볼 수 있나요?
+Is there a virtual tour option for this museum?	이 미술관의 온라인 투어 옵션이 있나요?
+Are there any multilingual resources for international visitors?	외국인을 위한 다국어 자료가 있나요?
+Is flash photography prohibited in all exhibits?	모든 전시에서 플래시 촬영이 금지되나요?
+Can I host a private event or tour here?	이곳에서 개인 행사를 열거나 투어를 예약할 수 있나요?
+What is the policy for school or group visits?	학교나 단체 방문에 대한 정책은 어떻게 되나요?
+Is this museum affiliated with any national or international institutions?	이 미술관은 국내외 어떤 기관과 제휴하고 있나요?
+How often are the exhibitions changed or rotated?	전시는 얼마나 자주 변경되거나 교체되나요?
+May I know the background of the artist who created this piece?	이 작품을 만든 작가의 배경을 알 수 있을까요?

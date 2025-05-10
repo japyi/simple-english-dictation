@@ -1,0 +1,50 @@
+Could you help me carry these boxes into the house?	이 박스들을 집 안으로 옮기는 것을 도와주실 수 있나요?
+Would you like something to drink while you wait?	기다리시는 동안 마실 것 좀 드릴까요?
+Please make yourself at home.	편하게 계세요.
+Where can I put my shoes?	신발은 어디에 벗어 놓으면 될까요?
+Should I take off my shoes before entering?	들어가기 전에 신발을 벗어야 하나요?
+The guest room is upstairs on the right.	게스트룸은 위층 오른쪽에 있어요.
+I am planning to rearrange the furniture in the living room.	거실 가구 배치를 바꾸려고 해요.
+Could you help me hang this painting on the wall?	이 그림을 벽에 걸어주실 수 있나요?
+The air conditioning is not working properly.	에어컨이 제대로 작동하지 않아요.
+We are thinking about remodeling the kitchen next year.	내년에 주방을 리모델링할 생각이에요.
+Do you know a good plumber or electrician in the area?	이 근처에 괜찮은 배관공이나 전기기사를 아시나요?
+There is a leak under the sink that needs fixing.	싱크대 밑에서 물이 새서 고쳐야 해요.
+The water pressure in the shower is too low.	샤워기의 수압이 너무 약해요.
+I need to replace the light bulbs in the hallway.	복도에 있는 전구를 교체해야 해요.
+We should clean the gutters before it starts raining.	비가 오기 전에 홈통을 청소해야겠어요.
+The backyard needs mowing and general maintenance.	뒷마당에 잔디를 깎고 정비가 필요해요.
+Could you open a window to let in some fresh air?	창문을 열어 신선한 공기를 좀 들여보실래요?
+Please remember to lock the door when you leave.	나가실 때 문 잠그는 것을 잊지 마세요.
+Do you prefer a firm or soft mattress?	단단한 매트리스와 부드러운 매트리스 중 어떤 것을 선호하시나요?
+The laundry room is downstairs near the garage.	세탁실은 아래층 차고 근처에 있어요.
+Would you mind helping me fold the laundry?	세탁물을 개는 것을 도와주실 수 있을까요?
+I need to organize the pantry before we go shopping.	장 보기 전에 식료품 저장실을 정리해야 해요.
+We just had the floors refinished last month.	지난달에 바닥을 새로 마감했어요.
+The house gets a lot of natural light in the morning.	이 집은 아침에 자연광이 많이 들어와요.
+We are planning to host a small dinner party this weekend.	이번 주말에 작은 저녁 모임을 열 계획이에요.
+Where should I set the table for dinner?	저녁 식사를 위해 식탁은 어디에 차릴까요?
+Let me know if you have any food allergies or preferences.	음식 알레르기나 선호하는 음식이 있으면 알려주세요.
+Can you help me bring the groceries inside?	장 본 것을 안으로 들여오는 것을 도와주실 수 있나요?
+I usually take out the trash every evening.	저는 보통 매일 저녁에 쓰레기를 버려요.
+The recycling bins are located next to the driveway.	재활용통은 진입로 옆에 있어요.
+We keep extra blankets and pillows in the closet.	여분의 담요와 베개는 옷장에 보관하고 있어요.
+The thermostat is set to seventy-two degrees Fahrenheit.	온도 조절기는 72도 화씨로 설정되어 있어요.
+There is a draft coming through the window frame.	창틀 사이로 외풍이 들어오고 있어요.
+I need to schedule a deep cleaning for the carpets.	카펫 대청소를 예약해야 해요.
+The smoke detector started beeping again.	화재 경보기가 또 다시 삑삑 울리기 시작했어요.
+Could you water the plants while I am away?	제가 없는 동안 식물에 물을 주실 수 있나요?
+Do you want to help me decorate the house for the holidays?	연휴를 맞아 집을 장식하는 것을 도와주실래요?
+I usually do my work at the desk in the study.	저는 보통 서재 책상에서 일을 해요.
+The Wi-Fi router is in the living room corner.	와이파이 라우터는 거실 구석에 있어요.
+Would you like to sit out on the patio for a while?	잠깐 파티오에 앉아 계실래요?
+The house is a bit messy, so please excuse the clutter.	집이 좀 어수선한데 양해 부탁드려요.
+This neighborhood is quiet and very family-friendly.	이 동네는 조용하고 가족 단위로 살기 좋아요.
+We installed solar panels on the roof last year.	작년에 지붕에 태양광 패널을 설치했어요.
+I am still unpacking and settling in.	아직 짐을 풀고 정리하는 중이에요.
+We are renting this place, but we are considering buying.	여긴 임대한 곳이지만 구매도 고려 중이에요.
+The insulation in the attic could use some improvement.	다락방 단열이 좀 보강되면 좋겠어요.
+Would you like a house tour?	집 구경하시겠어요?
+Feel free to use anything in the kitchen.	주방에 있는 것은 자유롭게 사용하세요.
+We usually take our shoes off when we enter the house.	우리는 보통 집에 들어올 때 신발을 벗어요.
+Please let me know if there is anything you need.	필요한 것이 있으면 언제든 말씀해 주세요.

@@ -1,0 +1,50 @@
+I would like to schedule a maintenance appointment for my vehicle.	차량 정비 예약을 하고 싶습니다.
+Do you accept walk-ins, or is an appointment required?	예약 없이 방문해도 되나요, 아니면 예약이 필요한가요?
+My check engine light came on. Could you take a look?	체크 엔진 경고등이 들어왔는데 확인해 주시겠어요?
+There is a strange noise coming from the engine.	엔진에서 이상한 소리가 납니다.
+My brakes feel soft and unresponsive. Can you inspect them?	브레이크가 무르고 반응이 없는데 점검해 주시겠어요?
+The steering wheel shakes while I drive. What could be the issue?	운전 중에 핸들이 떨리는데, 원인이 무엇일까요?
+Do you offer diagnostic services for engine problems?	엔진 문제에 대한 진단 서비스를 제공하시나요?
+How much do you charge for a full diagnostic check?	전체 진단 검사 비용은 얼마인가요?
+Can I wait here while the vehicle is being serviced?	차량 정비 중에 여기서 기다릴 수 있나요?
+Do you provide a loaner car or shuttle service?	대차 서비스나 셔틀버스를 제공하시나요?
+How long will the service take?	정비에는 얼마나 시간이 걸릴까요?
+Can I get an estimate before any repairs are done?	수리를 진행하기 전에 견적서를 받을 수 있을까요?
+Do you provide written estimates and invoices?	서면 견적서와 청구서를 제공하시나요?
+Will you call me before performing any additional repairs?	추가 수리를 하기 전에 전화로 알려주시나요?
+Are your technicians certified for my vehicle's brand?	이 차량 브랜드에 대해 기술자들이 인증을 받았나요?
+Do you use original manufacturer parts or aftermarket parts?	정품 부품을 사용하시나요, 아니면 일반 부품인가요?
+Is the work under warranty? If so, for how long?	수리 작업에 보증이 포함되나요? 포함된다면 기간은 얼마인가요?
+Do you offer oil change services?	오일 교환 서비스도 하시나요?
+Can you check the transmission fluid and top it off if needed?	변속기 오일도 확인하고 보충해 주시겠어요?
+My tires are wearing unevenly. Can you check the alignment?	타이어가 고르게 마모되지 않는데 휠 얼라인먼트를 확인해 주시겠어요?
+Do you offer tire rotation and balancing?	타이어 위치 교환과 밸런스 조정도 제공하시나요?
+Can you inspect the battery and charging system?	배터리와 충전 시스템을 점검해 주시겠어요?
+My air conditioning is not blowing cold air. Could you take a look?	에어컨이 찬바람이 나오지 않아요. 확인해 주실 수 있나요?
+Is it time for a timing belt replacement?	타이밍 벨트를 교체할 시기인가요?
+Can you replace my windshield wipers and check the washer fluid?	와이퍼를 교체하고 워셔액도 확인해 주실 수 있나요?
+I think my car needs a new suspension system.	차량 서스펜션 시스템을 교체해야 할 것 같아요.
+Do you offer inspections for long road trips?	장거리 여행 전 점검 서비스를 제공하시나요?
+Are state inspection and emissions testing available here?	이곳에서 차량 검사와 배출가스 검사가 가능한가요?
+Can I get a tune-up for better fuel efficiency?	연비 향상을 위한 튠업 서비스를 받을 수 있을까요?
+Can you reset the maintenance light after service?	정비 후 정비 경고등을 꺼 주실 수 있나요?
+Is it safe to continue driving until the repair is done?	수리 전까지 계속 운전해도 괜찮을까요?
+Do you keep service records on file for future reference?	향후 참고를 위해 정비 기록을 보관하시나요?
+Can I drop off my car after hours?	영업 시간 이후에 차량을 맡길 수 있나요?
+What methods of payment do you accept?	어떤 결제 수단을 받으시나요?
+Do you offer financing or payment plans for major repairs?	고액 수리에 대해 할부나 금융 서비스를 제공하시나요?
+Can you show me the worn or damaged parts you replaced?	교체한 낡은 부품이나 손상된 부품을 보여주실 수 있나요?
+What should I do if the same issue occurs again?	같은 문제가 다시 생기면 어떻게 해야 하나요?
+Do you offer any discounts or loyalty programs?	할인이나 단골 고객 프로그램이 있나요?
+Is there a warranty for parts and labor?	부품과 공임에 대한 보증이 있나요?
+Can I request a specific technician for my car?	제 차량을 특정 정비사가 맡아 주실 수 있나요?
+Do you offer fleet services for company vehicles?	회사 차량을 위한 플릿 서비스도 제공하시나요?
+Are your services environmentally friendly?	정비 서비스는 환경 친화적인가요?
+Can I be notified by text message when my vehicle is ready?	차량 수리가 끝나면 문자로 알림을 받을 수 있나요?
+Are towing services available through your shop?	이 정비소에서 견인 서비스도 제공하나요?
+Can you inspect a used car before I purchase it?	중고차를 구매하기 전에 점검해 주실 수 있나요?
+Do you offer seasonal maintenance packages?	계절별 점검 패키지를 제공하시나요?
+Is my vehicle eligible for any recalls or service bulletins?	제 차량에 리콜이나 서비스 공지가 있는지 확인해 주실 수 있나요?
+Do you recycle used oil and auto parts?	사용한 오일이나 자동차 부품을 재활용하시나요?
+What are your business hours and holiday closures?	영업 시간과 공휴일 휴무일은 어떻게 되나요?
+Can I leave a review or provide feedback online?	온라인으로 후기나 피드백을 남길 수 있나요?

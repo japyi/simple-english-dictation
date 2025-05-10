@@ -1,0 +1,50 @@
+I would like to report a crime.	범죄를 신고하고 싶습니다.
+Can I speak with an officer, please?	경찰관과 이야기할 수 있을까요?
+Where should I go to file a report?	신고서를 접수하려면 어디로 가야 하나요?
+Is this the right place to report a lost item?	분실물 신고는 이곳에서 하나요?
+I lost my passport and need to file a report.	여권을 잃어버렸고 분실 신고를 해야 합니다.
+Can I get a copy of the police report for insurance purposes?	보험 제출용으로 경찰 신고서 사본을 받을 수 있을까요?
+When will the official report be available?	공식 보고서는 언제쯤 받을 수 있나요?
+What documents do I need to bring to make a report?	신고를 위해 어떤 서류를 가져가야 하나요?
+Do I need to make an appointment, or can I walk in?	예약이 필요한가요, 아니면 그냥 방문해도 되나요?
+Is there an interpreter available for non-English speakers?	영어를 못하는 사람을 위한 통역 서비스가 있나요?
+I would like to report a theft that occurred last night.	어젯밤에 발생한 절도를 신고하고 싶습니다.
+My car has been stolen. What should I do?	제 차량이 도난당했습니다. 어떻게 해야 하나요?
+My phone was stolen on the subway.	지하철에서 휴대폰을 도난당했습니다.
+Can I report harassment or threats I received online?	온라인상에서 받은 괴롭힘이나 협박을 신고할 수 있나요?
+I would like to report domestic violence.	가정 폭력을 신고하고 싶습니다.
+Is there a special unit for cybercrime or identity theft?	사이버 범죄나 신분 도용 전담 부서가 있나요?
+Can you help me with a restraining order?	접근 금지 명령에 대해 도와주실 수 있나요?
+Do you have a list of local laws or legal resources for foreigners?	외국인을 위한 현지 법률 정보나 자료가 있나요?
+What should I do if I witness a crime in progress?	범죄를 목격했을 때는 어떻게 해야 하나요?
+Can I remain anonymous when reporting a crime?	익명으로 범죄를 신고할 수 있나요?
+Is there a hotline I can call in case of emergencies?	비상 상황에 전화할 수 있는 핫라인이 있나요?
+Where can I pay a traffic fine or dispute a ticket?	교통 벌금을 납부하거나 항의하려면 어디로 가야 하나요?
+I received a citation. Can someone explain what it means?	딱지를 받았는데 무슨 의미인지 설명해 주시겠어요?
+Do I need to appear in court for a minor traffic violation?	경미한 교통 위반에도 법정 출석이 필요한가요?
+My vehicle was towed. Where can I retrieve it?	제 차량이 견인당했습니다. 어디서 찾을 수 있나요?
+I witnessed a hit-and-run accident.	뺑소니 사고를 목격했습니다.
+Is there surveillance footage of the incident?	사건에 대한 CCTV 영상이 있나요?
+Can I submit video or photo evidence?	영상이나 사진 증거를 제출할 수 있나요?
+Where can I find information on how to file a complaint?	민원을 접수하는 방법에 대한 정보를 어디서 찾을 수 있나요?
+I would like to file a complaint about police misconduct.	경찰의 부당한 행동에 대해 민원을 제기하고 싶습니다.
+How are internal investigations handled?	내부 조사는 어떻게 진행되나요?
+Are there any community policing or outreach programs?	지역사회 치안 활동이나 홍보 프로그램이 있나요?
+Do you offer safety workshops or self-defense classes?	안전 교육이나 자기 방어 수업이 있나요?
+Where can I find information about crime statistics in this area?	이 지역의 범죄 통계 정보를 어디에서 확인할 수 있나요?
+I need assistance with a missing person case.	실종자 사건에 대해 도움을 받고 싶습니다.
+How long must someone be missing before I can report it?	실종 신고를 하려면 얼마나 지나야 하나요?
+Do you have a lost and found for recovered items?	습득물 보관소가 있나요?
+Is it possible to report suspicious behavior anonymously?	수상한 행동을 익명으로 신고할 수 있나요?
+Can I request a background check for employment or visa purposes?	취업이나 비자 신청을 위해 신원 조회를 요청할 수 있나요?
+Are fingerprinting or ID verification services available here?	지문 채취나 신원 확인 서비스가 제공되나요?
+Where can I get a police clearance certificate?	범죄경력증명서를 어디에서 받을 수 있나요?
+Is there a fee for obtaining official police documents?	공식 경찰 문서 발급에 수수료가 있나요?
+How can I report noise complaints or neighborhood disturbances?	소음이나 이웃 분쟁은 어떻게 신고하나요?
+Do you mediate civil disputes between neighbors?	이웃 간 민사 분쟁 조정도 해주시나요?
+Can I report a suspicious package or unattended bag?	수상한 물건이나 방치된 가방을 신고할 수 있나요?
+Is this area under active patrol or video surveillance?	이 지역은 순찰 중이거나 CCTV 감시 구역인가요?
+Where can I go to recover my stolen property if it is found?	도난당한 물건이 발견되면 어디서 수령할 수 있나요?
+Do you offer any tips on how to prevent burglary or theft?	도난 예방을 위한 조언을 받을 수 있나요?
+Can I receive updates about the status of my case?	사건 진행 상황에 대한 업데이트를 받을 수 있나요?
+Is there someone I can contact directly about my report?	제 신고 건에 대해 직접 연락할 담당자가 있나요?

@@ -1,0 +1,49 @@
+I would like to purchase two tickets for the evening performance.	저녁 공연 티켓 두 장을 구매하고 싶습니다.
+Do you have any seats available near the front or center?	앞쪽이나 중앙 근처에 좌석이 남아 있나요?
+Is there a discount for students, seniors, or groups?	학생, 노인, 단체를 위한 할인 혜택이 있나요?
+Can I reserve tickets online and pick them up at the venue?	온라인으로 예약하고 현장에서 티켓을 수령할 수 있나요?
+What time do the doors open before the show begins?	공연 시작 전에 입장은 몇 시부터 가능한가요?
+How long does the performance typically last?	공연은 보통 얼마 동안 진행되나요?
+Is there an intermission, and how long is it?	인터미션이 있나요, 있다면 얼마나 지속되나요?
+Are latecomers allowed to enter after the show starts?	공연 시작 후에 입장이 가능한가요?
+Is photography or video recording allowed during the show?	공연 중에 사진 촬영이나 영상 녹화가 가능한가요?
+Are food and drinks allowed inside the auditorium?	공연장 안으로 음식이나 음료를 반입할 수 있나요?
+Do you have a coat check or storage area for bags?	코트나 가방을 맡길 수 있는 보관소가 있나요?
+Are there booster seats available for children?	어린이용 보조 좌석이 있나요?
+Do you offer accessible seating for patrons with disabilities?	장애인을 위한 접근 가능한 좌석이 마련되어 있나요?
+Are hearing assistance devices available upon request?	청각 보조 장비를 요청할 수 있나요?
+Where can I find the restrooms or baby-changing facilities?	화장실이나 기저귀 교환대는 어디에 있나요?
+Is the venue air-conditioned or heated appropriately?	공연장 내부는 냉난방이 잘 되어 있나요?
+Are there any age restrictions or recommendations for this show?	이 공연에 나이 제한이나 권장 연령이 있나요?
+Can I exchange or refund my ticket if I cannot attend?	공연에 참석하지 못할 경우 티켓을 교환하거나 환불할 수 있나요?
+What is the policy in case of a show cancellation?	공연이 취소될 경우 정책은 어떻게 되나요?
+Can I upgrade my ticket to a better seat?	티켓을 더 좋은 좌석으로 업그레이드할 수 있나요?
+Are there merchandise or programs available for purchase?	공연 관련 상품이나 프로그램북을 구매할 수 있나요?
+Where can I find a schedule of upcoming performances?	향후 공연 일정은 어디에서 확인할 수 있나요?
+Do you offer season passes or subscription packages?	시즌 패스나 정기 공연 구독권을 판매하시나요?
+Is there a lounge or bar open before and after the show?	공연 전후에 운영되는 라운지나 바가 있나요?
+Can I pre-order drinks or snacks for intermission?	인터미션 때 먹을 음료나 간식을 미리 주문할 수 있나요?
+Do you provide translation or subtitles for foreign-language shows?	외국어 공연을 위한 자막이나 통역 서비스를 제공하나요?
+Is there a dress code for evening performances?	저녁 공연에 복장 규정이 있나요?
+Do you allow children under a certain age to attend?	특정 나이 이하의 어린이는 입장할 수 있나요?
+Can I bring a stroller, and where can I store it?	유모차를 가져올 수 있나요, 보관은 어디에서 하나요?
+Are walk-ins accepted, or is advance booking required?	현장 구매가 가능한가요, 아니면 사전 예약이 필요한가요?
+Is parking available at or near the venue?	공연장 내 또는 근처에 주차장이 있나요?
+Do you validate parking for ticket holders?	티켓 소지자에게 주차권 인증을 해주시나요?
+Is public transportation easily accessible from here?	대중교통으로 쉽게 올 수 있는 위치인가요?
+Are pets or service animals allowed inside the venue?	공연장 내에 반려동물이나 도우미견이 들어올 수 있나요?
+Do you have a lost and found for personal belongings?	분실물을 보관하는 곳이 있나요?
+Is there a customer service counter or information desk?	고객 안내 데스크가 있나요?
+Can I leave feedback or suggestions after the performance?	공연 후 피드백이나 제안을 남길 수 있나요?
+Are performers available for meet-and-greet sessions?	공연자와 만남이나 사진 촬영 기회가 있나요?
+Do you host educational or backstage tours for schools?	학교 단체를 위한 교육 프로그램이나 백스테이지 투어가 있나요?
+Is the venue available for private rental or corporate events?	공연장을 개인 행사나 기업 행사용으로 대여할 수 있나요?
+Can I subscribe to a newsletter or mailing list for updates?	공연 소식지를 구독하거나 메일링 리스트에 등록할 수 있나요?
+Do you host workshops or community outreach programs?	워크숍이나 지역 사회 참여 프로그램이 있나요?
+Are there special accommodations for VIP guests or sponsors?	VIP나 후원자를 위한 특별한 편의 시설이 있나요?
+Do you have a mobile app for ticketing and event updates?	티켓 예매와 행사 정보를 위한 모바일 앱이 있나요?
+Can I bring a printed or digital ticket to the entrance?	입장 시 종이 티켓이나 모바일 티켓을 사용할 수 있나요?
+Are multiple shows running simultaneously at this venue?	이 공연장에서 동시에 여러 공연이 열리나요?
+Do you collaborate with other cultural or performing arts organizations?	다른 문화 예술 단체와 협력하시나요?
+Is this performance part of a larger festival or series?	이 공연은 큰 축제나 시리즈 중 하나인가요?
+Can I donate or become a patron to support the theater?	공연장을 후원하거나 기부할 수 있나요?

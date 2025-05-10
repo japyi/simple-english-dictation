@@ -1,0 +1,50 @@
+I would like to inquire about the enrollment process.	입학 절차에 대해 문의하고 싶습니다.
+What is the age requirement for admission?	입학 가능한 연령 기준은 어떻게 되나요?
+Do you have any available spots for this semester?	이번 학기에 자리가 남아 있나요?
+Could I schedule a tour of the facility?	시설을 둘러볼 수 있는 일정을 잡을 수 있을까요?
+What curriculum do you follow in your program?	어떤 교육 과정을 따르고 있나요?
+Is your program play-based, academic, or a mix of both?	놀이 중심인가요, 학습 중심인가요, 아니면 혼합형인가요?
+What languages are used in the classroom?	교실에서는 어떤 언어를 사용하나요?
+Are there bilingual or immersion classes available?	이중 언어 수업이나 몰입식 수업이 있나요?
+How many students are assigned to each teacher?	교사 1인당 배정된 학생 수는 몇 명인가요?
+Do you perform background checks on all staff members?	모든 교직원에 대해 신원 조회를 하나요?
+What are the daily operating hours?	하루 운영 시간은 어떻게 되나요?
+Do you offer extended care or after-school programs?	연장 보육이나 방과 후 프로그램이 있나요?
+Is early drop-off available?	등원을 더 일찍 할 수 있나요?
+What is your policy on late pick-up?	늦은 하원에 대한 정책은 어떻게 되나요?
+Are meals and snacks provided, or should we bring our own?	식사와 간식이 제공되나요, 아니면 직접 준비해야 하나요?
+Do you accommodate dietary restrictions or allergies?	식이 제한이나 알레르기 식단을 반영해 주시나요?
+What is the policy for sick children?	아픈 아이에 대한 정책은 어떻게 되나요?
+Are medical records or immunization documents required?	의료 기록이나 예방접종 서류가 필요한가요?
+Do you have a registered nurse or health professional on-site?	현장에 간호사나 보건 담당자가 있나요?
+What happens if my child becomes ill during the day?	아이에게 낮에 아픈 증상이 나타나면 어떻게 하나요?
+How do you handle minor injuries or emergencies?	경미한 부상이나 응급 상황은 어떻게 처리하시나요?
+Are fire drills and safety protocols practiced regularly?	화재 대피 훈련과 안전 수칙은 정기적으로 시행되나요?
+How do you communicate with parents regarding daily updates?	일상적인 소식은 어떻게 부모와 소통하시나요?
+Is there a parent portal or mobile app for communication?	소통을 위한 학부모 포털이나 모바일 앱이 있나요?
+Can I speak directly with my child’s teacher when needed?	필요할 때 제 아이의 담임 선생님과 직접 이야기할 수 있나요?
+Do you provide progress reports or developmental assessments?	아이의 발달 평가나 진도 보고서를 제공하시나요?
+Are parent-teacher conferences held regularly?	학부모 상담이 정기적으로 있나요?
+What kinds of activities are included in the daily schedule?	일과 시간표에는 어떤 활동이 포함되어 있나요?
+Do you offer music, art, or physical education classes?	음악, 미술, 체육 수업도 제공하시나요?
+Is outdoor play part of the daily routine?	야외 놀이가 일과에 포함되어 있나요?
+How do you support emotional and social development?	정서적·사회적 발달은 어떻게 지원하시나요?
+What discipline or behavior management strategies do you use?	훈육이나 행동 관리 방식은 어떻게 되나요?
+Do you celebrate birthdays or special holidays?	생일이나 특별한 기념일을 함께 축하하나요?
+Can I send treats or snacks for the class on special occasions?	특별한 날에 간식이나 음식을 보내도 되나요?
+Are field trips organized throughout the year?	연중 체험학습이나 현장학습이 있나요?
+Do parents need to volunteer or participate in school events?	학부모 봉사나 행사 참여가 요구되나요?
+What is the tuition, and are there any additional fees?	등록금은 얼마이고 추가 비용이 있나요?
+Is there a sibling discount or financial aid available?	형제자매 할인이나 재정 지원이 있나요?
+What is the school’s policy on withdrawal or refunds?	퇴소나 환불에 대한 규정은 어떻게 되나요?
+How do you help children adjust during their first weeks?	아이들이 첫 몇 주 동안 적응할 수 있도록 어떻게 도와주시나요?
+Is toilet training required before enrollment?	입학 전 배변 훈련이 되어 있어야 하나요?
+What kind of security measures are in place?	어떤 보안 시스템이 갖춰져 있나요?
+Are visitors required to check in upon arrival?	방문자는 도착 시 반드시 출입 등록을 해야 하나요?
+Can I observe a class before enrolling my child?	등록 전에 수업을 참관할 수 있나요?
+Do you accommodate children with special needs or developmental delays?	특수 교육이나 발달 지연 아동도 수용하시나요?
+Is there a summer program or year-round option?	여름방학 프로그램이나 연중 운영 옵션이 있나요?
+How do you help children transition into elementary school?	초등학교로의 전환을 어떻게 지원하시나요?
+Are uniforms required, or is there a dress code?	교복이 있나요, 아니면 복장 규정이 있나요?
+May I receive a copy of the parent handbook or school policies?	학부모 안내서나 규정집을 받을 수 있을까요?
+Can I schedule a follow-up meeting to discuss enrollment further?	입학과 관련해 추가 상담을 예약할 수 있을까요?

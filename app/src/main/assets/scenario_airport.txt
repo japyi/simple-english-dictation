@@ -1,0 +1,50 @@
+Where can I find the check-in counter for international flights?	국제선 체크인 카운터는 어디에 있나요?
+Could you help me locate Terminal 2?	터미널 2가 어디에 있는지 알려주실 수 있나요?
+I would like to request an upgrade to business class, if available.	가능하다면 비즈니스 클래스로 업그레이드를 요청하고 싶습니다.
+How many bags am I allowed to check in?	수하물을 몇 개까지 부칠 수 있나요?
+Is there an additional fee for overweight luggage?	초과 수하물에는 추가 요금이 있나요?
+My luggage was damaged during the flight.	비행 중에 제 수하물이 파손되었습니다.
+I believe my suitcase has been lost.	제 여행 가방이 분실된 것 같습니다.
+Where can I file a baggage claim?	수하물 분실 신고는 어디에서 하나요?
+Do I need to go through customs here?	여기서 세관 검사를 받아야 하나요?
+Can I get a customs declaration form?	세관 신고서를 받을 수 있을까요?
+Where is the immigration control area?	입국 심사 구역은 어디인가요?
+I have a connecting flight to catch.	환승 비행기를 타야 합니다.
+How long is the layover between flights?	비행기 사이 환승 시간은 얼마나 되나요?
+Is there a lounge I can access while waiting?	기다리는 동안 이용할 수 있는 라운지가 있나요?
+My flight has been delayed due to weather conditions.	기상 조건 때문에 비행기가 지연되었습니다.
+Is there any compensation for the delay?	지연에 대한 보상이 있나요?
+What time is boarding scheduled to begin?	탑승 시작 예정 시간은 언제인가요?
+Could you tell me the gate number for flight 712?	712편의 탑승구 번호를 알려주실 수 있나요?
+I need to change my reservation to a later flight.	항공편 예약을 나중 시간대로 변경해야 합니다.
+My flight was cancelled. What are my options now?	비행기가 취소되었는데, 지금 가능한 선택지는 무엇인가요?
+Is there wireless internet access available in this terminal?	이 터미널에서 무선 인터넷 사용이 가능한가요?
+Where can I find the currency exchange counter?	환전소는 어디에 있나요?
+Is there an ATM nearby where I can withdraw cash?	현금을 인출할 수 있는 ATM이 근처에 있나요?
+Are there any restaurants open at this hour?	이 시간에 열려 있는 음식점이 있나요?
+I would like to report a missing item from the aircraft.	기내에서 분실한 물건을 신고하고 싶습니다.
+Is there a lost and found office in the airport?	공항 내에 분실물 보관소가 있나요?
+Could you provide directions to the car rental area?	렌터카 구역으로 가는 길을 안내해 주시겠어요?
+I reserved a rental car online. Where can I pick it up?	온라인으로 렌터카를 예약했는데, 어디서 수령하나요?
+Do I need to go through security again for my connecting flight?	환승 비행기를 타려면 보안 검색을 다시 받아야 하나요?
+Can I bring this liquid through the security checkpoint?	이 액체를 보안 검색대를 통과시킬 수 있나요?
+Is it permissible to bring snacks on board the plane?	비행기 안에 간식을 가져가도 되나요?
+I am traveling with a pet. What procedures should I follow?	애완동물과 함께 여행 중인데, 어떤 절차를 따라야 하나요?
+Could you please speak more slowly?	조금 더 천천히 말씀해 주시겠어요?
+Can I request special assistance for my elderly parent?	연로하신 부모님을 위한 특별 도움을 요청할 수 있나요?
+What documents are required for international travel?	국제 여행에 필요한 서류는 무엇인가요?
+How early should I arrive at the airport before my flight?	비행기 출발 전에 공항에 얼마나 일찍 도착해야 하나요?
+Is online check-in available for this airline?	이 항공사에서 온라인 체크인이 가능한가요?
+What is the carry-on baggage allowance?	기내 반입 수하물 허용량은 어떻게 되나요?
+Is there a designated smoking area in this airport?	이 공항에 지정된 흡연 구역이 있나요?
+I missed my flight. What should I do now?	비행기를 놓쳤는데, 지금 어떻게 해야 하나요?
+May I speak with a supervisor regarding this issue?	이 문제에 대해 관리자와 이야기할 수 있을까요?
+Is there a hotel near the airport that offers shuttle service?	공항 근처에 셔틀 서비스를 제공하는 호텔이 있나요?
+I have a tight connection. May I use priority security screening?	환승 시간이 촉박한데, 우선 보안 검색을 받을 수 있나요?
+Do I need a visa to enter this country?	이 나라에 입국하려면 비자가 필요한가요?
+Can I rebook my ticket at the service counter?	서비스 카운터에서 티켓을 다시 예약할 수 있나요?
+Where is the nearest restroom located?	가장 가까운 화장실은 어디에 있나요?
+I need assistance with wheelchair service for boarding.	탑승을 위한 휠체어 서비스가 필요합니다.
+I think I left my passport on the plane.	비행기 안에 여권을 두고 내린 것 같습니다.
+How long does the security screening process usually take?	보안 검색 절차는 보통 얼마나 걸리나요?
+Is there a shuttle bus to downtown from the airport?	공항에서 시내로 가는 셔틀버스가 있나요?

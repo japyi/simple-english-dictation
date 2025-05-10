@@ -1,0 +1,50 @@
+Where is the section for fiction books?	소설책 섹션은 어디에 있나요?
+Do you have a copy of this title in hardcover?	이 제목의 양장본이 있나요?
+Can you check if this book is available in stock?	이 책이 재고에 있는지 확인해 주실 수 있나요?
+I am looking for books on modern philosophy.	현대 철학에 관한 책을 찾고 있습니다.
+Could you recommend a best-selling non-fiction book?	베스트셀러 논픽션 책을 추천해 주시겠어요?
+Do you carry books in foreign languages?	외국어 서적도 판매하시나요?
+Is there a section for children’s educational books?	아동 교육용 서적 구역이 있나요?
+Can I place an order for a book that is not in stock?	재고가 없는 책을 주문할 수 있나요?
+How long does it take for a special order to arrive?	특별 주문 도서는 도착하는 데 얼마나 걸리나요?
+Do you have any signed copies by the author?	저자가 서명한 책이 있나요?
+Where can I find newly released titles?	신간 코너는 어디에 있나요?
+Is there a sale or promotion currently going on?	현재 할인 행사나 프로모션이 진행 중인가요?
+Can I use my membership card for a discount?	멤버십 카드를 이용해서 할인받을 수 있나요?
+Do you offer gift-wrapping services?	선물 포장 서비스를 제공하시나요?
+Where is the cashier or checkout counter?	계산대는 어디에 있나요?
+Is there a limit on the number of books I can purchase?	한 번에 구매할 수 있는 책의 수에 제한이 있나요?
+Can I return or exchange a book if I change my mind?	마음이 바뀌면 책을 반품하거나 교환할 수 있나요?
+What is your return policy for damaged books?	훼손된 책에 대한 반품 정책은 어떻게 되나요?
+Do you sell e-books or offer digital downloads?	전자책이나 디지털 다운로드도 판매하시나요?
+Are there any book clubs or reading groups affiliated with this store?	이 서점과 연계된 독서 모임이나 책 모임이 있나요?
+Is there a quiet reading area in the store?	서점 안에 조용히 책을 읽을 수 있는 공간이 있나요?
+Do you offer student discounts on textbooks?	교재에 대해 학생 할인을 제공하시나요?
+Can I use this bookstore gift card here?	이 서점 상품권을 사용할 수 있나요?
+Do you accept international credit cards?	해외 신용카드도 받으시나요?
+Is there a catalog I can browse to check for titles?	책 목록을 열람할 수 있는 카탈로그가 있나요?
+Can I pre-order upcoming releases?	출간 예정 도서를 예약 주문할 수 있나요?
+Do you have any books by local authors?	지역 작가의 책이 있나요?
+Are there any author signing events this week?	이번 주에 작가 사인회가 있나요?
+Where is the section for graphic novels or manga?	그래픽 노블이나 만화책 코너는 어디인가요?
+Is this the final price, or is there any additional discount?	이게 최종 가격인가요, 추가 할인이 있나요?
+Do you have any audiobooks available for purchase?	구입 가능한 오디오북이 있나요?
+Can I reserve a copy of this book and pick it up later?	이 책을 예약해서 나중에 수령할 수 있나요?
+Is there a membership program I can sign up for?	가입할 수 있는 멤버십 프로그램이 있나요?
+Do you offer book recommendations based on reading preferences?	독서 취향에 따라 책 추천을 해주시나요?
+Is there a lost and found section for personal items?	분실물 보관소가 있나요?
+Do you sell bookmarks, notebooks, or literary merchandise?	책갈피나 노트, 문학 관련 상품도 판매하시나요?
+Can I bring in my own drink while browsing?	책을 보면서 개인 음료를 들고 들어올 수 있나요?
+Is there a café or coffee shop inside the bookstore?	서점 안에 카페가 있나요?
+Are there any workshops or literary events scheduled this month?	이번 달에 예정된 워크숍이나 문학 행사가 있나요?
+Do you have books in large print or accessible formats?	큰 글씨나 접근 가능한 포맷의 책이 있나요?
+Can I donate used books to this store?	이 서점에 중고책을 기부할 수 있나요?
+Where is the self-help or psychology section located?	자기계발서나 심리학 서적 코너는 어디에 있나요?
+Do you offer books for exam preparation or certifications?	시험 대비나 자격증 관련 서적도 판매하시나요?
+Is there a section for travel guides or maps?	여행 가이드북이나 지도 코너가 있나요?
+Can I read the book before deciding to buy it?	구매하기 전에 책을 읽어봐도 되나요?
+Are any books currently out of print but available as used copies?	절판된 책 중 중고로 구할 수 있는 것이 있나요?
+How often do you restock popular titles?	인기 도서는 얼마나 자주 재입고되나요?
+Do you provide receipts with detailed tax information?	세금 정보가 포함된 영수증을 발급해 주시나요?
+Can I speak with a staff member who specializes in literature?	문학 전문 직원과 이야기할 수 있나요?
+Are gift cards reloadable or only single use?	기프트 카드는 충전 가능한가요, 아니면 일회용인가요?

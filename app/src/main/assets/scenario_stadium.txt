@@ -1,0 +1,49 @@
+I would like to purchase two tickets for the match.	경기 티켓 두 장을 구매하고 싶습니다.
+Are there any seats available near the center line?	센터 라인 근처에 좌석이 남아 있나요?
+Can I choose my seat when booking online?	온라인 예약 시 좌석을 직접 선택할 수 있나요?
+Is there a student or senior discount for admission?	학생이나 노인을 위한 입장 할인 혜택이 있나요?
+Are tickets refundable or transferable if plans change?	계획이 변경되면 티켓 환불이나 양도가 가능한가요?
+Do you offer VIP or premium seating options?	VIP 또는 프리미엄 좌석 옵션이 있나요?
+Where can I collect my tickets on game day?	경기 당일 티켓은 어디서 수령하나요?
+What time do the gates open before the event?	행사 전에 입장 게이트는 몇 시에 열리나요?
+Is there a separate entrance for season ticket holders?	시즌권 보유자를 위한 별도 입구가 있나요?
+Where can I find a seating chart or stadium map?	좌석 배치도나 경기장 지도를 어디에서 볼 수 있나요?
+Do you have accessible seating for people with disabilities?	장애인을 위한 좌석이 마련되어 있나요?
+Are there elevators or ramps available for access?	이동을 위한 엘리베이터나 경사로가 있나요?
+Can I bring a stroller or wheelchair into the stadium?	유모차나 휠체어를 경기장 안으로 들고 갈 수 있나요?
+Are outside food and drinks allowed inside the venue?	외부 음식이나 음료를 반입할 수 있나요?
+Do you have vegetarian or allergy-friendly food options?	채식주의자나 알레르기 대응 식사 옵션이 있나요?
+Where are the nearest food stands or vendors?	가장 가까운 음식 매점이나 판매대는 어디에 있나요?
+Are alcoholic beverages sold at the stadium?	경기장에서 주류를 판매하나요?
+Is there a designated smoking area?	흡연 구역이 따로 마련되어 있나요?
+Where are the restrooms and baby changing stations?	화장실과 기저귀 교환대는 어디에 있나요?
+Are lockers or storage areas available for bags?	가방을 보관할 수 있는 사물함이나 보관소가 있나요?
+Can I bring a backpack or do you have a bag size policy?	배낭을 들고 입장할 수 있나요, 가방 크기 제한이 있나요?
+Do you allow flags, banners, or signs inside the stadium?	경기장 안으로 깃발, 현수막, 또는 피켓을 들고 갈 수 있나요?
+Are noise-makers or musical instruments permitted?	응원 도구나 악기 반입이 가능한가요?
+What items are prohibited inside the venue?	반입 금지 물품은 무엇인가요?
+Is there a lost and found in case I lose something?	물건을 잃어버렸을 경우를 위한 분실물 센터가 있나요?
+Can I leave the stadium and re-enter later?	경기장에 나갔다가 다시 재입장할 수 있나요?
+Where can I find emergency medical assistance?	응급 의료 지원은 어디에서 받을 수 있나요?
+Are there security staff or police on-site during the event?	행사 중에 보안 요원이나 경찰이 상주하나요?
+How long does the average match or event last?	일반적인 경기나 행사는 얼마나 걸리나요?
+Are post-game interviews or activities open to the public?	경기 후 인터뷰나 이벤트는 일반 관객에게 공개되나요?
+Is there a fan zone or area for pre-game activities?	경기 전 이벤트가 열리는 팬 존이 있나요?
+Do you sell team merchandise or memorabilia on-site?	현장에서 팀 관련 상품이나 기념품을 판매하나요?
+Can I pre-order merchandise and pick it up at the stadium?	기념품을 미리 주문하고 경기장에서 수령할 수 있나요?
+Where is the best spot to take photos or selfies?	사진이나 셀카를 찍기 좋은 장소는 어디인가요?
+Are professional cameras or tripods allowed?	전문 카메라나 삼각대를 반입할 수 있나요?
+Is this stadium open-air or covered?	이 경기장은 개방형인가요, 아니면 실내형인가요?
+What is the weather policy in case of rain or extreme heat?	비나 폭염 시 경기장 운영 방침은 어떻게 되나요?
+Are umbrellas allowed inside the stadium?	우산을 들고 들어갈 수 있나요?
+Is there public transportation nearby?	근처에 대중교통 수단이 있나요?
+Where is the nearest parking lot, and is it free?	가장 가까운 주차장은 어디이며, 무료인가요?
+Do you offer shuttle service to and from the stadium?	경기장까지 셔틀버스를 운영하시나요?
+Is there a drop-off zone for taxis or rideshares?	택시나 차량 공유 하차 지점이 따로 있나요?
+Are tickets available at the gate on the day of the event?	행사 당일 현장 구매도 가능한가요?
+Can I upgrade my ticket at the stadium?	경기장에서 좌석 업그레이드가 가능한가요?
+Do you stream games or provide radio commentary for fans?	경기 실시간 중계나 라디오 해설이 제공되나요?
+Is there a loyalty program or rewards system for frequent visitors?	자주 방문하는 팬을 위한 멤버십이나 포인트 제도가 있나요?
+Can I leave feedback or report an issue during the event?	행사 중 문제를 신고하거나 피드백을 남길 수 있나요?
+Are there guided tours of the stadium on non-event days?	행사가 없는 날 경기장 투어가 가능한가요?
+Who can I contact for group bookings or corporate events?	단체 예약이나 기업 행사 관련해서는 누구에게 문의하면 되나요?

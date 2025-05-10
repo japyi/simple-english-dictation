@@ -1,0 +1,49 @@
+Could you help me locate this item in the store?	이 제품이 매장에서 어디에 있는지 알려주실 수 있나요?
+Is this item currently in stock at this location?	이 매장에 이 제품이 현재 재고로 있나요?
+Can I order this online and pick it up in-store?	이 제품을 온라인으로 주문해서 매장에서 수령할 수 있나요?
+Do you provide home delivery for large items?	부피가 큰 제품에 대해 가정 배송 서비스를 제공하시나요?
+What is the estimated delivery time for this item?	이 제품의 예상 배송 기간은 얼마인가요?
+Can I schedule delivery for a specific date and time?	지정한 날짜와 시간에 배송을 예약할 수 있나요?
+Is assembly service available for this product?	이 제품에 조립 서비스가 제공되나요?
+How much does the assembly service cost?	조립 서비스 비용은 얼마인가요?
+Are the tools required for assembly included in the package?	조립에 필요한 도구가 패키지에 포함되어 있나요?
+Can I see the product dimensions and weight details?	제품의 치수와 무게 정보를 볼 수 있을까요?
+Is this item available in other colors or finishes?	이 제품은 다른 색상이나 마감재로도 구매할 수 있나요?
+Can I return this item if it does not fit my space?	공간에 맞지 않을 경우 이 제품을 반품할 수 있나요?
+What is your return policy for assembled items?	조립된 제품에 대한 반품 정책은 어떻게 되나요?
+Do I need a receipt for returning an online purchase?	온라인 구매 제품 반품 시 영수증이 필요한가요?
+Where is the customer service desk located?	고객 서비스 데스크는 어디에 있나요?
+Can you help me check stock availability at another IKEA location?	다른 이케아 지점의 재고도 확인해 주실 수 있나요?
+Do you offer gift cards, and can they be used online?	기프트 카드를 판매하시나요, 온라인에서도 사용할 수 있나요?
+Are there any current discounts or special offers?	현재 할인이나 특별 행사가 있나요?
+Do you have a loyalty or rewards program?	멤버십이나 리워드 프로그램이 있나요?
+How can I apply for an IKEA Family membership?	IKEA 패밀리 멤버십은 어떻게 가입하나요?
+Is this product part of the IKEA Family discounted items?	이 제품은 이케아 패밀리 할인이 적용되는 상품인가요?
+Can I get help loading this into my car?	이것을 차에 싣는 데 도움을 받을 수 있을까요?
+Is there a flat-pack version of this furniture available?	이 가구의 평면 포장 버전이 있나요?
+Does this fit in a standard-sized vehicle?	이것은 일반 차량에 실을 수 있나요?
+Can I measure the display model before purchasing?	구매 전에 진열된 제품의 치수를 재볼 수 있나요?
+Do you sell replacement parts or hardware kits separately?	부품이나 하드웨어 키트를 따로 판매하시나요?
+Where can I find kitchen storage or organization solutions?	주방 수납이나 정리 용품은 어디에서 찾을 수 있나요?
+I am looking for ergonomic office furniture.	인체공학적인 사무용 가구를 찾고 있습니다.
+Can I view the full catalog online?	전체 카탈로그를 온라인으로 볼 수 있나요?
+Is this product eco-friendly or sustainably sourced?	이 제품은 친환경적이거나 지속 가능한 방식으로 생산되었나요?
+Are the textiles machine washable?	이 섬유 제품은 세탁기 사용이 가능한가요?
+Do you have a fitting room for curtains or fabrics?	커튼이나 천을 확인할 수 있는 공간이 있나요?
+Where can I find assembled displays of this product?	이 제품이 조립된 상태로 전시된 곳은 어디인가요?
+Can I speak to someone in the planning department for kitchens?	주방 설계 부서와 상담할 수 있을까요?
+Do you provide in-home kitchen planning consultations?	가정 방문 주방 설계 상담 서비스를 제공하시나요?
+Are there any samples available for countertop or cabinet finishes?	조리대나 캐비닛 마감재 샘플을 받을 수 있나요?
+Is there a play area for children while I shop?	쇼핑하는 동안 아이들이 놀 수 있는 공간이 있나요?
+What time does the restaurant open and close?	식당은 몇 시에 열고 닫나요?
+Are the food items in the Swedish Market available to take home?	스웨덴 마켓의 음식은 집으로 가져갈 수 있나요?
+Do you have vegetarian or allergy-friendly options at the restaurant?	레스토랑에서 채식이나 알레르기 대응 메뉴가 있나요?
+Can I request a digital receipt instead of a printed one?	영수증을 인쇄하는 대신 디지털로 받을 수 있을까요?
+Are self-checkout stations available at this store?	이 매장에 셀프 계산대가 있나요?
+Do you offer financing or installment payment options?	할부 결제나 금융 서비스를 제공하시나요?
+Can I track my delivery status online?	온라인으로 배송 상태를 추적할 수 있나요?
+Is customer support available after I bring the item home?	제품을 가져간 후에도 고객 지원을 받을 수 있나요?
+Where can I leave feedback about my shopping experience?	쇼핑 경험에 대한 피드백은 어디에 남길 수 있나요?
+What should I do if a part is missing from my package?	제품에 부품이 빠졌을 경우 어떻게 해야 하나요?
+Can I change or cancel my online order before it ships?	배송 전 온라인 주문을 변경하거나 취소할 수 있나요?
+Is assistance available for assembling the item at home?	가정 내 조립을 위한 지원 서비스를 받을 수 있나요?

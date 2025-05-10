@@ -1,15 +1,17 @@
+// MainActivity.kt
 package com.japyi0210.simpleenglishdictation
 
 import android.app.AlertDialog
+import android.content.Context
+import android.content.Intent
+import android.graphics.Color
+import android.content.res.ColorStateList
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.speech.tts.Voice
+import android.view.inputmethod.InputMethodManager
 import android.view.animation.AnimationUtils
 import android.widget.*
-import android.graphics.Color
-import android.content.res.ColorStateList
-import android.content.Context
-import android.view.inputmethod.InputMethodManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.google.android.gms.ads.*
@@ -33,6 +35,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var voiceModeGroup: RadioGroup
     private lateinit var radioFixed: RadioButton
     private lateinit var radioRandom: RadioButton
+    private lateinit var scenarioTitleView: TextView
+    private lateinit var scenarioNameMap: Map<String, String>
 
     private lateinit var currentSentence: Sentence
     private lateinit var sentences: List<Sentence>
@@ -47,6 +51,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        scenarioNameMap = loadScenarioNameMap()
+        val scenarioKey = intent.getStringExtra("scenario_key") ?: "default"
+        val scenarioTitle = scenarioNameMap[scenarioKey] ?: "기본 시나리오"
 
         val testDeviceIds = listOf("3E446EC9116D91100BED7E1F8658114E")
         val configuration = RequestConfiguration.Builder()
@@ -66,6 +74,10 @@ class MainActivity : AppCompatActivity() {
         resultView = findViewById(R.id.textView_result)
         translationView = findViewById(R.id.textView_translation)
         val exitBtn = findViewById<Button>(R.id.button_exit)
+        val backToScenariosBtn = findViewById<Button>(R.id.button_back_to_scenarios)
+        val appInfoBtn = findViewById<Button>(R.id.button_app_info)
+        scenarioTitleView = findViewById(R.id.textView_scenario)
+        scenarioTitleView.text = "📘 현재 시나리오: $scenarioTitle"
 
         voiceModeGroup = findViewById(R.id.voiceModeGroup)
         radioFixed = findViewById(R.id.radio_fixed)
@@ -89,6 +101,32 @@ class MainActivity : AppCompatActivity() {
                 }
             })
 
+        backToScenariosBtn.setOnClickListener {
+            AlertDialog.Builder(this)
+                .setTitle("목차로 이동")
+                .setMessage("정말 목차 화면으로 돌아가시겠습니까?")
+                .setPositiveButton("예") { _, _ ->
+                    val intent = Intent(this, ScenarioSelectActivity::class.java)
+                    intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK
+                    startActivity(intent)
+                    finish()
+                }
+                .setNegativeButton("아니오", null)
+                .show()
+        }
+
+        appInfoBtn.setOnClickListener {
+            val versionName = packageManager.getPackageInfo(packageName, 0).versionName
+            AlertDialog.Builder(this)
+                .setTitle("심플 영어 받아쓰기")
+                .setMessage("""
+                    버전: $versionName
+                    문의: japyi0210@gmail.com
+                """.trimIndent())
+                .setPositiveButton("확인", null)
+                .show()
+        }
+
         sentences = loadSentences()
 
         lifecycleScope.launch {
@@ -111,7 +149,6 @@ class MainActivity : AppCompatActivity() {
 
                 fixedVoice?.let {
                     tts.voice = it
-                    Toast.makeText(this, "고정 모드 음성: ${it.name}", Toast.LENGTH_SHORT).show()
                 }
 
                 radioFixed.isChecked = true
@@ -133,7 +170,9 @@ class MainActivity : AppCompatActivity() {
 
             isSentencePlayed = true
 
-            val availableVoices = tts.voices.filter { it.locale.language == "en" && !it.isNetworkConnectionRequired }
+            val availableVoices = tts.voices.filter {
+                it.locale.language == "en" && !it.isNetworkConnectionRequired
+            }
             if (radioRandom.isChecked && availableVoices.isNotEmpty()) {
                 tts.voice = availableVoices.random()
             } else if (radioFixed.isChecked && fixedVoice != null) {
@@ -147,8 +186,6 @@ class MainActivity : AppCompatActivity() {
             checkBtn.text = "✅ 정답 확인"
             checkBtn.isEnabled = true
             checkBtn.backgroundTintList = ColorStateList.valueOf(Color.parseColor("#00AA77"))
-
-            // ✅ 정답 확인 전엔 다시 듣기로 변경
             playBtn.text = "🎧 문장 다시 듣기"
 
             lifecycleScope.launch {
@@ -198,7 +235,6 @@ class MainActivity : AppCompatActivity() {
             checkBtn.text = "🔊 다시 듣기"
             checkBtn.isEnabled = true
             checkBtn.backgroundTintList = ColorStateList.valueOf(Color.parseColor("#FFA500"))
-
             playBtn.text = "🎧 다음 문장 듣기"
 
             isSentencePlayed = false
@@ -232,21 +268,17 @@ class MainActivity : AppCompatActivity() {
                 .setTitle("앱 종료")
                 .setMessage("정말 종료하시겠습니까?")
                 .setPositiveButton("예") { _, _ ->
-                    if (interstitialAd != null) {
-                        interstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
-                            override fun onAdDismissedFullScreenContent() {
-                                interstitialAd = null
-                                finishAffinity()
-                            }
-
-                            override fun onAdFailedToShowFullScreenContent(adError: AdError) {
-                                finishAffinity()
-                            }
+                    interstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
+                        override fun onAdDismissedFullScreenContent() {
+                            interstitialAd = null
+                            finishAffinity()
                         }
-                        interstitialAd?.show(this)
-                    } else {
-                        finishAffinity()
+
+                        override fun onAdFailedToShowFullScreenContent(adError: AdError) {
+                            finishAffinity()
+                        }
                     }
+                    interstitialAd?.show(this) ?: finishAffinity()
                 }
                 .setNegativeButton("아니오", null)
                 .show()
@@ -272,12 +304,49 @@ class MainActivity : AppCompatActivity() {
     data class Sentence(val english: String, val korean: String)
 
     private fun loadSentences(): List<Sentence> {
-        val inputStream = assets.open("sentences.txt")
-        return inputStream.bufferedReader().readLines()
-            .mapNotNull { line ->
-                val parts = line.split("\t")
-                if (parts.size == 2) Sentence(parts[0].trim(), parts[1].trim()) else null
+        val scenarioKey = intent.getStringExtra("scenario_key") ?: "default"
+        return try {
+            if (scenarioKey == "all") {
+                val files = assets.list("")?.filter {
+                    it.startsWith("scenario_") && it.endsWith(".txt")
+                } ?: emptyList()
+                files.flatMap { file ->
+                    try {
+                        assets.open(file).bufferedReader().readLines().mapNotNull { line ->
+                            val parts = line.split("\t")
+                            if (parts.size == 2) Sentence(parts[0].trim(), parts[1].trim()) else null
+                        }
+                    } catch (e: Exception) {
+                        emptyList()
+                    }
+                }.shuffled()
+            } else {
+                val fileName = "scenario_${scenarioKey}.txt"
+                val inputStream = assets.open(fileName)
+                inputStream.bufferedReader().readLines().mapNotNull { line ->
+                    val parts = line.split("\t")
+                    if (parts.size == 2) Sentence(parts[0].trim(), parts[1].trim()) else null
+                }
             }
+        } catch (e: Exception) {
+            Toast.makeText(this, "문장을 불러오는 데 실패했습니다.", Toast.LENGTH_LONG).show()
+            emptyList()
+        }
+    }
+
+    private fun loadScenarioNameMap(): Map<String, String> {
+        return try {
+            assets.open("scenarios.txt")
+                .bufferedReader()
+                .readLines()
+                .mapNotNull { line ->
+                    val parts = line.split("\t")
+                    if (parts.size == 2) parts[1].trim() to parts[0].trim() else null
+                }
+                .toMap()
+        } catch (e: Exception) {
+            emptyMap()
+        }
     }
 
     private fun calculateSimilarity(a: String, b: String): Int {

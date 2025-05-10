@@ -1,0 +1,49 @@
+Where is the nearest ATM around here?	이 근처에 가장 가까운 ATM은 어디에 있나요?
+Is this ATM machine currently in service?	이 ATM 기계는 현재 작동 중인가요?
+Does this ATM accept international cards?	이 ATM은 해외 카드를 사용할 수 있나요?
+What is the maximum amount I can withdraw at once?	한 번에 인출할 수 있는 최대 금액은 얼마인가요?
+Are there any transaction fees for using this ATM?	이 ATM을 사용할 때 수수료가 있나요?
+Can I withdraw money in foreign currency from this machine?	이 기계에서 외화를 인출할 수 있나요?
+I accidentally left my card in the machine.	기계에 카드를 두고 나왔습니다.
+The machine did not dispense any cash, but my account was charged.	기계에서 현금이 나오지 않았는데 계좌에서 돈이 빠져나갔습니다.
+Can I make a balance inquiry on this ATM?	이 ATM에서 잔액 조회를 할 수 있나요?
+Does this ATM allow fund transfers between accounts?	이 ATM에서 계좌 간 이체가 가능한가요?
+I would like to change the language to English.	언어를 영어로 변경하고 싶습니다.
+What should I do if the machine swallows my card?	기계가 제 카드를 삼켰을 경우 어떻게 해야 하나요?
+Is there a customer service number displayed on the ATM?	ATM에 고객 서비스 전화번호가 표시되어 있나요?
+Does this ATM accept deposits as well as withdrawals?	이 ATM은 입금도 가능한가요?
+Can I check my recent transactions here?	여기서 최근 거래 내역을 확인할 수 있나요?
+How long will it take for a deposited check to clear?	입금한 수표가 처리되기까지 얼마나 걸리나요?
+I entered the wrong PIN too many times and my card was blocked.	비밀번호를 여러 번 틀려서 카드가 정지되었습니다.
+Is this ATM available 24 hours a day?	이 ATM은 24시간 이용 가능한가요?
+Does the ATM provide printed receipts for transactions?	이 ATM은 거래 내역 영수증을 인쇄해 주나요?
+Can I set a daily withdrawal limit from this machine?	이 기계에서 일일 인출 한도를 설정할 수 있나요?
+Is this machine affiliated with my bank?	이 기계는 제 은행과 제휴되어 있나요?
+Does this ATM support mobile wallet top-ups?	이 ATM에서 모바일 지갑 충전이 가능한가요?
+I need to transfer money to another bank account.	다른 은행 계좌로 돈을 이체하고 싶습니다.
+Can I pay utility bills through this ATM?	이 ATM에서 공과금을 납부할 수 있나요?
+Is the touch screen not working properly?	터치스크린이 제대로 작동하지 않나요?
+The machine is showing an error message.	기계에서 오류 메시지가 표시되고 있습니다.
+How can I cancel a transaction I just started?	방금 시작한 거래를 어떻게 취소하나요?
+Does this ATM support biometric authentication?	이 ATM은 생체 인증을 지원하나요?
+Can I update my phone number through this machine?	이 기계에서 전화번호를 업데이트할 수 있나요?
+I need to change my PIN. Can I do it here?	비밀번호를 변경하고 싶은데 여기서 할 수 있나요?
+Can I get smaller denominations from this ATM?	이 ATM에서 소액권을 받을 수 있나요?
+Is this a multi-currency ATM?	이 ATM은 다중 통화 지원 기계인가요?
+Can I use this ATM with a prepaid card?	이 ATM에서 선불 카드를 사용할 수 있나요?
+How secure is this machine for financial transactions?	이 기계는 금융 거래에 있어 얼마나 안전한가요?
+Can I print a mini-statement from this ATM?	이 ATM에서 간이 명세서를 인쇄할 수 있나요?
+Is this machine equipped with anti-skimming technology?	이 기계는 카드 복제 방지 기술이 적용되어 있나요?
+Does this ATM accept contactless card transactions?	이 ATM은 비접촉식 카드 거래를 지원하나요?
+Can I deposit coins using this machine?	이 기계에 동전을 입금할 수 있나요?
+Where can I report a malfunctioning ATM?	고장 난 ATM을 어디에 신고할 수 있나요?
+What is the exchange rate if I withdraw foreign currency?	외화를 인출할 경우 환율은 어떻게 되나요?
+Can I access my savings account through this ATM?	이 ATM에서 제 저축예금을 사용할 수 있나요?
+Does this ATM show transaction details in real time?	이 ATM은 거래 내역을 실시간으로 보여주나요?
+Can I block my lost card using this machine?	이 기계에서 분실한 카드를 정지시킬 수 있나요?
+Are there any hidden charges I should be aware of?	알아야 할 숨겨진 수수료가 있나요?
+Does this ATM have a voice guide for visually impaired users?	이 ATM은 시각 장애인을 위한 음성 안내가 있나요?
+Can I reload my transportation card here?	이곳에서 교통카드를 충전할 수 있나요?
+How do I verify if the transaction was successful?	거래가 성공적으로 완료되었는지 어떻게 확인하나요?
+Does this machine have a surveillance camera for security?	이 기계에는 보안용 감시카메라가 있나요?
+Is there a transaction history limit on this ATM?	이 ATM에서 조회할 수 있는 거래 내역 수에 제한이 있나요?

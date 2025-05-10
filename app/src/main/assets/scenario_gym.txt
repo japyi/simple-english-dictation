@@ -1,0 +1,49 @@
+I would like to sign up for a gym membership.	헬스장 회원 가입을 하고 싶습니다.
+What membership plans do you offer, and what are the fees?	어떤 회원제 옵션이 있고 요금은 어떻게 되나요?
+Is there a free trial available before committing to a membership?	회원 가입 전에 무료 체험이 가능한가요?
+Do you offer student or corporate discounts?	학생이나 기업 할인 혜택이 있나요?
+What are your operating hours during the week and on weekends?	평일과 주말의 운영 시간은 어떻게 되나요?
+Is the gym open on public holidays?	공휴일에도 헬스장이 운영되나요?
+Are personal training sessions available?	개인 트레이닝 수업이 제공되나요?
+Can I schedule a session with a certified trainer?	자격 있는 트레이너와 수업을 예약할 수 있나요?
+Do you offer fitness assessments or body composition analysis?	피트니스 평가나 체성분 분석을 해주시나요?
+Are there group classes included in the membership?	회원권에 그룹 수업이 포함되어 있나요?
+What types of group classes do you offer, and when?	어떤 그룹 수업이 있고 언제 열리나요?
+Is there a limit to how many classes I can attend per week?	주당 수업 참석 횟수에 제한이 있나요?
+Do I need to register in advance for group classes?	그룹 수업은 사전 등록이 필요한가요?
+Can I bring a guest with me?	지인을 함께 데려올 수 있나요?
+Do you charge a guest fee for non-members?	비회원 방문자에게는 이용 요금이 있나요?
+Is there a dress code or footwear policy I should follow?	복장이나 신발에 대한 규정이 있나요?
+Are lockers available, and do I need to bring my own lock?	락커가 제공되며, 자물쇠는 제가 준비해야 하나요?
+Is there a towel service or should I bring my own?	수건 서비스가 있나요, 아니면 제가 직접 가져와야 하나요?
+Where are the changing rooms and showers located?	탈의실과 샤워실은 어디에 있나요?
+Are there hairdryers or other toiletries available in the restroom?	화장실에 헤어드라이어나 기타 세면도구가 비치되어 있나요?
+Do you provide sanitizer or cleaning wipes for equipment?	기구를 위한 손 소독제나 청소용 티슈를 제공하나요?
+What is your policy on wiping down equipment after use?	운동 기구 사용 후 닦는 것에 대한 규정은 무엇인가요?
+Is there a time limit on cardio machines during peak hours?	혼잡 시간대에 유산소 기구 사용 시간 제한이 있나요?
+Can someone show me how to use the machines properly?	기구 사용법을 안내해 줄 수 있는 분이 계신가요?
+Do you have free weights as well as machines?	운동 기구뿐 아니라 프리웨이트도 있나요?
+Is there a stretching or functional training area?	스트레칭이나 기능성 운동 공간이 있나요?
+Can I reserve a squat rack or bench press station in advance?	스쿼트 랙이나 벤치 프레스 구역은 사전 예약이 가능한가요?
+Are headphones or earbuds required for music in the facility?	헬스장에서 음악을 들을 때 이어폰이나 헤드폰 사용이 필수인가요?
+Do you offer nutritional counseling or meal planning services?	영양 상담이나 식단 계획 서비스를 제공하시나요?
+Is there a swimming pool or sauna at this facility?	이 시설에 수영장이나 사우나가 있나요?
+What should I do if I lose something in the gym?	헬스장에서 물건을 잃어버리면 어떻게 해야 하나요?
+Is there a lost and found area?	분실물 보관소가 있나요?
+Can I put my membership on hold if I am traveling or injured?	여행 중이거나 부상을 입은 경우 회원권을 일시 중지할 수 있나요?
+What is your cancellation or refund policy?	회원권 해지나 환불 정책은 어떻게 되나요?
+Do you have an app to track workouts or book classes?	운동 기록이나 수업 예약을 위한 앱이 있나요?
+Is there a fitness challenge or rewards program for members?	회원들을 위한 피트니스 챌린지나 리워드 프로그램이 있나요?
+Are family memberships or couple plans available?	가족이나 커플을 위한 회원제도 있나요?
+Is parking available for gym members?	헬스장 회원을 위한 주차 공간이 있나요?
+Are there surveillance cameras or staff present for safety?	안전을 위한 CCTV나 상주 직원이 있나요?
+Do you require a health waiver or medical clearance to join?	가입 시 건강 동의서나 의사의 진단서가 필요한가요?
+Is your gym wheelchair accessible?	이 헬스장은 휠체어 접근이 가능한가요?
+Do you offer special programs for seniors or beginners?	노인이나 초보자를 위한 특별 프로그램이 있나요?
+Can I freeze my membership for vacation or personal reasons?	휴가나 개인 사정으로 인해 회원권을 정지할 수 있나요?
+Do you provide guidance for injury recovery workouts?	부상 회복 운동에 대한 지도를 해주시나요?
+Are children allowed in the gym or childcare available?	어린이 출입이 가능하거나 어린이 돌봄 서비스가 있나요?
+Can I use the facility at multiple locations?	다른 지점에서도 시설을 이용할 수 있나요?
+Are there quiet hours or times with lower traffic?	조용하거나 덜 혼잡한 시간이 있나요?
+Can I get a detailed invoice for insurance or tax purposes?	보험 청구나 세금 신고용 상세 영수증을 받을 수 있나요?
+Do you offer multilingual support or translated materials?	다국어 지원이나 번역된 자료를 제공하시나요?

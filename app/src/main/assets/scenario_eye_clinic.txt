@@ -1,0 +1,49 @@
+I would like to schedule an eye exam.	시력 검사를 예약하고 싶습니다.
+Do I need a referral to see an eye specialist?	안과 전문의를 만나려면 진료 의뢰서가 필요한가요?
+What types of eye exams do you offer here?	여기에서 어떤 종류의 시력 검사를 제공하나요?
+How often should I get my eyes checked?	시력 검사는 얼마나 자주 받아야 하나요?
+Do you treat both vision problems and eye diseases?	시력 문제와 안과 질환 모두 치료하시나요?
+Can I get a prescription for glasses or contact lenses today?	오늘 안경이나 콘택트렌즈 처방전을 받을 수 있나요?
+Are dilated eye exams necessary for everyone?	산동 검사(눈동자 확장 검사)는 모두에게 필요한가요?
+Is there an additional fee for retinal imaging or scans?	망막 스캔 같은 영상 검사에는 추가 비용이 있나요?
+Can you explain the difference between an optometrist and an ophthalmologist?	검안사와 안과 전문의의 차이를 설명해 주시겠어요?
+Do you offer pediatric eye care for children?	소아를 위한 안과 진료도 제공하시나요?
+Can you test for color blindness?	색맹 검사를 받을 수 있나요?
+Do you screen for glaucoma or macular degeneration?	녹내장이나 황반변성 검사를 진행하나요?
+Are there any signs I should watch for that indicate serious eye problems?	심각한 안과 질환의 징후로 주의해야 할 것이 있나요?
+I have blurry vision. Could you check for refractive errors?	시야가 흐릿한데 굴절 이상이 있는지 확인해 주시겠어요?
+Can you tell me if I am a candidate for LASIK surgery?	제가 라식 수술 대상자인지 확인해 주시겠어요?
+Is there a non-surgical option to improve my vision?	수술 없이 시력을 개선할 수 있는 방법이 있나요?
+Are your eye exams covered by my insurance?	여기서 받는 시력 검사가 제 보험에 포함되어 있나요?
+Do you accept walk-ins, or is an appointment required?	예약 없이 방문해도 되나요, 아니면 예약이 필수인가요?
+Can I bring my old glasses to compare the prescription?	예전 안경을 가져와서 처방 비교를 할 수 있나요?
+How long does a comprehensive eye exam usually take?	종합 시력 검사는 보통 얼마나 걸리나요?
+Are contact lens fittings included in the exam?	콘택트렌즈 착용 검사는 기본 검사에 포함되나요?
+Can I get trial lenses before ordering new contacts?	새 콘택트렌즈를 주문하기 전에 시험 착용이 가능한가요?
+Do you carry multifocal or toric contact lenses?	다초점이나 난시용 콘택트렌즈도 취급하시나요?
+Is it safe to sleep with my contact lenses in?	콘택트렌즈를 낀 채로 자는 것이 안전한가요?
+How do I properly clean and store my lenses?	렌즈를 올바르게 세척하고 보관하는 방법을 알려주시겠어요?
+What are the symptoms of an eye infection?	눈 감염의 증상에는 어떤 것이 있나요?
+Can you treat dry eye syndrome or eye strain?	안구건조증이나 눈의 피로를 치료할 수 있나요?
+Do you provide blue light filtering lens options?	블루라이트 차단 렌즈 옵션이 있나요?
+Are there anti-reflective or photochromic lens upgrades available?	반사 방지 또는 변색 렌즈 업그레이드가 가능한가요?
+How long does it take to receive my new glasses?	새 안경을 받는 데 얼마나 걸리나요?
+Can I return or adjust my glasses if they do not fit properly?	안경이 잘 맞지 않으면 반품하거나 조정할 수 있나요?
+Is there a frame warranty or repair service?	안경테 보증이나 수리 서비스가 있나요?
+Do you carry designer frames or budget-friendly options?	디자이너 프레임과 저렴한 옵션 모두 취급하시나요?
+Are prescription sunglasses available here?	처방 선글라스를 여기서 구매할 수 있나요?
+What lens thickness do you recommend for high prescriptions?	도수가 높은 경우 어떤 두께의 렌즈를 추천하시나요?
+Can you check if my floaters or flashes are normal?	비문증이나 광시증이 정상인지 확인해 주시겠어요?
+Should I be concerned about frequent eye twitching?	눈 떨림이 자주 생기면 걱정해야 하나요?
+Do you offer vision therapy for eye alignment issues?	사시 같은 눈 정렬 문제를 위한 시각 치료를 제공하시나요?
+Can I request a printed copy of my prescription?	처방전을 인쇄해서 받을 수 있나요?
+Is this clinic equipped to handle diabetic eye exams?	이 클리닉은 당뇨 관련 안과 검사를 할 수 있나요?
+What precautions should I take after pupil dilation?	산동 검사 후에는 어떤 주의사항이 있나요?
+Can I drive home after my eye exam today?	오늘 검사 후 직접 운전해서 돌아가도 되나요?
+Do you offer emergency care for eye injuries?	눈 부상에 대한 응급 진료도 제공하시나요?
+Is it normal to experience halos around lights at night?	야간에 빛 주변에 후광이 보이는 것이 정상인가요?
+What can I do to reduce screen-related eye fatigue?	스크린으로 인한 눈의 피로를 줄이려면 어떻게 해야 하나요?
+Do you offer eye drops for allergy-related symptoms?	알레르기 증상을 완화하는 안약을 제공하시나요?
+Is there a specific diet or supplement that supports eye health?	눈 건강을 위한 식단이나 보충제가 있을까요?
+Are bilingual or interpretation services available during my visit?	진료 중 통역 서비스나 다국어 지원이 가능한가요?
+Can I fill out my medical history online before my appointment?	예약 전에 병력 정보를 온라인으로 작성할 수 있나요?

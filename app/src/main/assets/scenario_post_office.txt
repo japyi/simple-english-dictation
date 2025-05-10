@@ -1,0 +1,50 @@
+I would like to send this package internationally.	이 소포를 해외로 보내고 싶습니다.
+Could you tell me the available shipping options?	이용 가능한 배송 옵션을 알려주시겠어요?
+How long will it take to arrive at the destination?	목적지까지 도착하는 데 얼마나 걸리나요?
+Do you offer express or same-day delivery services?	익스프레스나 당일 배송 서비스를 제공하시나요?
+Is tracking included with this service?	이 서비스에는 배송 추적이 포함되어 있나요?
+Can I add insurance to this shipment?	이 배송에 보험을 추가할 수 있나요?
+How much is the declared value for this item?	이 물품의 신고 가치는 얼마로 설정할까요?
+Do I need to fill out a customs declaration form?	세관 신고서를 작성해야 하나요?
+Are there any items prohibited from being shipped abroad?	해외로 보낼 수 없는 금지 품목이 있나요?
+Can I send liquids or batteries in this package?	이 소포에 액체나 배터리를 넣어도 되나요?
+What is the weight limit for international parcels?	국제 소포의 무게 제한은 얼마인가요?
+Could you weigh this envelope for me, please?	이 봉투의 무게를 재 주시겠어요?
+Is this small enough to be sent as standard letter mail?	이것은 일반 우편으로 보낼 수 있을 만큼 작은가요?
+How much is postage for this letter to the United States?	이 편지를 미국으로 보내는 우편 요금은 얼마인가요?
+Can I purchase stamps here?	여기서 우표를 구매할 수 있나요?
+Do you sell commemorative or international stamps?	기념우표나 국제우표도 판매하시나요?
+Can I get a book of stamps instead of individual ones?	낱개가 아닌 우표 책으로 구매할 수 있나요?
+I need to send this as registered mail.	이것을 등기우편으로 보내야 합니다.
+How do I send something with proof of delivery?	수령 확인이 가능한 방식으로 보내려면 어떻게 해야 하나요?
+Can I receive a receipt with a tracking number?	추적 번호가 있는 영수증을 받을 수 있을까요?
+What should I do if my package is lost?	제 소포가 분실된 경우 어떻게 해야 하나요?
+Can I file a claim for a damaged or missing shipment?	파손되었거나 분실된 배송 건에 대해 클레임을 제기할 수 있나요?
+Is there a way to hold my mail while I am out of town?	외출 중 우편물을 보관해 주는 서비스가 있나요?
+Can I forward my mail to a different address temporarily?	우편물을 임시로 다른 주소로 전달받을 수 있나요?
+Do you provide P.O. box rental services?	사서함 대여 서비스를 제공하시나요?
+How much does it cost to rent a post office box annually?	사서함 연간 이용 요금은 얼마인가요?
+Are there any available P.O. boxes in this location?	이 지점에 빈 사서함이 있나요?
+Can someone else pick up a package on my behalf?	다른 사람이 제 대신 소포를 수령할 수 있나요?
+What identification is required to collect a package?	소포를 수령할 때 어떤 신분증이 필요한가요?
+Is signature confirmation required for this delivery?	이 배송에는 서명이 필요한가요?
+Can I schedule a redelivery if I missed the first attempt?	첫 번째 배달을 놓쳤을 경우 재배송 예약이 가능한가요?
+Where is the nearest self-service kiosk or drop-off box?	가장 가까운 무인 접수기나 우편함은 어디에 있나요?
+Can I buy packaging materials like boxes or tape here?	여기서 박스나 테이프 같은 포장재를 구매할 수 있나요?
+Do you have padded envelopes or bubble mailers for sale?	완충 봉투나 뽁뽁이 봉투도 판매하시나요?
+Can you help me seal or label this package properly?	이 소포를 제대로 밀봉하고 라벨 부착하는 것을 도와주실 수 있나요?
+Is there a size limit for sending parcels?	소포 발송 시 크기 제한이 있나요?
+Do you offer return label printing services?	반품 라벨 인쇄 서비스도 제공하시나요?
+Can I pay with a credit card or is it cash only?	신용카드로 결제할 수 있나요, 아니면 현금만 가능한가요?
+Do you have a loyalty or rewards program for frequent shippers?	자주 보내는 고객을 위한 리워드 프로그램이 있나요?
+Where can I pick up a package that was held for delivery?	보관 중인 소포는 어디에서 찾을 수 있나요?
+What happens if a package is unclaimed for several days?	소포를 며칠간 찾지 않으면 어떻게 되나요?
+Is there a public notice board for missed delivery notices?	부재중 배송 알림장을 위한 게시판이 있나요?
+Can I change the delivery address after the package has shipped?	소포가 발송된 후에도 주소를 변경할 수 있나요?
+Do you deliver on weekends or holidays?	주말이나 공휴일에도 배송하나요?
+Can I schedule a delivery time for a registered package?	등기 소포의 배송 시간을 예약할 수 있나요?
+Where can I file a formal complaint or give feedback?	정식 민원 제기나 피드백은 어디에서 하나요?
+Are postal rates expected to change soon?	우편 요금이 곧 변경될 예정인가요?
+Do you have an English guide or brochure for international shipping?	국제 배송을 위한 영어 안내서나 브로셔가 있나요?
+Is this location wheelchair accessible?	이 우체국은 휠체어 접근이 가능한가요?
+Can I receive text or email notifications for deliveries?	배송 알림을 문자나 이메일로 받을 수 있나요?

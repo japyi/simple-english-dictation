@@ -1,0 +1,49 @@
+I would like to inquire about the school’s admission process.	학교의 입학 절차에 대해 문의하고 싶습니다.
+What are the age requirements for enrollment in this grade?	이 학년에 등록하기 위한 연령 기준은 어떻게 되나요?
+Is there an entrance exam or interview for new students?	신입생을 위한 입학 시험이나 면접이 있나요?
+What documents are required for registration?	등록을 위해 필요한 서류는 무엇인가요?
+Do you accept international or transfer students?	국제 학생이나 전학생을 받나요?
+Can I schedule a tour of the campus and classrooms?	교정과 교실을 둘러보는 투어를 예약할 수 있나요?
+What is the average class size in each grade level?	학년별 평균 학급 인원은 몇 명인가요?
+How are students assessed academically and behaviorally?	학생의 학업 및 행동은 어떻게 평가되나요?
+Do you offer language support for non-native speakers?	비원어민 학생을 위한 언어 지원이 있나요?
+Are there any special programs for gifted or advanced students?	영재나 우수 학생을 위한 특별 프로그램이 있나요?
+What extracurricular activities are available to students?	학생들이 참여할 수 있는 방과후 활동은 무엇인가요?
+Do you have clubs or sports teams for each grade?	학년별 클럽 활동이나 스포츠 팀이 있나요?
+Is there a school counselor available for student support?	학생 지원을 위한 상담 교사가 있나요?
+What is the daily schedule or bell timetable like?	일일 시간표나 종 시간표는 어떻게 되나요?
+Are meals provided, or should students bring their own lunch?	급식이 제공되나요, 아니면 도시락을 가져와야 하나요?
+Do you accommodate dietary restrictions or food allergies?	식이 제한이나 알레르기 식단을 제공하나요?
+What security measures are in place on campus?	교내 보안 조치는 어떤 것들이 있나요?
+Is the school equipped with emergency procedures and drills?	학교에는 비상 대응 절차와 훈련이 마련되어 있나요?
+Do you allow parents to volunteer or observe classes?	학부모의 자원봉사나 수업 참관이 가능한가요?
+How often do you hold parent-teacher conferences?	학부모 상담은 얼마나 자주 이루어지나요?
+How can parents communicate with teachers regularly?	학부모는 교사와 어떻게 정기적으로 소통하나요?
+Is there an online portal to monitor student progress?	학생의 학습 진도를 확인할 수 있는 온라인 포털이 있나요?
+What is the school’s policy on attendance and tardiness?	출결 및 지각에 대한 학교 정책은 어떻게 되나요?
+How do you address bullying or peer conflicts?	학교는 괴롭힘이나 또래 갈등을 어떻게 다루나요?
+Are mobile phones allowed during school hours?	수업 시간 중 휴대전화 사용이 허용되나요?
+What is the homework policy at this school?	이 학교의 숙제 정책은 어떻게 되나요?
+How are discipline and behavioral issues handled?	학생의 규율 및 행동 문제는 어떻게 처리되나요?
+Is tutoring or academic support available after school?	방과 후에 보충 수업이나 학습 지원이 가능한가요?
+Do you offer special education services or accommodations?	특수 교육 서비스나 학습 보조가 제공되나요?
+Are students required to wear a uniform?	학생들이 교복을 착용해야 하나요?
+Where can I purchase the school uniform or supplies?	교복이나 학용품은 어디에서 구매할 수 있나요?
+Are field trips or educational excursions held regularly?	현장 학습이나 교육 여행이 정기적으로 있나요?
+What is the school’s approach to technology in the classroom?	수업 중 기술 활용에 대한 학교의 방침은 어떻게 되나요?
+Do you provide laptops or tablets for student use?	학생들에게 노트북이나 태블릿을 제공하나요?
+Are digital learning platforms or tools used in teaching?	수업에서 디지털 학습 플랫폼이나 도구가 사용되나요?
+Can I receive school newsletters or updates via email?	학교 소식지나 업데이트를 이메일로 받을 수 있나요?
+Is there a PTA or parent committee I can join?	가입할 수 있는 학부모회나 위원회가 있나요?
+Do you offer summer school or holiday enrichment programs?	여름 방학이나 휴일에 진행되는 프로그램이 있나요?
+What transportation options are available for students?	학생들을 위한 통학 교통편은 어떤 것이 있나요?
+Is there a school bus system, and how do I apply?	스쿨버스가 운영되나요, 신청 방법은 어떻게 되나요?
+Are there sibling discounts or financial aid programs?	형제자매 할인이나 재정 지원 프로그램이 있나요?
+How can I request a copy of my child’s report card?	자녀의 성적표 사본을 어떻게 요청할 수 있나요?
+Do you offer standardized test preparation?	표준화 시험 대비 수업을 제공하시나요?
+What languages are taught in the curriculum?	정규 수업에서 어떤 외국어가 가르쳐지나요?
+Are cultural or international events celebrated at school?	학교에서 문화 또는 국제 행사가 열리나요?
+What is the graduation requirement for this school?	이 학교의 졸업 요건은 무엇인가요?
+Can I request a school transfer or academic transcript?	전학 신청이나 성적표 발급을 요청할 수 있나요?
+Is the school accredited by an official education board?	이 학교는 공식 교육기관의 인가를 받았나요?
+Who should I contact for admissions or administrative questions?	입학이나 행정 관련 문의는 누구에게 해야 하나요?

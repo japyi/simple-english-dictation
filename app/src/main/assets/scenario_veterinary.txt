@@ -1,0 +1,50 @@
+I would like to make an appointment for my pet.	제 반려동물 진료 예약을 하고 싶습니다.
+Is there a specific veterinarian available for small animals?	소동물을 전문으로 보는 수의사가 계신가요?
+Do you accept walk-ins or is it appointment only?	예약 없이 방문할 수 있나요, 아니면 예약 필수인가요?
+How soon can I get an appointment for a check-up?	건강 검진 예약은 얼마나 빨리 잡을 수 있나요?
+My dog has been vomiting. Can I bring him in today?	강아지가 구토를 해요. 오늘 데려가도 될까요?
+Are emergency services available after hours?	야간 응급 진료가 가능한가요?
+Do you offer 24-hour emergency veterinary care?	24시간 응급 수의 진료를 제공하시나요?
+Can I speak to a vet about my pet’s symptoms before coming in?	내원 전에 반려동물의 증상에 대해 수의사와 상담할 수 있나요?
+What vaccinations are required for my puppy or kitten?	강아지나 고양이를 위한 필수 예방접종은 무엇인가요?
+Is it time for my pet’s annual booster shots?	반려동물의 연간 추가 접종 시기인가요?
+Do you offer microchipping services here?	이곳에서 마이크로칩 이식이 가능한가요?
+Can I get a health certificate for travel purposes?	여행용 건강 증명서를 받을 수 있나요?
+What is the process for international pet travel clearance?	국제 반려동물 여행 허가 절차는 어떻게 되나요?
+Does my pet need to fast before a blood test or surgery?	혈액 검사나 수술 전 금식이 필요한가요?
+How long does it take to get lab test results back?	검사 결과는 얼마나 걸려서 나오는가요?
+Do you provide spaying or neutering services?	중성화 수술 서비스를 제공하시나요?
+What is the recovery time for this surgical procedure?	이 수술의 회복 기간은 얼마나 되나요?
+Will my pet need to stay overnight after surgery?	수술 후 하룻밤 입원이 필요한가요?
+Are dental cleanings or extractions done under anesthesia?	치아 스케일링이나 발치는 마취 하에 진행되나요?
+Can I get an estimate of the cost before proceeding?	시술 전에 예상 비용을 알 수 있을까요?
+Do you accept pet insurance, and which providers are eligible?	반려동물 보험을 받으시나요, 어떤 회사 보험이 가능한가요?
+Is there a payment plan available for expensive treatments?	고가 치료에 대해 분할 납부가 가능한가요?
+Are there discounts for multiple pets or senior animals?	여러 마리나 노령 동물에 대한 할인 혜택이 있나요?
+My pet is very anxious at the vet. Do you offer sedation options?	제 반려동물이 병원에서 많이 긴장하는데, 진정제가 가능한가요?
+Do you provide behavioral consultations or training referrals?	행동 상담이나 훈련 전문가 연결 서비스를 제공하시나요?
+Are flea and tick preventatives available here?	벼룩 및 진드기 예방약을 판매하시나요?
+Can you recommend a heartworm prevention medication?	심장사상충 예방약을 추천해 주실 수 있나요?
+What kind of diet or nutrition plan do you recommend?	권장하는 식단이나 영양 계획이 있나요?
+Do you offer prescription pet food or supplements?	처방용 사료나 보조제를 판매하시나요?
+My cat is not eating. What could be the cause?	고양이가 밥을 안 먹어요. 원인이 무엇일 수 있나요?
+Are X-rays or ultrasounds available on-site?	엑스레이나 초음파 검사가 병원 내에서 가능한가요?
+How do I prepare my pet for anesthesia or sedation?	마취나 진정제를 사용할 경우 반려동물을 어떻게 준비해야 하나요?
+Can I stay with my pet during the examination?	진료 중에 반려동물 곁에 있어도 될까요?
+Is there a separate area for dogs and cats in the waiting room?	대기실에 강아지와 고양이를 위한 분리 공간이 있나요?
+How should I care for my pet after surgery or treatment?	시술이나 치료 후에는 어떻게 돌봐야 하나요?
+Do you provide boarding or overnight care for pets?	반려동물을 위한 위탁 또는 숙박 케어 서비스를 제공하시나요?
+Can I bring my own pet carrier or blanket for comfort?	제 반려동물용 이동장이나 담요를 가져와도 되나요?
+What signs of illness should I look out for at home?	집에서 어떤 질병 징후를 주의 깊게 봐야 하나요?
+Is this condition contagious to other animals?	이 질병은 다른 동물에게 전염되나요?
+How often should my pet come in for routine check-ups?	정기 검진은 얼마나 자주 받아야 하나요?
+Do you keep digital records, and can I request a copy?	디지털 진료 기록을 보관하시나요, 사본을 요청할 수 있나요?
+Can I get a reminder for upcoming vaccinations or appointments?	예방접종이나 예약일에 대한 알림을 받을 수 있나요?
+Are your facilities equipped for exotic or reptile pets?	이 병원은 특수동물이나 파충류 진료가 가능한가요?
+Do you offer euthanasia and end-of-life care services?	안락사 및 임종 케어 서비스를 제공하시나요?
+Can I schedule a consultation to discuss long-term care?	장기적인 건강 관리를 위한 상담을 예약할 수 있나요?
+Is there parking available near the clinic?	병원 근처에 주차 공간이 있나요?
+Do you offer telemedicine or virtual consultations?	비대면 진료나 화상 상담 서비스를 제공하시나요?
+Where can I leave a review or provide feedback?	후기나 피드백은 어디에 남길 수 있나요?
+What is your cancellation or no-show policy for appointments?	예약 취소 또는 무단 결석 시 정책은 어떻게 되나요?
+Who should I contact in case of an after-hours emergency?	야간 응급 상황 시 누구에게 연락해야 하나요?

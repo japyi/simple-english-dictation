@@ -1,0 +1,50 @@
+What types of car wash services do you offer?	어떤 종류의 세차 서비스를 제공하시나요?
+Do you have both automatic and manual wash options?	자동 세차와 손세차 모두 가능한가요?
+How long does a full-service car wash usually take?	풀서비스 세차는 보통 얼마나 걸리나요?
+Can I stay in the car during the automatic wash?	자동 세차 중에 차 안에 있어도 되나요?
+Is there an interior cleaning service available?	차량 내부 청소 서비스도 제공하나요?
+Do you offer vacuuming as part of the service?	서비스에 진공청소가 포함되어 있나요?
+Can I get my seats shampooed and cleaned here?	여기서 시트 샴푸 및 청소도 받을 수 있나요?
+Are there additional charges for SUVs or larger vehicles?	SUV나 대형 차량에는 추가 요금이 있나요?
+What is included in the basic wash package?	기본 세차 패키지에는 무엇이 포함되어 있나요?
+Is waxing included in the premium service?	프리미엄 서비스에 왁싱이 포함되나요?
+Do you use touchless technology to prevent scratches?	스크래치를 방지하기 위해 터치리스 기술을 사용하나요?
+Are your cleaning products eco-friendly?	사용하는 세제는 친환경 제품인가요?
+Can I schedule an appointment, or is it first-come, first-served?	예약이 가능한가요, 아니면 선착순인가요?
+Do you offer any discounts for memberships or frequent customers?	멤버십이나 단골 고객을 위한 할인 혜택이 있나요?
+Is there a loyalty program with rewards?	리워드가 있는 포인트 적립 프로그램이 있나요?
+Can I pay with a credit card or mobile payment?	신용카드나 모바일 결제로 결제할 수 있나요?
+Do you accept tips, and if so, what is customary?	팁을 받으시나요? 일반적으로 얼마가 적당한가요?
+Can I leave my car here and pick it up later?	차를 두고 나중에 찾으러 와도 되나요?
+Is there a waiting area while the car is being cleaned?	세차 중에 대기할 수 있는 공간이 있나요?
+Do you clean car engines or just the exterior and interior?	엔진도 청소하나요, 아니면 실내외만 하나요?
+Can I request a hand wash instead of the automatic system?	자동 세차 대신 손세차를 요청할 수 있나요?
+Are your facilities safe for custom paint or vinyl wraps?	커스텀 도색이나 비닐 랩핑 차량도 세차가 안전한가요?
+Do you offer headlight restoration services?	헤드라이트 복원 서비스도 제공하나요?
+Can I request tire and wheel detailing?	타이어와 휠 디테일링을 요청할 수 있나요?
+Is undercarriage cleaning included in any of the packages?	하부 세차가 포함된 패키지가 있나요?
+Do you offer ceramic coating or paint protection services?	세라믹 코팅이나 도장 보호 서비스도 제공하나요?
+Are there additional services for pet hair removal?	반려동물 털 제거를 위한 추가 서비스가 있나요?
+Can you remove stubborn stains or odors from the upholstery?	시트의 심한 얼룩이나 냄새를 제거할 수 있나요?
+Is it possible to clean leather seats without damaging them?	가죽 시트를 손상 없이 세척할 수 있나요?
+Do you use air fresheners or can I bring my own?	방향제를 사용하나요, 아니면 제가 가져와도 되나요?
+What is your rain guarantee policy?	비가 올 경우 재세차 보장 정책이 있나요?
+Is it safe to wash my convertible with the top up?	지붕을 닫은 컨버터블 차량도 안전하게 세차할 수 있나요?
+Can I watch the wash process from a viewing area?	세차 과정을 관찰할 수 있는 공간이 있나요?
+Do you offer detailing services by appointment only?	디테일링 서비스는 예약제로만 운영되나요?
+How often do you recommend a professional car wash?	전문 세차는 얼마나 자주 받는 것이 좋나요?
+Is there an option to wash the car myself at this location?	이곳에서 셀프 세차가 가능한가요?
+Do you clean baby car seats or child booster seats?	유아용 카시트나 부스터 시트도 세척해 주시나요?
+Can I upgrade my wash package after arriving?	현장에서 세차 패키지를 업그레이드할 수 있나요?
+Are your machines safe for vehicles with roof racks?	루프랙이 있는 차량도 세차기에 들어가도 안전한가요?
+Do you use microfiber towels for drying?	건조할 때 마이크로화이버 타월을 사용하시나요?
+Is there a drying area if I choose to air-dry the vehicle myself?	직접 말리고 싶을 때 사용할 수 있는 건조 구역이 있나요?
+Do you have vending machines or refreshments on site?	현장에 자판기나 간식이 있나요?
+Are your staff trained to handle luxury or exotic cars?	직원들이 고급차나 슈퍼카도 다룰 수 있도록 교육받았나요?
+Do you have surveillance cameras for customer safety?	고객 안전을 위한 CCTV가 설치되어 있나요?
+What time do you open and close?	영업 시간은 어떻게 되나요?
+Can you remove water spots from previous washes?	이전 세차로 생긴 물자국을 제거해 줄 수 있나요?
+Do you offer monthly unlimited wash plans?	월 정액 무제한 세차 상품이 있나요?
+Are there any extra fees I should be aware of before starting?	시작 전에 알아야 할 추가 요금이 있나요?
+Can I cancel or reschedule my detailing appointment?	디테일링 예약을 취소하거나 변경할 수 있나요?
+Do you provide invoices for business expense purposes?	업무용 비용 처리를 위한 인보이스를 제공하시나요?

@@ -1,0 +1,50 @@
+Could you tell me the hours this market is open?	이 시장의 운영 시간을 알려주실 수 있나요?
+Is this market open every day or only on certain days?	이 시장은 매일 여나요, 아니면 특정 요일에만 하나요?
+Do you have a map or guide to the different stalls?	각 가게를 안내하는 지도나 가이드가 있나요?
+Where can I find fresh produce or vegetables?	신선한 농산물이나 채소는 어디에서 찾을 수 있나요?
+Are all of these fruits locally grown?	이 과일들은 모두 지역산인가요?
+Can I sample this before I buy it?	구매 전에 시식해 볼 수 있나요?
+How much is this per kilogram?	이것은 킬로그램당 얼마인가요?
+Is the price negotiable, or is it fixed?	가격은 흥정 가능한가요, 아니면 고정인가요?
+Can I get a discount if I buy more?	더 많이 사면 할인해 주실 수 있나요?
+Do you accept credit cards or is it cash only?	신용카드도 받나요, 아니면 현금만 되나요?
+Is there an ATM nearby?	근처에 ATM이 있나요?
+Could you give me a bag for this?	이것을 담을 봉지를 주실 수 있나요?
+Do you sell organic or pesticide-free products?	유기농이나 무농약 제품을 판매하시나요?
+Where can I find seafood or meat vendors?	해산물이나 육류 가게는 어디에 있나요?
+How fresh is this fish, and when was it caught?	이 생선은 얼마나 신선하고 언제 잡힌 건가요?
+Are these handmade or mass-produced items?	이 물건들은 수공예인가요, 대량 생산품인가요?
+What materials are used in this product?	이 제품에는 어떤 재료가 사용되었나요?
+Is this item safe for children or allergy-friendly?	이 물건은 어린이나 알레르기 환자에게 안전한가요?
+Do you have this in a different color or size?	이 제품의 다른 색상이나 크기도 있나요?
+Can you explain how this item is used?	이 제품을 어떻게 사용하는지 설명해 주실 수 있나요?
+Is this a traditional or regional specialty?	이것은 전통 음식이나 지역 특산물인가요?
+Can I place a custom order or pre-order for pickup later?	맞춤 주문이나 나중에 수령할 수 있는 예약 주문이 가능한가요?
+Do you offer home delivery or courier service?	자택 배송이나 택배 서비스를 제공하시나요?
+Where is the food court or street food area located?	푸드코트나 길거리 음식 구역은 어디에 있나요?
+Do you have vegetarian or vegan food options?	채식주의자나 비건을 위한 음식도 있나요?
+What is the most popular dish or item at this market?	이 시장에서 가장 인기 있는 음식이나 상품은 무엇인가요?
+Is this spicy or does it contain any common allergens?	이 음식은 매운가요, 또는 알레르기 유발 성분이 들어 있나요?
+How long will this item stay fresh without refrigeration?	이 물건은 냉장 보관 없이 얼마나 신선하게 유지되나요?
+Can I return or exchange this if there is a problem?	문제가 생기면 반품이나 교환이 가능한가요?
+Do you provide receipts or proof of purchase?	영수증이나 구매 증명을 주시나요?
+Where can I wash my hands or find a restroom?	손 씻을 곳이나 화장실은 어디에 있나요?
+Is there a shaded area or seating nearby?	근처에 그늘이나 앉을 수 있는 공간이 있나요?
+Are pets allowed in this market area?	이 시장 구역에 반려동물을 데려와도 되나요?
+Is this market accessible for people with disabilities?	이 시장은 장애인을 위한 접근이 가능한가요?
+Where can I park, and is parking free or paid?	주차는 어디에 하고, 무료인가요 유료인가요?
+Are there guided tours of the market available?	시장 투어 가이드를 제공하나요?
+Do any vendors here speak English or other languages?	여기에는 영어 또는 다른 언어를 하는 상인이 있나요?
+Can I take photos or videos in the market?	시장 내에서 사진이나 영상을 찍어도 되나요?
+Are there any cultural performances or events scheduled today?	오늘 예정된 문화 행사나 공연이 있나요?
+Is this market open in all weather, or does it close when it rains?	비가 와도 문을 여나요, 아니면 폐장하나요?
+Where is the nearest exit or entrance?	가장 가까운 출입구는 어디인가요?
+Are there security staff or information booths available?	보안 요원이나 안내 부스가 있나요?
+Do any vendors here sell souvenirs or handmade gifts?	기념품이나 수공예 선물을 파는 상인이 있나요?
+What are the peak hours or best time to visit this market?	이 시장은 언제가 가장 붐비거나 방문하기 좋나요?
+Can I pay now and pick it up later?	지금 결제하고 나중에 찾아갈 수 있나요?
+Could you please wrap this as a gift?	이것을 선물용으로 포장해 주시겠어요?
+Is there a lost and found in case I lose something?	물건을 잃어버렸을 때 찾을 수 있는 분실물 센터가 있나요?
+Do you have business cards or contact information?	명함이나 연락처를 주실 수 있나요?
+Can I leave a review or provide feedback somewhere?	후기나 피드백을 남길 수 있는 곳이 있나요?
+Thank you for the explanation and your kindness.	설명해 주시고 친절하게 대해 주셔서 감사합니다.

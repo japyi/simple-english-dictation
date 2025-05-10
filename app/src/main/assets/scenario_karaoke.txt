@@ -1,0 +1,50 @@
+I would like to rent a karaoke room for two hours.	노래방 방을 두 시간 동안 대여하고 싶습니다.
+Do I need to make a reservation in advance?	사전에 예약을 해야 하나요?
+Is there a waiting list right now?	지금 대기 명단이 있나요?
+What are the hourly rates for a private room?	개인 룸의 시간당 요금은 얼마인가요?
+Are there any group discounts or package deals available?	단체 할인이나 패키지 상품이 있나요?
+Do you charge extra on weekends or holidays?	주말이나 공휴일에는 추가 요금이 있나요?
+Can we extend our time if the room is available?	방이 비어 있으면 시간을 연장할 수 있나요?
+What is the latest time we can check in for a room?	가장 늦게 입실 가능한 시간은 언제인가요?
+Is there a minimum order or cover charge per person?	1인당 최소 주문이나 입장료가 있나요?
+Do you serve food and drinks in the karaoke rooms?	노래방 룸 안에서 음식과 음료를 주문할 수 있나요?
+Can we bring our own snacks or beverages?	간식이나 음료를 직접 가져와도 되나요?
+Do you have a menu with alcoholic and non-alcoholic options?	주류 및 비알코올 음료 메뉴가 있나요?
+Could you recommend a popular drink or combo set?	인기 있는 음료나 세트 메뉴를 추천해 주시겠어요?
+Is smoking allowed in the karaoke rooms?	노래방 방 안에서 흡연이 가능한가요?
+Are there smoking and non-smoking rooms available?	흡연실과 금연실이 따로 있나요?
+Where can I find the restroom from here?	여기서 화장실은 어디에 있나요?
+Is there a remote control or tablet to select songs?	노래 선택용 리모컨이나 태블릿이 있나요?
+Can I change the language of the song menu?	노래 메뉴의 언어를 바꿀 수 있나요?
+Do you have songs in English, Japanese, or Chinese?	영어, 일본어, 중국어 노래도 있나요?
+Can I search for songs by artist or title?	가수 이름이나 곡명으로 노래를 검색할 수 있나요?
+Is it possible to queue multiple songs in advance?	여러 곡을 미리 예약할 수 있나요?
+How do I cancel or skip a song once it starts?	노래가 시작된 후에 취소하거나 건너뛰려면 어떻게 하나요?
+Can I adjust the microphone volume and echo settings?	마이크 볼륨과 에코 설정을 조정할 수 있나요?
+Is it possible to change the key or tempo of the song?	노래의 키나 템포를 바꿀 수 있나요?
+The microphone is not working properly. Can you check it?	마이크가 제대로 작동하지 않는데 확인해 주시겠어요?
+The sound system seems too loud or distorted.	오디오가 너무 크거나 음질이 왜곡된 것 같아요.
+Can we use multiple microphones at the same time?	여러 개의 마이크를 동시에 사용할 수 있나요?
+Are there tambourines or percussion instruments we can borrow?	탬버린이나 리듬 악기를 빌릴 수 있나요?
+Is there a time alert or reminder before our session ends?	이용 시간이 끝나기 전에 알림이 있나요?
+Can I request an extra 30 minutes for our room?	방을 30분 더 연장할 수 있을까요?
+Do you have any themed or party rooms available?	테마룸이나 파티룸이 있나요?
+Are there family-friendly rooms or content filters?	가족용 룸이나 콘텐츠 제한 기능이 있나요?
+Is there a karaoke competition or score feature available?	점수 기능이나 노래 대결 모드가 있나요?
+Can we record our performance and get a copy?	노래한 영상을 녹화해서 받을 수 있나요?
+How do we order additional drinks or snacks during our session?	이용 중에 추가로 음식이나 음료를 주문하려면 어떻게 하나요?
+Is there a service bell or call button in the room?	룸 안에 호출 버튼이 있나요?
+Can we pay now or after our session ends?	지금 결제해도 되고 나중에 해도 되나요?
+What forms of payment do you accept?	어떤 결제 수단을 받으시나요?
+Can I split the bill with friends or pay separately?	친구들과 비용을 나눠서 계산할 수 있나요?
+Do you have a membership or loyalty program?	멤버십이나 포인트 적립 프로그램이 있나요?
+How do I join or redeem points for discounts?	포인트를 적립하거나 할인을 받으려면 어떻게 하나요?
+Can I get a receipt with detailed charges?	상세 내역이 포함된 영수증을 받을 수 있나요?
+Are there security cameras in the karaoke rooms?	노래방 룸 안에 CCTV가 있나요?
+Can we leave our belongings here temporarily?	짐을 잠깐 여기에 두고 가도 될까요?
+Is there a lost and found in case we forget something?	물건을 두고 갔을 경우 분실물 센터가 있나요?
+Do you have private rooms for events or gatherings?	행사나 모임을 위한 프라이빗 룸이 있나요?
+Can we decorate the room for a birthday celebration?	생일 파티를 위해 방을 꾸밀 수 있나요?
+Do you offer group reservations for company events?	회사 행사용 단체 예약이 가능한가요?
+Is it okay to take photos or videos inside the room?	방 안에서 사진이나 영상을 찍어도 되나요?
+Can you call us a taxi or recommend transportation nearby?	택시를 불러주시거나 근처 교통편을 추천해 주시겠어요?

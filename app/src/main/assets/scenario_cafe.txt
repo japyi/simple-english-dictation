@@ -1,0 +1,51 @@
+What kind of coffee do you recommend for a first-time visitor?	처음 오는 손님에게 어떤 커피를 추천하시나요?
+Do you have any seasonal drinks on the menu?	계절 한정 음료가 있나요?
+Can I see the ingredients list for this beverage?	이 음료의 재료 목록을 볼 수 있을까요?
+I would like a cappuccino with an extra shot of espresso.	에스프레소 샷을 추가한 카푸치노를 주세요.
+Can I get that drink with oat milk instead of regular milk?	그 음료를 일반 우유 대신 오트밀크로 받을 수 있을까요?
+Is this coffee available in a decaffeinated version?	이 커피는 디카페인 버전도 있나요?
+Do you offer any sugar-free options?	무설탕 옵션이 있나요?
+Could I have my drink served extra hot, please?	음료를 좀 더 뜨겁게 부탁드릴 수 있을까요?
+Is it possible to adjust the sweetness level?	단맛 조절이 가능한가요?
+Can I get that to go, please?	테이크아웃으로 받을 수 있을까요?
+Is there a charge for using a reusable cup?	텀블러를 사용할 때 추가 요금이 있나요?
+Do you offer any dairy-free desserts?	유제품이 들어가지 않은 디저트가 있나요?
+I would like to order something that is not too strong.	너무 진하지 않은 음료를 주문하고 싶어요.
+Can I get a sandwich warmed up?	샌드위치를 데워 주실 수 있나요?
+Do you have any vegan or gluten-free food options?	비건이나 글루텐프리 음식이 있나요?
+Is there a recommended pairing with this roast?	이 로스트와 어울리는 추천 메뉴가 있나요?
+How fresh are the baked goods on display?	진열된 베이커리는 얼마나 신선한가요?
+Can I order ahead using your mobile app?	모바일 앱으로 미리 주문할 수 있나요?
+Do you have free Wi-Fi available for customers?	고객용 무료 와이파이가 있나요?
+Where can I find the Wi-Fi password?	와이파이 비밀번호는 어디에서 알 수 있나요?
+Is there a restroom I can use?	사용할 수 있는 화장실이 있나요?
+Are there any available power outlets near the tables?	테이블 근처에 사용 가능한 콘센트가 있나요?
+Can I sit here even if I have not ordered yet?	아직 주문하지 않았지만 이 자리에 앉아도 될까요?
+Is there a time limit for staying at the table?	테이블에 머무를 수 있는 시간 제한이 있나요?
+Can I reserve a table for a meeting later today?	오늘 나중에 회의를 위해 테이블을 예약할 수 있나요?
+Is tipping customary at this café?	이 카페에서는 팁을 주는 것이 일반적인가요?
+Are refills available for brewed coffee?	브루드 커피는 리필이 가능한가요?
+Do you have any loyalty or rewards programs?	멤버십이나 포인트 적립 프로그램이 있나요?
+May I get a receipt with itemized details?	상세 항목이 포함된 영수증을 받을 수 있을까요?
+Is there an option to split the bill?	계산서를 나눠서 결제할 수 있나요?
+Do you accept mobile payments such as Apple Pay or Google Pay?	애플페이 또는 구글페이 같은 모바일 결제를 받나요?
+Can I add a custom message on a drink for a friend?	친구를 위해 음료에 메시지를 적을 수 있나요?
+Is that coffee available for purchase as whole beans?	그 커피를 원두 상태로 구매할 수 있나요?
+Do you sell any brewing equipment or accessories?	커피 도구나 액세서리를 판매하시나요?
+Are any of the pastries made in-house?	페이스트리는 직접 만드신 건가요?
+Can I speak with the barista about the roasting process?	바리스타와 로스팅 과정에 대해 이야기할 수 있을까요?
+Do you host any coffee tasting events or workshops?	커피 테이스팅이나 워크숍을 열기도 하나요?
+Is this location pet-friendly?	이 매장은 반려동물 동반이 가능한가요?
+Can I work on my laptop here for a few hours?	노트북 작업을 몇 시간 해도 괜찮을까요?
+Is background music adjustable for quieter study time?	공부하기 조용한 분위기로 음악을 조절할 수 있나요?
+Do you have any books or board games for customers to use?	고객이 이용할 수 있는 책이나 보드게임이 있나요?
+Is this seating area part of your café or a shared space?	이 좌석 공간은 카페 소속인가요, 아니면 공유 공간인가요?
+Can I borrow a charger if my phone battery is low?	핸드폰 배터리가 부족한데 충전기를 빌릴 수 있을까요?
+What is your most popular drink?	가장 인기 있는 음료는 무엇인가요?
+Do you offer catering for events or office meetings?	행사나 회의를 위한 케이터링 서비스를 제공하나요?
+Is this coffee ethically sourced or fair trade certified?	이 커피는 윤리적으로 공급되거나 공정무역 인증을 받았나요?
+Can I modify the toppings on my drink?	음료의 토핑을 변경할 수 있나요?
+Do you offer student discounts?	학생 할인이 있나요?
+Is the café open for dine-in or only takeout?	매장 내 이용이 가능한가요, 아니면 테이크아웃만 되나요?
+Are nutritional facts available for your menu items?	메뉴의 영양 정보가 제공되나요?
+Do you offer gift cards or prepaid cards?	기프트 카드나 선불 카드를 판매하시나요?

@@ -1,0 +1,50 @@
+Could I see a copy of the menu, please?	메뉴판을 볼 수 있을까요?
+What are your most popular items?	가장 인기 있는 메뉴는 무엇인가요?
+Do you have any combo meals or set menus?	세트 메뉴나 콤보 세트가 있나요?
+Can I customize my burger with different toppings?	햄버거 토핑을 원하는 대로 바꿀 수 있나요?
+I would like to order the number three combo with fries and a drink.	3번 세트와 감자튀김, 음료를 주문하고 싶습니다.
+Can I substitute the fries with a side salad?	감자튀김 대신 사이드 샐러드로 바꿀 수 있나요?
+Is it possible to get the burger without onions?	양파 없이 햄버거를 받을 수 있을까요?
+Do you have any vegetarian or plant-based options?	채식이나 식물성 대체 식품 메뉴가 있나요?
+Are there any gluten-free items on the menu?	메뉴에 글루텐 프리 항목이 있나요?
+Can I get my sandwich toasted, please?	샌드위치를 토스트해 주시겠어요?
+What size drinks are available with the combo?	세트 메뉴에 포함된 음료는 어떤 사이즈가 있나요?
+Could I upsize my meal for an additional charge?	추가 요금으로 식사 크기를 늘릴 수 있나요?
+Do you have a kids’ menu or child-friendly options?	어린이 메뉴나 아이들을 위한 메뉴가 있나요?
+Is there a breakfast menu available at this time?	지금 조식 메뉴도 주문할 수 있나요?
+Are there any limited-time or seasonal items?	한정판이나 계절 한정 메뉴가 있나요?
+Can I order just the burger without the meal?	세트 없이 햄버거만 주문할 수 있나요?
+Is this item available for dine-in only, or also for takeout?	이 메뉴는 매장 식사 전용인가요, 아니면 포장도 되나요?
+I would like my order for takeout, please.	포장해 주세요.
+Is curbside pickup available for online orders?	온라인 주문 시 차량 픽업이 가능한가요?
+Do you offer delivery through any food apps?	배달 앱을 통해 배달 서비스를 제공하시나요?
+How long is the estimated wait time for my order?	제 주문이 준비되기까지 예상 대기 시간은 얼마나 되나요?
+Can I pay by card, or do you accept mobile payment?	카드나 모바일 결제로 결제할 수 있나요?
+Is contactless payment accepted here?	비접촉 결제를 받을 수 있나요?
+Do you offer any discounts or promotions today?	오늘 할인이나 프로모션이 있나요?
+Are there student or military discounts available?	학생이나 군인을 위한 할인 혜택이 있나요?
+Can I use a coupon or promotional code at the counter?	카운터에서 쿠폰이나 프로모션 코드를 사용할 수 있나요?
+Could I have a receipt with my order, please?	영수증도 같이 받을 수 있을까요?
+Is it possible to split the payment between two cards?	결제를 두 개의 카드로 나눌 수 있나요?
+Could you repeat my order to confirm?	제 주문을 확인해 주시겠어요?
+Do you have any allergen information for your menu items?	메뉴의 알레르기 유발 성분 정보를 알 수 있을까요?
+Can you make this without any dairy or nuts?	유제품이나 견과류 없이 만들어 주실 수 있나요?
+I have a food allergy. Can I speak to the manager about ingredients?	음식 알레르기가 있어서 재료에 대해 매니저와 이야기할 수 있을까요?
+Where can I pick up my order when it is ready?	주문이 준비되면 어디에서 수령하나요?
+Do you offer free refills on drinks?	음료 리필은 무료인가요?
+Can I get some extra napkins and condiments?	냅킨과 소스를 좀 더 받을 수 있을까요?
+Are utensils and straws available near the pickup area?	픽업 구역 근처에 식기류와 빨대가 있나요?
+Is there a restroom available for customers?	고객용 화장실이 있나요?
+Are there high chairs or booster seats for children?	아이들을 위한 하이체어나 보조 의자가 있나요?
+Do you have any indoor seating available?	실내 좌석이 마련되어 있나요?
+Can I dine outside on the patio if it is open?	야외 테라스가 열려 있다면 거기서 식사할 수 있나요?
+Is Wi-Fi available for customers?	고객용 와이파이를 사용할 수 있나요?
+Can I speak with the manager about feedback or a concern?	피드백이나 문제에 대해 매니저와 이야기할 수 있을까요?
+Something is missing from my order.	제 주문에 누락된 것이 있습니다.
+My food is not hot. Could I get a fresh one?	음식이 뜨겁지 않은데 새로 받을 수 있을까요?
+The item I received is not what I ordered.	제가 주문한 것과 다른 음식이 나왔습니다.
+May I get a refund or replacement for this issue?	이 문제에 대해 환불이나 교환을 받을 수 있을까요?
+Do you have a suggestion box or online feedback form?	건의함이나 온라인 피드백 양식이 있나요?
+Is there a lost and found in case I left something behind?	물건을 두고 간 경우를 위한 분실물 보관소가 있나요?
+Do you have nutritional information for your food?	음식에 대한 영양 정보를 제공하시나요?
+What are your opening and closing hours?	영업 시간은 어떻게 되나요?

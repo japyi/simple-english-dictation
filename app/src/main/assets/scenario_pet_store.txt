@@ -1,0 +1,50 @@
+I am looking for high-quality food for my senior dog.	노령견을 위한 고급 사료를 찾고 있습니다.
+Could you recommend a brand suitable for kittens?	아기 고양이에게 적합한 브랜드를 추천해 주시겠어요?
+Is this product grain-free or hypoallergenic?	이 제품은 곡물이 없거나 알레르기 유발 성분이 없나요?
+Do you carry organic or natural pet treats?	유기농 또는 천연 반려동물 간식을 판매하시나요?
+Where is the section for small animals like hamsters or rabbits?	햄스터나 토끼 같은 소동물 코너는 어디에 있나요?
+Are these toys safe for aggressive chewers?	이 장난감은 이가 센 반려동물에게도 안전한가요?
+Do you have interactive toys for cats to prevent boredom?	고양이의 지루함을 예방할 수 있는 인터랙티브 장난감이 있나요?
+Can I see the size chart for this pet clothing item?	이 반려동물 옷의 사이즈 차트를 볼 수 있을까요?
+Do you offer harnesses for small breeds or toy dogs?	소형견이나 토이견을 위한 하네스를 판매하시나요?
+Is this leash retractable and suitable for outdoor use?	이 리드는 자동 줄이고 야외용으로 적합한가요?
+Do you sell pet strollers or carriers for travel?	이동용 반려동물 유모차나 이동장을 판매하시나요?
+Can I bring my pet into the store to try it on?	반려동물을 데려와서 착용해봐도 될까요?
+Do you have fitting rooms or areas to test harnesses?	하네스를 테스트할 수 있는 공간이 있나요?
+Are there breed-specific grooming tools available?	견종별 전용 미용 도구가 있나요?
+What shampoo is best for pets with sensitive skin?	피부가 민감한 반려동물에게 가장 적합한 샴푸는 무엇인가요?
+Can I schedule a grooming appointment for my pet here?	여기서 반려동물 미용 예약이 가능한가요?
+How long does a full grooming session usually take?	전체 미용은 보통 얼마나 걸리나요?
+Do you trim nails or clean ears as part of the service?	발톱 손질이나 귀 청소도 서비스에 포함되나요?
+Are vaccinations required for grooming appointments?	미용 서비스를 받기 위해 예방접종이 필요한가요?
+What documents do I need to adopt a pet from this store?	이곳에서 입양하려면 어떤 서류가 필요한가요?
+Are your animals sourced from certified breeders or shelters?	이 가게의 동물은 인증된 브리더나 보호소 출신인가요?
+Do you offer any adoption events or partnerships with rescues?	입양 행사나 구조단체와의 협력이 있나요?
+Is there a trial period or return policy for pet adoptions?	입양 후 시험 기간이나 반품 정책이 있나요?
+Can I get pet insurance information or recommendations here?	반려동물 보험에 대한 정보나 추천을 받을 수 있나요?
+Do you offer vet services or partner with a nearby clinic?	수의 서비스나 근처 동물 병원과 제휴되어 있나요?
+Are these flea and tick treatments safe for all breeds?	이 벼룩·진드기 방지 제품은 모든 견종에게 안전한가요?
+How often should I give my dog dental chews or brushes?	강아지에게 치석 제거 간식을 얼마나 자주 줘야 하나요?
+Do you sell water fountains or feeders with timers?	자동 급수기나 시간 설정 가능한 급식기를 판매하시나요?
+Are these products safe for multi-pet households?	이 제품은 여러 마리의 반려동물을 키우는 가정에서도 안전한가요?
+Can I return or exchange an item if it does not fit or work?	사이즈가 맞지 않거나 기능이 안 맞으면 반품이나 교환이 가능한가요?
+Do you have a loyalty or rewards program for frequent buyers?	단골 고객을 위한 멤버십이나 포인트 적립 제도가 있나요?
+Can I earn points for grooming or training services too?	미용이나 훈련 서비스도 포인트 적립이 되나요?
+Is there a discount for bulk purchases or subscription plans?	대량 구매나 정기 구독 시 할인 혜택이 있나요?
+Where can I find training pads or housebreaking supplies?	배변 패드나 실내 배변 훈련 용품은 어디에 있나요?
+Do you carry training clickers or positive reinforcement tools?	훈련 클릭커나 긍정 강화용 도구를 판매하시나요?
+Are there calming products for anxious pets?	불안한 반려동물을 위한 진정 보조제가 있나요?
+Is this crate airline approved for pet travel?	이 케이지는 비행기 기내 반입이 가능한 제품인가요?
+Do you provide microchipping services or ID tags?	마이크로칩 이식 서비스나 이름표를 제공하시나요?
+Where can I find biodegradable poop bags or eco-friendly products?	친환경 배변 봉투나 제품은 어디에 있나요?
+Can I get recommendations for switching pet food brands safely?	사료를 바꾸는 데 안전한 방법에 대한 조언을 받을 수 있나요?
+Are free samples available for this food or treat?	이 사료나 간식의 샘플을 받을 수 있나요?
+What is the expiration date and storage method for this product?	이 제품의 유통기한과 보관 방법은 어떻게 되나요?
+Can you help me compare ingredients between these two brands?	이 두 브랜드의 성분을 비교해 주실 수 있나요?
+Are there breed-specific nutritional supplements?	견종별 영양 보충제가 있나요?
+Is there a section for senior or special-needs pets?	노령견이나 특수 케어가 필요한 반려동물 전용 코너가 있나요?
+Do you have adoption profiles or behavior notes for each pet?	각 반려동물에 대한 입양 정보나 성격 메모가 있나요?
+Are customers allowed to interact with adoptable animals?	입양 대기 중인 동물들과 직접 교감해도 되나요?
+Can I place a special order for a product not in stock?	재고가 없는 상품을 특별 주문할 수 있나요?
+Do you accept donations for local shelters or rescue groups?	지역 보호소나 구조 단체를 위한 기부를 받나요?
+Can I leave feedback or review my shopping experience?	쇼핑 경험에 대한 피드백이나 후기를 남길 수 있나요?

@@ -1,0 +1,50 @@
+I would like to check in for my reservation.	예약한 객실로 체크인하고 싶습니다.
+Could you confirm my booking under the name Lee?	이(Lee)라는 이름으로 예약이 되어 있는지 확인해 주시겠어요?
+Is early check-in available today?	오늘 얼리 체크인이 가능한가요?
+What time is the standard check-out?	기본 체크아웃 시간은 언제인가요?
+Could I request a late check-out for tomorrow?	내일 늦은 체크아웃을 요청할 수 있을까요?
+Is breakfast included in my room rate?	객실 요금에 조식이 포함되어 있나요?
+Where is the breakfast buffet served in the morning?	조식 뷔페는 아침에 어디에서 제공되나요?
+Do you offer room service, and what are the hours?	룸서비스가 가능한가요, 운영 시간은 어떻게 되나요?
+Could I see the room service menu, please?	룸서비스 메뉴를 볼 수 있을까요?
+Is there a minibar or refrigerator in the room?	객실 내에 미니바나 냉장고가 있나요?
+Can I request extra towels and toiletries?	수건과 욕실 용품을 추가로 요청할 수 있을까요?
+Would it be possible to upgrade to a room with a view?	전망이 좋은 방으로 업그레이드할 수 있을까요?
+Is Wi-Fi complimentary throughout the hotel?	호텔 전역에서 와이파이를 무료로 사용할 수 있나요?
+Could you provide the Wi-Fi password?	와이파이 비밀번호를 알려주시겠어요?
+Is there a business center or computer I can use?	사용할 수 있는 비즈니스 센터나 컴퓨터가 있나요?
+Do you offer printing or fax services?	프린트나 팩스 서비스를 제공하시나요?
+Are laundry and dry cleaning services available?	세탁 및 드라이클리닝 서비스가 있나요?
+Where can I find the fitness center or gym?	피트니스 센터나 헬스장은 어디에 있나요?
+Does the hotel have a swimming pool or spa?	호텔에 수영장이나 스파가 있나요?
+Can I book a massage or spa treatment in advance?	사전에 마사지나 스파 트리트먼트를 예약할 수 있나요?
+Is parking available for hotel guests?	호텔 투숙객을 위한 주차장이 있나요?
+Is valet parking offered, and is there an extra fee?	발렛 파킹이 가능한가요? 추가 요금이 있나요?
+Do you have shuttle service to the airport or city center?	공항이나 시내 중심지까지 가는 셔틀 서비스가 있나요?
+Can I store my luggage before check-in or after check-out?	체크인 전이나 체크아웃 후에 짐을 맡길 수 있나요?
+I lost my room key. Could you issue a new one?	방 열쇠를 잃어버렸어요. 새로 발급해 주시겠어요?
+Could you please arrange a wake-up call for 6 a.m.?	오전 6시에 모닝콜을 예약해 주실 수 있나요?
+Do you provide concierge services for tours and reservations?	투어나 예약을 위한 컨시어지 서비스를 제공하시나요?
+Is there a map of the local area available?	이 지역 지도가 있나요?
+Could you recommend nearby restaurants or attractions?	근처의 레스토랑이나 관광지를 추천해 주시겠어요?
+Are pets allowed in the hotel or specific rooms?	반려동물 동반이 가능한가요? 혹은 특정 객실에서만 가능한가요?
+May I request a non-smoking room?	금연 객실을 요청할 수 있나요?
+Is this room soundproof or quiet at night?	이 방은 방음이 잘 되거나 밤에 조용한가요?
+Could someone help me with my luggage to the room?	짐을 방까지 옮기는 것을 도와주실 분이 있나요?
+Can I settle my bill the night before I check out?	체크아웃 전날 밤에 미리 계산할 수 있나요?
+Could I request an invoice with itemized charges?	세부 항목이 표시된 인보이스를 받을 수 있을까요?
+Can I pay with a foreign credit card or in another currency?	해외 신용카드나 다른 통화로 결제할 수 있나요?
+Is there an ATM nearby or inside the hotel?	근처나 호텔 내에 ATM이 있나요?
+Are there accessible rooms for guests with disabilities?	장애인을 위한 객실이 있나요?
+Can I change rooms if I am not satisfied with the current one?	현재 방이 마음에 들지 않으면 변경이 가능한가요?
+Do you offer special packages or promotions for long stays?	장기 투숙자를 위한 특별 패키지나 프로모션이 있나요?
+How do I dial an outside line or make international calls?	외부 전화나 국제 전화를 거는 방법은 어떻게 되나요?
+Is there a safe in the room for valuables?	귀중품을 보관할 수 있는 금고가 객실에 있나요?
+Can you assist with shipping a package or mailing a letter?	택배나 편지를 보내는 데 도움을 받을 수 있나요?
+Is there a quiet space or lounge to work remotely?	원격 근무를 위한 조용한 공간이나 라운지가 있나요?
+Do you provide babysitting or childcare services?	베이비시터나 아동 돌봄 서비스를 제공하시나요?
+Could I extend my stay for one more night?	하룻밤 더 연장할 수 있을까요?
+Is smoking allowed anywhere in the hotel?	호텔 내 흡연이 가능한 장소가 있나요?
+What is your cancellation or refund policy?	취소 및 환불 정책은 어떻게 되나요?
+Is there a lost and found department in case I forget something?	물건을 두고 갔을 경우를 위한 분실물 센터가 있나요?
+May I leave feedback about my stay at the front desk or online?	프론트 데스크나 온라인으로 숙박에 대한 피드백을 남길 수 있나요?

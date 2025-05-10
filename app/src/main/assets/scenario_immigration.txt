@@ -1,0 +1,50 @@
+I would like to apply for a visa extension.	비자 연장을 신청하고 싶습니다.
+Where can I submit my residence permit application?	거주 허가 신청서를 어디에 제출하나요?
+Do I need an appointment, or can I walk in today?	예약이 필요한가요, 아니면 오늘 방문해도 되나요?
+Could you please tell me the required documents for this process?	이 절차에 필요한 서류들을 알려주시겠어요?
+Is this the right counter for student visa inquiries?	학생 비자 관련 문의는 이 창구가 맞나요?
+I need to update my address in the immigration system.	출입국 시스템에 제 주소를 변경하고 싶습니다.
+How long does it take to process a visa renewal?	비자 갱신 절차는 얼마나 걸리나요?
+Can I check the status of my application online?	제 신청서의 진행 상황을 온라인으로 확인할 수 있나요?
+My visa is about to expire. What should I do?	제 비자가 곧 만료되는데, 어떻게 해야 하나요?
+Do you provide translation or interpretation services?	통역이나 번역 서비스를 제공하시나요?
+Can I speak with someone who speaks my native language?	제 모국어를 하는 직원과 상담할 수 있을까요?
+I need to schedule a biometrics appointment.	지문 채취 예약을 하고 싶습니다.
+Where is the biometric data collection office located?	생체정보 채취 사무실은 어디에 있나요?
+Do I need to bring passport-sized photos for this application?	이 신청서에 여권용 사진이 필요한가요?
+I am here to collect my alien registration card.	외국인 등록증을 수령하러 왔습니다.
+Can you explain the difference between a work visa and a residency permit?	취업 비자와 거주 허가의 차이를 설명해 주시겠어요?
+Is it possible to convert my tourist visa into a student visa?	관광 비자를 학생 비자로 전환할 수 있나요?
+What is the penalty for overstaying a visa?	비자 기간을 초과한 경우 벌금은 얼마인가요?
+Can I appeal a rejected visa application?	비자 신청이 거절된 경우 항소할 수 있나요?
+Do I need to submit original documents or are copies sufficient?	원본 서류를 제출해야 하나요, 아니면 복사본도 괜찮은가요?
+Is a notarized translation required for foreign documents?	외국어 서류는 공증된 번역본이 필요한가요?
+Where can I get my documents notarized for immigration purposes?	출입국 관련 서류를 공증받으려면 어디로 가야 하나요?
+Do you accept digital copies of the documents?	서류의 디지털 복사본도 접수하시나요?
+Can I apply on behalf of a family member?	가족을 대신해 신청할 수 있나요?
+What types of visas are available for long-term stay?	장기 체류를 위한 비자의 종류에는 어떤 것이 있나요?
+Is a sponsor required for this type of visa?	이 비자 유형에는 보증인이 필요한가요?
+What is the validity period of this visa or permit?	이 비자 또는 허가증의 유효 기간은 얼마인가요?
+Can I travel abroad while my application is being processed?	신청 절차 중에 해외여행을 해도 되나요?
+Do I need to register my stay with the local authorities?	지역 관청에 체류 등록을 해야 하나요?
+Can I renew my visa before it expires, and how early?	비자 만료 전에 미리 갱신할 수 있나요? 얼마나 일찍 해야 하나요?
+I lost my residence card. How can I get a replacement?	거주 카드를 분실했는데, 어떻게 재발급받을 수 있나요?
+Is it possible to change my visa status without leaving the country?	출국하지 않고 비자 종류를 변경할 수 있나요?
+Can I apply for permanent residency through this office?	이 사무소에서 영주권을 신청할 수 있나요?
+Are medical check-ups required for this immigration process?	이 출입국 절차에 건강 검진이 필요한가요?
+How do I apply for a re-entry permit?	재입국 허가 신청은 어떻게 하나요?
+Can I stay in the country while waiting for my new visa?	새 비자를 기다리는 동안 국내에 체류할 수 있나요?
+Where do I pay the application or processing fees?	신청 수수료나 처리 비용은 어디에서 납부하나요?
+Do you accept credit card payments or only cash?	신용카드로도 결제할 수 있나요, 아니면 현금만 가능한가요?
+Are there fee waivers for students or low-income applicants?	학생이나 저소득 신청자를 위한 수수료 면제가 있나요?
+Can I request an official letter confirming my legal stay?	합법 체류를 증명하는 공식 서신을 요청할 수 있나요?
+What should I do if my name is misspelled on the issued document?	발급된 문서에 이름이 잘못 기재되었을 경우 어떻게 하나요?
+How can I update my passport information in the system?	시스템에 제 여권 정보를 어떻게 업데이트하나요?
+Do I need to report my change in employment status?	직장 변경을 출입국관리소에 신고해야 하나요?
+Can you provide me with a checklist for the application process?	신청 절차에 필요한 체크리스트를 제공해 주실 수 있나요?
+Is it necessary to bring a printed appointment confirmation?	예약 확인서를 인쇄해서 가져가야 하나요?
+What is the procedure for extending my family’s dependent visas?	가족의 동반 비자를 연장하려면 어떤 절차가 필요한가요?
+How can I apply for a certificate of eligibility?	자격 증명서(COE)는 어떻게 신청하나요?
+Is there a helpline or website where I can find more information?	더 많은 정보를 얻을 수 있는 전화번호나 웹사이트가 있나요?
+Can I request assistance for filling out the application forms?	신청서 작성에 대한 도움을 요청할 수 있나요?
+Where should I go for a final interview or identity verification?	최종 면접이나 신원 확인은 어디에서 이루어지나요?

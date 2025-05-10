@@ -1,0 +1,51 @@
+Where can I find the fresh produce section?	신선한 농산물 코너는 어디에 있나요?
+Do you have any organic fruits and vegetables?	유기농 과일과 채소가 있나요?
+Are these products locally sourced?	이 제품들은 현지산인가요?
+Can you tell me where the gluten-free items are located?	글루텐 프리 식품은 어디에 있나요?
+I am looking for dairy alternatives such as oat milk or almond milk.	귀리 우유나 아몬드 우유 같은 유제품 대체품을 찾고 있어요.
+Do you sell plant-based meat substitutes?	식물성 고기 대체 제품을 판매하시나요?
+Is there a section for international or ethnic foods?	세계 식품이나 민족 식품 코너가 있나요?
+Can you recommend a good olive oil or balsamic vinegar?	좋은 올리브 오일이나 발사믹 식초를 추천해 주시겠어요?
+Where are the whole grains and dry beans located?	통곡물과 말린 콩은 어디에 있나요?
+Do you carry any items for people with nut allergies?	견과류 알레르기가 있는 사람을 위한 제품이 있나요?
+Can I ask for a sample before buying this cheese?	이 치즈를 사기 전에 샘플을 요청할 수 있나요?
+How fresh is the seafood today?	오늘 해산물은 얼마나 신선한가요?
+Are your meats antibiotic- and hormone-free?	이 고기들은 항생제나 호르몬이 사용되지 않았나요?
+Can I have this meat sliced thinner at the butcher counter?	정육 코너에서 이 고기를 더 얇게 썰어 주실 수 있나요?
+Is there someone who can help me choose a cut of beef for stew?	스튜용 소고기를 고르는 데 도와주실 분이 있나요?
+Where is the bakery section located?	제과 코너는 어디에 있나요?
+Do you sell any gluten-free or low-carb breads?	글루텐 프리나 저탄수화물 빵을 판매하시나요?
+Can I place a custom cake order here?	맞춤 케이크 주문이 가능한가요?
+Is there a self-checkout area available?	셀프 계산대가 있나요?
+Are reusable bags available for purchase?	재사용 가능한 장바구니를 판매하시나요?
+Can I return an unopened item with the receipt?	영수증이 있으면 개봉하지 않은 상품을 반품할 수 있나요?
+What is your return policy on perishable goods?	신선 식품의 반품 정책은 어떻게 되나요?
+Do you offer delivery or curbside pickup services?	배달이나 차량 픽업 서비스를 제공하시나요?
+Is there a minimum purchase amount for delivery?	배달을 위한 최소 구매 금액이 있나요?
+Can I use digital coupons or store loyalty points at checkout?	계산 시 디지털 쿠폰이나 포인트를 사용할 수 있나요?
+Do you price match with other local stores?	다른 지역 매장과 가격을 맞춰주시나요?
+Are there any ongoing promotions or weekly sales?	현재 진행 중인 행사나 주간 할인 품목이 있나요?
+Do you have a pharmacy or wellness section?	약국이나 건강식품 코너가 있나요?
+Where can I find vitamins and supplements?	비타민과 건강 보조제는 어디에 있나요?
+Is there a customer service desk for returns or inquiries?	반품이나 문의를 위한 고객 서비스 데스크가 있나요?
+Do you accept EBT or government assistance cards?	정부 보조 카드나 EBT 카드를 받나요?
+Can I get a printed receipt and also email it to myself?	영수증을 인쇄받고 이메일로도 받을 수 있나요?
+Do you offer in-store tastings or cooking demos?	매장에서 시식 행사나 요리 시연이 있나요?
+Is there a recycling station for plastic bags or bottles?	비닐봉지나 병을 재활용할 수 있는 장소가 있나요?
+Where is the nearest restroom for customers?	고객용 화장실은 어디에 있나요?
+Can I request help loading groceries into my car?	장 본 물건을 차에 실어 주는 도움을 요청할 수 있나요?
+Are gift cards available for purchase?	구매할 수 있는 기프트 카드가 있나요?
+Is there a lost and found in case I dropped something?	물건을 잃어버렸을 경우를 위한 분실물 센터가 있나요?
+What time does the store open and close?	매장 영업 시간은 어떻게 되나요?
+Are holiday hours different from regular hours?	공휴일에는 영업 시간이 다른가요?
+Do you offer bulk discounts for large quantities?	대량 구매 시 할인 혜택이 있나요?
+Can I order specialty items that are not currently in stock?	현재 재고가 없는 특별한 품목도 주문할 수 있나요?
+Is there a section for ready-to-eat or pre-cooked meals?	즉석 식품이나 조리된 음식 코너가 있나요?
+Are nutritional labels clearly displayed on the packaging?	포장에 영양 성분표가 잘 표시되어 있나요?
+Do you sell frozen meals suitable for vegetarians?	채식주의자를 위한 냉동 식품도 판매하시나요?
+Can you help me find a substitute for this out-of-stock item?	품절된 상품의 대체 품목을 찾아주실 수 있나요?
+Are there any allergen warnings for cross-contamination?	교차 오염에 대한 알레르기 경고 표시가 있나요?
+Can I request assistance in a language other than English?	영어 외 다른 언어로 도움을 요청할 수 있나요?
+Do you provide baskets or carts near the entrance?	입구 근처에 장바구니나 카트가 있나요?
+Is there a senior discount on specific days?	정해진 요일에 노인 할인 혜택이 있나요?
+Can I give feedback about my shopping experience online?	온라인으로 쇼핑 경험에 대한 피드백을 남길 수 있나요?

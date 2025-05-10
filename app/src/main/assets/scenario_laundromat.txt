@@ -1,0 +1,49 @@
+I would like to drop off some clothes for dry cleaning.	드라이클리닝할 옷을 맡기고 싶습니다.
+Could you tell me how much it costs to clean a suit?	정장 한 벌 세탁 비용이 얼마인가요?
+Do you charge separately for jackets and trousers?	재킷과 바지를 따로 계산하시나요?
+How long does it usually take for items to be ready?	보통 세탁 완료까지 얼마나 걸리나요?
+Is same-day service available for urgent items?	긴급 세탁에 당일 서비스가 가능한가요?
+Can you remove wine stains from this shirt?	이 셔츠의 와인 얼룩을 제거할 수 있나요?
+I spilled coffee on this jacket. Can you treat the stain?	이 재킷에 커피를 쏟았어요. 얼룩 제거가 가능할까요?
+Are delicate fabrics like silk or wool safe to dry clean here?	실크나 울 같은 섬세한 원단도 안전하게 세탁되나요?
+Do you have special treatment for garments with sequins or beads?	스팽글이나 비즈가 있는 옷은 특별하게 세탁해 주시나요?
+Can you press this dress without leaving any crease lines?	이 드레스를 주름 없이 다려주실 수 있나요?
+I would like this shirt to be starched lightly.	이 셔츠에 가볍게 풀을 먹여주세요.
+Can you dry clean this coat without damaging the fur collar?	모피 칼라가 있는 이 코트를 손상 없이 드라이클리닝할 수 있나요?
+What is your policy for items that shrink or get damaged?	옷이 줄어들거나 손상되었을 경우의 정책은 어떻게 되나요?
+Do you offer pickup and delivery services for laundry?	세탁물 수거 및 배달 서비스를 제공하시나요?
+Is there a minimum order for delivery service?	배달 서비스를 이용하려면 최소 주문 금액이 있나요?
+What days and hours do you offer pickup and delivery?	수거 및 배달은 어떤 요일, 시간에 가능한가요?
+Can you clean household items like curtains or comforters?	커튼이나 이불 같은 가정용품도 세탁하시나요?
+Do you offer alteration or repair services?	수선 서비스도 제공하시나요?
+Can you hem these trousers and shorten the sleeves on this jacket?	이 바지 단을 줄이고 재킷 소매를 짧게 해주실 수 있나요?
+Do you sew missing buttons or repair zippers?	단추를 달거나 지퍼 수선도 해주시나요?
+How do you label garments to prevent mix-ups?	옷이 바뀌지 않도록 어떻게 관리하시나요?
+Do you inspect items for damage before cleaning?	세탁 전에 의류 상태를 확인하시나요?
+Can I get a receipt with itemized services listed?	서비스 내역이 적힌 영수증을 받을 수 있나요?
+Do you accept credit cards or mobile payments?	신용카드나 모바일 결제가 가능한가요?
+Is there a loyalty or membership program available?	멤버십이나 단골 고객 프로그램이 있나요?
+Do you offer discounts for large or bulk orders?	대량 세탁 시 할인이 있나요?
+Are there any additional charges for express service?	급행 서비스에는 추가 요금이 있나요?
+Can I get notified by text when my clothes are ready?	옷이 준비되면 문자로 알려주실 수 있나요?
+Is there a secure place to drop off items after hours?	영업 시간 외에 맡길 수 있는 보안된 장소가 있나요?
+What is your policy on unclaimed garments?	찾아가지 않은 옷에 대한 정책은 어떻게 되나요?
+Can I leave specific care instructions with my order?	주문할 때 특별한 세탁 지시를 남길 수 있나요?
+Do you provide eco-friendly or chemical-free cleaning options?	친환경 또는 무화학 세탁 옵션이 있나요?
+Is hand washing available for fragile or vintage garments?	섬세하거나 빈티지 의류에 대해 손세탁이 가능한가요?
+Can you deodorize items with strong odors, like smoke?	담배 냄새 같은 강한 냄새를 제거해 주실 수 있나요?
+Do you offer waterproofing treatments for outerwear?	아우터에 방수 처리도 해주시나요?
+Can you fold or hang the clothes, depending on my preference?	옷을 제 요청에 따라 개거나 걸어주실 수 있나요?
+Are my clothes insured while in your care?	세탁물은 맡기는 동안 보험이 적용되나요?
+Could I request fragrance-free cleaning products?	무향 세제를 사용해 주실 수 있나요?
+Can you clean suede or leather items?	스웨이드나 가죽 제품도 세탁 가능한가요?
+What is the best way to care for this delicate fabric at home?	이 섬세한 소재를 집에서 어떻게 관리하는 것이 좋을까요?
+Can you clean stains that have already been pre-treated at home?	집에서 얼룩 제거를 시도한 옷도 세탁 가능한가요?
+What is your turnaround time during holidays or busy seasons?	명절이나 성수기에는 처리 기간이 얼마나 걸리나요?
+Do you offer same-day pressing for business attire?	비즈니스 복장 다림질을 당일에 해주시나요?
+Is ironing included in the dry cleaning service?	다림질이 드라이클리닝 서비스에 포함되어 있나요?
+Can you notify me if you find anything in the pockets?	주머니에서 물건이 발견되면 알려주실 수 있나요?
+What is the earliest I can pick up my order?	가장 빨리 세탁물을 찾을 수 있는 시간은 언제인가요?
+Can I request that garments be wrapped individually?	옷을 개별 포장해 달라고 요청할 수 있나요?
+Do you recycle hangers or plastic covers?	옷걸이나 비닐 커버는 재활용하시나요?
+May I speak to the manager about a specific request?	특별 요청에 대해 매니저와 상담할 수 있을까요?

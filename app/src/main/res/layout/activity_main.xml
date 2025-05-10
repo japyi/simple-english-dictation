@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="#F5F5F5">
+    android:background="#FFFFFF">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,6 +26,18 @@
             ads:adSize="BANNER"
             ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
             android:layout_marginBottom="@dimen/margin_small" />
+
+        <!-- 📘 시나리오 이름 표시 -->
+        <TextView
+            android:id="@+id/textView_scenario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📘 현재 시나리오: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal" />
 
         <!-- 🎧 문장 듣기 버튼 -->
         <Button
@@ -76,7 +88,20 @@
             android:visibility="gone"
             android:layout_marginBottom="@dimen/margin_small" />
 
-        <!-- 🔊 속도 조절 -->
+        <!-- 결과 텍스트 -->
+        <TextView
+            android:id="@+id/textView_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="#FFFFFF"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_result"
+            android:padding="@dimen/padding_text"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin_small" />
+
+        <!-- 🔊 음성 속도 조절 -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -93,27 +118,14 @@
             android:progress="10"
             android:layout_marginBottom="@dimen/margin_small" />
 
-        <!-- 결과 텍스트 -->
-        <TextView
-            android:id="@+id/textView_result"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:background="#FFFFFF"
-            android:textColor="#333333"
-            android:textSize="@dimen/text_result"
-            android:padding="@dimen/padding_text"
-            android:gravity="center"
-            android:layout_marginBottom="@dimen/margin_small" />
-
         <!-- 🗣️ 목소리 선택 -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
-            android:layout_marginBottom="@dimen/margin_small"
-            android:layout_marginTop="@dimen/margin_small">
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_small">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -144,6 +156,19 @@
             </RadioGroup>
         </LinearLayout>
 
+        <!-- 📚 목차로 가기 버튼 -->
+        <Button
+            android:id="@+id/button_back_to_scenarios"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="📚 목차로 가기"
+            android:backgroundTint="#9C27B0"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="@dimen/padding_button"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="1dp" />
+
         <!-- ⛔ 종료 버튼 -->
         <Button
             android:id="@+id/button_exit"
@@ -154,8 +179,28 @@
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:padding="@dimen/padding_button"
-            android:layout_marginTop="@dimen/margin_normal"
-            android:layout_marginBottom="32dp" />
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- 🔻 구분선 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="2dp" />
+
+        <!-- ℹ️ 앱 정보 버튼 -->
+        <Button
+            android:id="@+id/button_app_info"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ℹ️ 앱 정보"
+            android:backgroundTint="#607D8B"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="@dimen/padding_button"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp" />
 
     </LinearLayout>
 </ScrollView>

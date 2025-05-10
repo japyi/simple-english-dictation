@@ -1,0 +1,49 @@
+Where is the nearest public beach?	가장 가까운 공공 해변은 어디에 있나요?
+Is this beach open to the public year-round?	이 해변은 연중 내내 일반에 개방되어 있나요?
+Are there any lifeguards on duty today?	오늘 구조 요원이 근무 중인가요?
+Is swimming allowed in this area?	이 구역에서 수영이 허용되나요?
+What time does the beach close?	해변은 몇 시에 문을 닫나요?
+Are there any dangerous currents or rip tides?	위험한 조류나 이안류가 있나요?
+Can I rent a beach umbrella and lounge chair?	해변용 파라솔과 의자를 대여할 수 있나요?
+Where can I change into my swimsuit?	수영복으로 갈아입을 수 있는 곳이 어디인가요?
+Are there showers or rinse-off stations available?	샤워 시설이나 몸을 씻을 수 있는 장소가 있나요?
+Is there a designated area for surfing or paddleboarding?	서핑이나 패들보드를 위한 지정 구역이 있나요?
+Where can I rent snorkeling or diving equipment?	스노클링이나 다이빙 장비를 어디서 대여할 수 있나요?
+Is fishing allowed on this part of the beach?	이 구역에서 낚시가 허용되나요?
+Are there any jellyfish or hazardous marine life in the water?	해파리나 위험한 해양 생물이 있나요?
+What is the water temperature today?	오늘 물 온도는 얼마인가요?
+Is there a flag system that indicates beach safety conditions?	해변 안전 상태를 나타내는 깃발 시스템이 있나요?
+Are campfires or barbecues permitted on the beach?	해변에서 모닥불이나 바비큐가 허용되나요?
+Can I bring my dog to this beach?	이 해변에 강아지를 데려올 수 있나요?
+Are there pet-friendly zones or restrictions I should know about?	반려동물 허용 구역이나 제한 사항이 있나요?
+Where is the nearest restroom facility?	가장 가까운 화장실은 어디에 있나요?
+Is this beach wheelchair accessible?	이 해변은 휠체어 접근이 가능한가요?
+Can I fly a drone over the beach?	해변 위에서 드론을 날릴 수 있나요?
+Where can I find a trash or recycling bin?	쓰레기통이나 재활용통은 어디에 있나요?
+Are there any restaurants or food vendors nearby?	근처에 음식점이나 푸드트럭이 있나요?
+Is alcohol consumption allowed on the beach?	해변에서 음주가 허용되나요?
+Where can I rent a kayak or jet ski?	카약이나 제트스키를 어디서 대여할 수 있나요?
+Do I need a permit for any beach activities?	해변 활동에 허가가 필요한가요?
+Are there any organized beach tours or boat trips?	해변 투어나 보트 여행이 조직되어 있나요?
+What is the best time of day to avoid crowds?	사람이 적은 시간대는 언제인가요?
+Is there shade available, or should I bring my own umbrella?	그늘이 있나요, 아니면 직접 파라솔을 가져가야 하나요?
+Can I park my vehicle close to the beach entrance?	해변 입구 근처에 차량을 주차할 수 있나요?
+Is there a fee for beach access or parking?	해변 이용이나 주차에 요금이 있나요?
+Are there any sea turtle nesting sites I should avoid?	피해야 할 바다거북 산란 구역이 있나요?
+Is this a good spot to watch the sunset?	여기는 일몰을 감상하기 좋은 장소인가요?
+Do you recommend any nearby hiking trails with ocean views?	바다 전망이 있는 근처 등산로를 추천해 주시겠어요?
+Are there lockers available to store my belongings?	소지품을 보관할 수 있는 사물함이 있나요?
+Where is the nearest emergency station or first aid post?	가장 가까운 응급처치소나 구조대는 어디에 있나요?
+Can I set up a tent or sun shelter on the sand?	모래 위에 텐트나 햇빛 가림막을 설치할 수 있나요?
+Are there any rules about playing music or using speakers?	음악 재생이나 스피커 사용에 대한 규정이 있나요?
+Is the water shallow enough for children to play safely?	물이 얕아서 아이들이 안전하게 놀 수 있나요?
+Can I collect seashells or sand from this beach?	이 해변에서 조개껍데기나 모래를 채취할 수 있나요?
+Are there any nearby spots for scuba diving?	근처에 스쿠버 다이빙 장소가 있나요?
+Is it safe to swim after dark in this area?	이 지역에서 해가 진 후에 수영해도 안전한가요?
+What marine animals are commonly seen here?	이 지역에서 흔히 볼 수 있는 해양 동물은 무엇인가요?
+Is there a place where I can rent a beach cabana?	해변용 캐비나를 대여할 수 있는 곳이 있나요?
+Are there any local regulations about noise levels?	소음 수준에 대한 지역 규제가 있나요?
+Can I participate in a beach cleanup event?	해변 정화 활동에 참여할 수 있나요?
+Are there any tide charts or surf condition updates posted?	조수표나 파도 상태 정보가 게시되어 있나요?
+How strong is the sun today? Should I apply extra sunscreen?	오늘 햇볕이 얼마나 강한가요? 자외선 차단제를 더 발라야 할까요?
+Can I rent a beach bicycle or scooter nearby?	해변 자전거나 스쿠터를 근처에서 대여할 수 있나요?

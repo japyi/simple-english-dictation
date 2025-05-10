@@ -1,0 +1,50 @@
+Could you tell me where the customer service desk is?	고객 서비스 데스크가 어디에 있는지 알려주시겠어요?
+Is there a map of the mall I can take with me?	가져갈 수 있는 쇼핑몰 지도가 있나요?
+Where can I find women’s clothing on this floor?	이 층에서 여성복 매장은 어디에 있나요?
+Do you have a list of store directories?	입점 매장 목록을 볼 수 있나요?
+Are there any seasonal sales or promotions happening today?	오늘 진행 중인 계절 세일이나 프로모션이 있나요?
+Can I return or exchange an item bought at a different branch?	다른 지점에서 구매한 상품을 여기서 환불 또는 교환할 수 있나요?
+What is the return policy for discounted items?	할인 상품의 환불 정책은 어떻게 되나요?
+Is there a fitting room available in this store?	이 매장에 피팅룸이 있나요?
+Do you offer personal shopping or styling services?	퍼스널 쇼핑이나 스타일링 서비스를 제공하시나요?
+Can I put this item on hold and come back later?	이 상품을 따로 보관해 두셨다가 제가 나중에 올 수 있을까요?
+Do you offer gift wrapping services?	선물 포장 서비스를 제공하시나요?
+Can I purchase a gift card for this store or the entire mall?	이 매장이나 쇼핑몰 전체에서 사용할 수 있는 기프트 카드를 구매할 수 있나요?
+Are there any student or military discounts available?	학생이나 군인을 위한 할인 혜택이 있나요?
+Do you price match with other retailers?	다른 매장과 가격을 맞춰주시나요?
+Is tax included in the price or added at checkout?	세금이 가격에 포함되어 있나요, 아니면 계산 시 추가되나요?
+Can I get a tax refund as a tourist?	관광객으로서 세금 환급을 받을 수 있나요?
+Where is the nearest ATM or currency exchange booth?	가장 가까운 ATM이나 환전소는 어디에 있나요?
+Are there lockers or storage services for shoppers?	쇼핑객을 위한 사물함이나 보관 서비스가 있나요?
+Where is the lost and found located in the mall?	쇼핑몰 내 분실물 센터는 어디에 있나요?
+Is there a food court or dining area nearby?	근처에 푸드코트나 식사 공간이 있나요?
+Do you have vegan, halal, or allergy-friendly dining options?	비건, 할랄, 알레르기 대응 음식점이 있나요?
+Where can I find a restroom or baby changing station?	화장실이나 아기 기저귀 교환대는 어디에 있나요?
+Is there a lounge or play area for children?	아이들을 위한 놀이 공간이나 라운지가 있나요?
+Are there charging stations for phones or laptops?	휴대폰이나 노트북 충전소가 있나요?
+Do you offer free Wi-Fi throughout the mall?	쇼핑몰 전체에서 무료 와이파이를 제공하나요?
+Where can I get help if I lose a child in the mall?	쇼핑몰에서 아이를 잃어버렸을 경우 어디에 도움을 요청해야 하나요?
+Is the entire mall wheelchair accessible?	쇼핑몰 전체가 휠체어 접근이 가능한가요?
+Do you rent out wheelchairs or strollers?	휠체어나 유모차를 대여할 수 있나요?
+Is parking free, or is there a fee?	주차는 무료인가요, 아니면 요금이 있나요?
+Do you validate parking with a purchase?	구매 시 주차권을 인증해 주시나요?
+Where is the entrance to the underground parking lot?	지하 주차장 입구는 어디에 있나요?
+Are there EV charging stations available in the parking area?	주차장에 전기차 충전소가 있나요?
+Can I subscribe to mall newsletters or promotion alerts?	쇼핑몰 뉴스레터나 프로모션 알림을 구독할 수 있나요?
+Do you hold special events or live performances?	특별 행사나 공연이 열리나요?
+Where is the nearest escalator or elevator?	가장 가까운 에스컬레이터나 엘리베이터는 어디인가요?
+Is this store part of a larger department store?	이 매장은 백화점의 일부인가요?
+Are fitting rooms monitored for safety or assistance?	피팅룸은 안전이나 지원을 위해 관리되나요?
+Can I get assistance with large or heavy items?	무겁거나 큰 물건을 옮기는 데 도움을 받을 수 있나요?
+Do you offer home delivery or courier services?	자택 배송이나 택배 서비스를 제공하시나요?
+Where do I go to pick up an online order?	온라인 주문한 물건은 어디에서 수령하나요?
+Is this item eligible for a loyalty program or reward points?	이 상품은 멤버십 포인트 적립 대상인가요?
+How can I redeem my reward points or coupons?	포인트나 쿠폰은 어떻게 사용할 수 있나요?
+Can I split the payment between cash and card?	현금과 카드로 나누어 결제할 수 있나요?
+Do you accept mobile or contactless payment methods?	모바일 결제나 비접촉식 결제를 받나요?
+Is there a bilingual staff member who can assist me?	이중 언어를 사용하는 직원이 도와주실 수 있나요?
+Can I request a VAT refund form for my purchase?	구매에 대한 부가세 환급 서류를 요청할 수 있나요?
+Do you ship internationally from this location?	이곳에서 국제 배송이 가능한가요?
+What is your exchange policy for sale or clearance items?	세일 또는 정리 상품에 대한 교환 정책은 어떻게 되나요?
+Is there a quiet area or lounge to rest between shopping?	쇼핑 중에 쉴 수 있는 조용한 공간이나 라운지가 있나요?
+Can I provide feedback about my experience at this mall?	이 쇼핑몰에서의 경험에 대해 피드백을 남길 수 있나요?

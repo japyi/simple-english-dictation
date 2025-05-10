@@ -1,0 +1,49 @@
+I would like to purchase a one-way ticket to Busan.	부산행 편도 승차권을 구매하고 싶습니다.
+Is a round-trip ticket cheaper than two one-way tickets?	왕복 승차권이 편도 두 장보다 더 저렴한가요?
+Can I reserve a seat in the quiet or business car?	조용칸이나 비즈니스석을 예약할 수 있나요?
+Which platform does the train to Seoul depart from?	서울행 열차는 몇 번 플랫폼에서 출발하나요?
+What time is the last train to Daejeon?	대전행 막차는 몇 시인가요?
+Is there a schedule or timetable I can take with me?	가지고 갈 수 있는 시간표가 있나요?
+Are seat reservations required, or can I board without one?	좌석 예약이 필수인가요, 아니면 자유석 이용이 가능한가요?
+Can I change my reservation after booking the ticket?	표를 예매한 후 예약을 변경할 수 있나요?
+How much is the cancellation or change fee?	취소나 변경 수수료는 얼마인가요?
+Is there a discount for students, seniors, or children?	학생, 노인, 어린이를 위한 할인 혜택이 있나요?
+Can I purchase tickets online and pick them up at the station?	온라인으로 예매하고 역에서 티켓을 수령할 수 있나요?
+Do you accept foreign credit cards or cash only?	외국 신용카드도 받나요, 아니면 현금만 가능한가요?
+Is the train running on time, or is there a delay?	열차가 제시간에 운행되나요, 아니면 지연되고 있나요?
+Where can I check real-time train status or track updates?	실시간 열차 운행 정보나 선로 변경 사항은 어디서 확인할 수 있나요?
+Is this a high-speed or regular express train?	이 열차는 고속열차인가요, 일반 특급인가요?
+Are there baggage restrictions on this train?	이 열차에는 수하물 제한이 있나요?
+Where can I store large luggage on board?	열차 내 대형 수하물은 어디에 보관하나요?
+Do you have luggage delivery or forwarding services?	수하물 배송 또는 탁송 서비스를 제공하나요?
+Is there a lost and found for misplaced items?	분실물 보관소가 있나요?
+Where is the customer service or information desk located?	고객 안내 데스크는 어디에 있나요?
+Can I access the platform without a ticket?	승차권 없이 플랫폼에 들어갈 수 있나요?
+Are there electronic gates or staff to check tickets?	전자 개찰구가 있나요, 아니면 직원이 표를 확인하나요?
+Do you offer group ticket reservations or discounts?	단체 승차권 예매나 할인 혜택이 있나요?
+Are pets allowed on board, and do they require a carrier?	반려동물을 동반할 수 있나요, 캐리어가 필요한가요?
+Where can I find restrooms or a baby changing station?	화장실이나 아기 기저귀 교환대는 어디에 있나요?
+Are there coin lockers or baggage storage services?	물품 보관함이나 짐 보관 서비스가 있나요?
+Is there a waiting room or lounge for passengers?	승객용 대기실이나 라운지가 있나요?
+Do you have vending machines or a convenience store nearby?	자판기나 편의점이 근처에 있나요?
+Are food and drinks sold on the train?	열차 내에서 음식과 음료를 판매하나요?
+Can I charge my phone or use Wi-Fi on the train?	열차 안에서 휴대폰 충전이나 와이파이 사용이 가능한가요?
+Where can I board the train for passengers with disabilities?	장애인 승객을 위한 탑승 위치는 어디인가요?
+Are there elevators or escalators at this station?	이 역에 엘리베이터나 에스컬레이터가 있나요?
+Can I get help with boarding if I have mobility issues?	이동에 어려움이 있을 경우 탑승 지원을 받을 수 있나요?
+Is this station connected to other lines or subway routes?	이 역은 다른 노선이나 지하철과 연결되어 있나요?
+Where can I transfer to the subway or another train?	지하철이나 다른 열차로 환승하려면 어디로 가야 하나요?
+Are taxis or buses available outside the station?	역 밖에서 택시나 버스를 이용할 수 있나요?
+Is long-term parking available at the station?	역에 장기 주차가 가능한가요?
+Do you offer rental car services near the station?	역 근처에서 렌터카 서비스를 이용할 수 있나요?
+Are there hotels or accommodations within walking distance?	도보 거리 내에 호텔이나 숙박시설이 있나요?
+Do you sell transportation passes for tourists?	관광객을 위한 교통 패스를 판매하시나요?
+Where can I file a complaint or give feedback about the service?	서비스에 대해 불만 접수나 피드백을 어디에서 할 수 있나요?
+Can I request an English-speaking staff member for assistance?	영어를 하는 직원을 요청할 수 있나요?
+Is this station open 24 hours a day?	이 역은 24시간 운영하나요?
+What should I do if I miss my train?	열차를 놓쳤을 경우 어떻게 해야 하나요?
+Can I upgrade my seat after boarding the train?	열차 탑승 후 좌석을 업그레이드할 수 있나요?
+Are there smoking areas at the station or on the platform?	역이나 플랫폼에 흡연 구역이 있나요?
+Can I bring my bicycle on the train?	자전거를 열차에 실을 수 있나요?
+Do you provide printed receipts or only electronic ones?	인쇄된 영수증을 받을 수 있나요, 아니면 전자 영수증만 가능한가요?
+Are announcements made in English as well?	영어로도 안내 방송이 나오는가요?

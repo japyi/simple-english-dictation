@@ -1,0 +1,49 @@
+Could you show me where my desk is located?	제 책상이 어디에 있는지 알려주실 수 있나요?
+Is there a seating chart or floor plan for this office?	이 사무실의 좌석 배치도나 층별 안내도가 있나요?
+What time does the workday officially begin and end?	정식 근무 시작과 종료 시간은 언제인가요?
+Do we clock in and out, or is it flexible?	출퇴근 시간 기록이 있나요, 아니면 자율적인가요?
+Is there a dress code I should follow?	제가 따라야 할 복장 규정이 있나요?
+Where is the break room or pantry located?	휴게실이나 탕비실은 어디에 있나요?
+Is coffee or tea provided for employees?	직원들에게 커피나 차가 제공되나요?
+Can I bring my own lunch and store it in the fridge?	제가 도시락을 가져와서 냉장고에 보관해도 되나요?
+Are there microwave ovens or kitchen appliances available?	전자레인지나 조리 기구를 사용할 수 있나요?
+Where are the nearest restrooms from here?	여기서 가장 가까운 화장실은 어디에 있나요?
+Is there a designated area for phone calls or meetings?	통화나 회의를 위한 지정 공간이 있나요?
+Do we need to reserve meeting rooms in advance?	회의실은 사전 예약이 필요한가요?
+How do I book a conference room or shared workspace?	회의실이나 공용 공간을 어떻게 예약하나요?
+Is there a shared calendar for team scheduling?	팀 일정 관리를 위한 공유 캘린더가 있나요?
+Which platform or software do we use for internal communication?	사내 커뮤니케이션에 사용하는 플랫폼은 무엇인가요?
+Do we use email primarily, or instant messaging tools?	주로 이메일을 사용하나요, 아니면 메신저를 사용하나요?
+Who should I contact for IT support or equipment setup?	IT 지원이나 장비 설치는 누구에게 연락해야 하나요?
+What is the procedure for requesting office supplies?	사무용품을 요청하는 절차는 어떻게 되나요?
+Are there shared printers and copiers on this floor?	이 층에 공유 프린터나 복사기가 있나요?
+Do we need a code or ID to access the printers?	프린터를 사용하려면 코드나 ID가 필요한가요?
+How do we access the Wi-Fi or internal network?	와이파이나 사내 네트워크는 어떻게 접속하나요?
+Are there any cybersecurity policies I should be aware of?	알아야 할 사이버 보안 정책이 있나요?
+Is it allowed to work remotely or from home occasionally?	가끔 재택근무나 원격 근무가 가능한가요?
+What is the process for requesting time off or vacation?	휴가나 연차를 신청하려면 어떤 절차가 필요한가요?
+Do we have a formal system for performance evaluations?	성과 평가를 위한 공식적인 시스템이 있나요?
+How often do team meetings or check-ins take place?	팀 회의나 점검은 얼마나 자주 진행되나요?
+Am I expected to attend all in-person meetings?	모든 대면 회의에 참석해야 하나요?
+Is there a company policy on overtime or compensatory time?	초과 근무나 보상 휴가에 대한 회사 정책이 있나요?
+Are there opportunities for training or professional development?	직무 교육이나 전문성 개발 기회가 제공되나요?
+How are promotions or internal transfers handled?	승진이나 사내 이동은 어떻게 처리되나요?
+Who should I speak to about HR-related concerns?	인사 관련 문제는 누구에게 말하면 되나요?
+Is there a mentor or buddy system for new employees?	신입 직원을 위한 멘토 또는 버디 제도가 있나요?
+Are there regular employee surveys or feedback sessions?	정기적으로 직원 설문조사나 피드백 세션이 있나요?
+What is the company’s policy on personal device usage?	개인 기기 사용에 대한 회사의 정책은 어떻게 되나요?
+Are calls and emails monitored for compliance?	업무용 통화나 이메일이 모니터링되나요?
+Can I personalize my desk or workspace?	제 책상이나 공간을 개인화해도 되나요?
+What is the expected protocol during fire drills or emergencies?	화재 훈련이나 비상 상황 시의 행동 요령은 무엇인가요?
+Where is the nearest emergency exit or first aid kit?	가장 가까운 비상구나 구급상자는 어디에 있나요?
+Is parking available for employees or visitors?	직원이나 방문객을 위한 주차장이 있나요?
+Are there bicycle racks or a shuttle service available?	자전거 보관소나 셔틀버스가 있나요?
+Do we have any environmental or sustainability initiatives?	환경 보호나 지속가능성 관련 프로그램이 있나요?
+Is there a wellness program or gym facility on-site?	복지 프로그램이나 사내 체육 시설이 있나요?
+Are food deliveries allowed, and where should they be received?	음식 배달이 가능한가요, 수령 장소는 어디인가요?
+Is the building access-controlled with ID cards or codes?	건물 출입은 출입증이나 코드로 통제되나요?
+What should I do if I forget or lose my access badge?	출입증을 잊거나 분실하면 어떻게 해야 하나요?
+Can guests or clients visit freely, or is registration required?	방문객이나 고객은 자유롭게 출입할 수 있나요, 아니면 등록이 필요한가요?
+Is there a shared lounge or social area for informal meetings?	비공식 미팅을 위한 공유 라운지나 휴식 공간이 있나요?
+Can I suggest improvements or report issues anonymously?	익명으로 개선 제안이나 문제 신고를 할 수 있나요?
+Whom can I contact if I experience workplace harassment or misconduct?	직장 내 괴롭힘이나 부당 행위를 겪었을 때 누구에게 연락해야 하나요?

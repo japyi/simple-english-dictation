@@ -1,0 +1,50 @@
+I would like to apply for a library card.	도서관 이용 카드를 신청하고 싶습니다.
+What documents do I need to register as a member?	회원 등록을 위해 어떤 서류가 필요한가요?
+Is there a fee for library membership?	도서관 회원 등록에 요금이 있나요?
+Can I borrow books on the same day I register?	회원 등록한 당일에도 책을 대출할 수 있나요?
+How many books can I check out at one time?	한 번에 몇 권까지 책을 대출할 수 있나요?
+What is the borrowing period for books and other materials?	도서 및 자료의 대출 기간은 어떻게 되나요?
+Can I renew borrowed books online or by phone?	대출한 책을 온라인이나 전화로 연장할 수 있나요?
+Is there a fine for overdue books?	연체된 책에 대해 벌금이 부과되나요?
+What should I do if I lose or damage a library book?	도서관 책을 분실하거나 훼손했을 경우 어떻게 해야 하나요?
+Can I reserve a book that is currently checked out?	현재 대출 중인 책을 예약할 수 있나요?
+Where can I pick up a reserved item?	예약한 자료는 어디에서 수령할 수 있나요?
+Do you have an interlibrary loan service?	타 도서관 간 대출 서비스를 제공하시나요?
+How can I request a book that is not in your collection?	소장하지 않은 책을 요청하려면 어떻게 해야 하나요?
+Is there a limit on how many times I can renew an item?	자료 연장은 몇 번까지 가능한가요?
+Can I return books after hours using a drop box?	운영 시간 이후에 반납함을 이용할 수 있나요?
+Do you send reminders for due dates via email or text?	반납 기한 알림을 이메일이나 문자로 보내주시나요?
+Is there a mobile app for managing my library account?	도서관 계정을 관리할 수 있는 모바일 앱이 있나요?
+Where can I find books by subject or author?	주제나 저자별로 책을 어디서 찾을 수 있나요?
+Can someone help me search the online catalog?	온라인 목록 검색을 도와주실 수 있나요?
+Is there a map of the library available?	도서관 안내 지도가 있나요?
+Where is the non-fiction or reference section located?	논픽션 또는 참고도서 섹션은 어디에 있나요?
+Do you have a section for new arrivals or bestsellers?	신간이나 베스트셀러 섹션이 있나요?
+Are there foreign language books or bilingual materials?	외국어 서적이나 이중 언어 자료가 있나요?
+Do you carry audiobooks or large print editions?	오디오북이나 큰 글씨 책도 보유하고 있나요?
+Is there a children’s section or reading program for kids?	어린이 섹션이나 독서 프로그램이 있나요?
+Are there study rooms or quiet areas for individual work?	개별 학습을 위한 열람실이나 조용한 공간이 있나요?
+Can I reserve a group study room in advance?	그룹 스터디룸을 사전에 예약할 수 있나요?
+What is the time limit for using a study room?	스터디룸 사용 시간 제한은 어떻게 되나요?
+Is there free Wi-Fi available throughout the library?	도서관 전역에 무료 와이파이가 제공되나요?
+Do you have public computers or printers available?	공용 컴퓨터나 프린터가 사용 가능한가요?
+How much does it cost to print or photocopy documents?	문서 인쇄나 복사 비용은 얼마인가요?
+Can I scan documents and email them to myself?	문서를 스캔해서 제 이메일로 보낼 수 있나요?
+Are headphones available for use with the computers?	컴퓨터 사용 시 사용할 수 있는 헤드폰이 있나요?
+Do you offer workshops or educational programs?	워크숍이나 교육 프로그램이 있나요?
+Where can I register for a library event or class?	도서관 행사나 수업은 어디서 등록하나요?
+Are there language exchange or conversation groups?	언어 교환 모임이나 회화 그룹이 있나요?
+Is this library wheelchair accessible?	이 도서관은 휠체어 접근이 가능한가요?
+Do you have accessibility resources for visually impaired users?	시각 장애인을 위한 자료나 장비가 있나요?
+Can I request assistance with research or academic papers?	학술 자료나 논문 작성을 위한 도움을 요청할 수 있나요?
+Where can I find newspaper archives or microfilm readers?	신문 보관 자료나 마이크로필름 리더는 어디에 있나요?
+Do you offer access to online databases or journals?	온라인 데이터베이스나 학술지 열람이 가능한가요?
+Can I access library resources from home with my membership?	회원이면 집에서도 도서관 자료를 이용할 수 있나요?
+Is this a public or university-affiliated library?	이 도서관은 공공 도서관인가요, 대학 소속인가요?
+What is the procedure for replacing a lost library card?	도서관 카드 분실 시 재발급 절차는 어떻게 되나요?
+Can I temporarily suspend my account if I go abroad?	해외 체류 시 계정을 일시 중지할 수 있나요?
+Are food and drinks allowed inside the library?	도서관 내부에서 음식과 음료를 먹을 수 있나요?
+Where can I charge my laptop or mobile device?	노트북이나 휴대폰 충전은 어디서 할 수 있나요?
+Is there a lost and found in case I misplace something?	분실물이 있을 경우 확인할 수 있는 곳이 있나요?
+Can I give feedback or make suggestions for book purchases?	도서 구입에 대한 피드백이나 제안을 할 수 있나요?
+Is it possible to volunteer or intern at the library?	도서관에서 자원봉사나 인턴을 할 수 있나요?

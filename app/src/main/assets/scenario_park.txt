@@ -1,0 +1,49 @@
+Could you tell me the opening and closing hours of this park?	이 공원의 개장 및 폐장 시간은 어떻게 되나요?
+Is there an entrance fee, or is it free to enter?	입장료가 있나요, 아니면 무료인가요?
+Are there any guided tours or informational signs along the trails?	산책로를 따라 안내 투어나 정보 표지판이 있나요?
+Do you have a map of the park available for visitors?	방문객을 위한 공원 지도가 있나요?
+Which trails are best for beginners or families with children?	초보자나 아이가 있는 가족에게 적합한 산책로는 어디인가요?
+Are bicycles or scooters allowed on all paths?	모든 길에서 자전거나 스쿠터를 탈 수 있나요?
+Is there a designated cycling or jogging path?	지정된 자전거 도로나 조깅 코스가 있나요?
+Are pets allowed in the park, and do they need to be leashed?	공원에서 반려동물 동반이 가능한가요, 목줄은 필수인가요?
+Where can I dispose of pet waste properly?	반려동물 배설물은 어디에 버려야 하나요?
+Is there a playground nearby for children?	아이들을 위한 놀이터가 근처에 있나요?
+Are picnic areas available, and do I need a reservation?	피크닉 구역이 있나요, 예약이 필요한가요?
+Can I set up a tent or canopy in the grassy areas?	잔디밭에 텐트나 차양막을 설치할 수 있나요?
+Are barbecue grills provided, or can I bring my own?	바비큐 그릴이 비치되어 있나요, 아니면 제가 가져와야 하나요?
+Is open flame or charcoal grilling allowed here?	이곳에서 화로나 숯불 바비큐가 허용되나요?
+Are there public restrooms or drinking fountains nearby?	근처에 공중 화장실이나 식수대가 있나요?
+Are there shaded areas or shelters for hot or rainy weather?	더위나 비를 피할 수 있는 그늘진 장소나 쉼터가 있나요?
+Is fishing allowed in the lake or pond?	호수나 연못에서 낚시가 가능한가요?
+Do I need a permit or license to fish here?	여기서 낚시하려면 허가증이나 라이센스가 필요한가요?
+Are boats or paddleboards available for rent?	보트나 패들보드를 대여할 수 있나요?
+Can I launch my own kayak or canoe in this park?	이 공원에서 제 카약이나 카누를 띄울 수 있나요?
+Are there any wildlife viewing areas or birdwatching spots?	야생 동물 관찰 구역이나 조류 관찰 지점이 있나요?
+What kind of animals or birds can be seen in this park?	이 공원에서는 어떤 동물이나 새를 볼 수 있나요?
+Are visitors allowed to feed the animals?	동물에게 먹이를 주어도 되나요?
+Is this area prone to ticks or insects during warmer months?	이 지역은 따뜻한 계절에 진드기나 벌레가 많이 나오나요?
+Are there rules about collecting plants or flowers?	식물이나 꽃을 채집하는 것에 대한 규정이 있나요?
+Can I play music on a speaker, or are noise levels restricted?	스피커로 음악을 틀 수 있나요, 아니면 소음 제한이 있나요?
+Are drones or model aircraft allowed in this park?	이 공원에서 드론이나 모형 비행기를 날릴 수 있나요?
+Do you have any outdoor fitness equipment or a workout zone?	야외 운동 기구나 피트니스 구역이 있나요?
+Are group exercise classes or yoga sessions held here?	이곳에서 단체 운동 수업이나 요가 수업이 열리나요?
+Is there a dog park or off-leash area available?	반려견 전용 구역이나 목줄 없이 뛰어놀 수 있는 공간이 있나요?
+Are there any upcoming festivals or public events in this park?	이 공원에서 예정된 축제나 공개 행사가 있나요?
+Do I need a permit to host a private event or gathering?	사적인 행사나 모임을 열려면 허가가 필요한가요?
+Are weddings or photo shoots allowed here with permission?	허가를 받으면 웨딩이나 사진 촬영이 가능한가요?
+Is there a visitor center with information and brochures?	안내소나 브로셔가 있는 방문객 센터가 있나요?
+Can I volunteer for park clean-up or nature programs?	공원 정화나 자연 보호 프로그램에 자원봉사할 수 있나요?
+Is this park wheelchair accessible?	이 공원은 휠체어 접근이 가능한가요?
+Are the trails suitable for strollers or wheelchairs?	산책로는 유모차나 휠체어 사용에 적합한가요?
+Are security cameras or park rangers on duty for safety?	안전을 위해 CCTV나 공원 순찰 요원이 있나요?
+Where should I report lost items or suspicious activity?	분실물이나 수상한 활동은 어디에 신고해야 하나요?
+Is there a parking area, and is it free or paid?	주차장이 있나요, 무료인가요 유료인가요?
+Are electric vehicle charging stations available near the park?	공원 근처에 전기차 충전소가 있나요?
+Is overnight camping or car camping permitted in this park?	이 공원에서 야영이나 차량 야영이 가능한가요?
+Are fire pits or campfires allowed in designated areas?	지정된 구역에서 모닥불이나 캠프파이어가 허용되나요?
+What should I do in case of a wildlife encounter?	야생 동물을 만났을 때는 어떻게 해야 하나요?
+Are emergency services easily reachable from here?	이곳에서 응급 서비스는 쉽게 접근 가능한가요?
+Do you have recycling and trash bins throughout the park?	공원 곳곳에 재활용 및 쓰레기통이 마련되어 있나요?
+Can I ride a skateboard or rollerblade in this area?	이 지역에서 스케이트보드나 인라인스케이트를 탈 수 있나요?
+Is there a quiet zone or relaxation area for meditation?	명상을 위한 조용한 구역이나 휴식 공간이 있나요?
+Can I leave feedback about my visit or suggest improvements?	공원 방문에 대한 피드백이나 개선 제안을 남길 수 있나요?

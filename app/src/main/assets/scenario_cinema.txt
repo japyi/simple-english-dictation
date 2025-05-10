@@ -1,0 +1,50 @@
+What movies are currently playing at this theater?	이 영화관에서 현재 상영 중인 영화는 무엇인가요?
+Can I see the showtimes for today?	오늘 상영 시간표를 볼 수 있을까요?
+Do you have any tickets left for the 7:00 p.m. screening?	오후 7시 상영분 티켓이 아직 남아 있나요?
+How can I reserve seats in advance?	좌석을 미리 예약하려면 어떻게 해야 하나요?
+Are assigned seats required for all screenings?	모든 상영에 지정 좌석제가 적용되나요?
+Can I purchase tickets online and pick them up here?	온라인에서 티켓을 구매하고 여기서 수령할 수 있나요?
+What is the cancellation policy for pre-purchased tickets?	사전 구매한 티켓의 환불 규정은 어떻게 되나요?
+Do you offer student or senior citizen discounts?	학생이나 노인을 위한 할인 혜택이 있나요?
+Are there any matinee pricing options available?	조조 할인 요금이 있나요?
+Is there a loyalty or membership program for frequent visitors?	단골 고객을 위한 멤버십 프로그램이 있나요?
+Which theater has the best screen or sound system?	어느 상영관이 화면이나 사운드가 가장 좋은가요?
+Is this movie available in 3D or IMAX?	이 영화는 3D나 IMAX 버전으로 상영되나요?
+Are subtitles or dubbing available for foreign films?	외국 영화에 자막이나 더빙이 제공되나요?
+Is this a subtitled or dubbed version of the film?	이 영화는 자막판인가요, 더빙판인가요?
+Can I bring children to this movie, or is there an age restriction?	이 영화에 아이를 데려갈 수 있나요, 아니면 나이 제한이 있나요?
+What is the movie’s running time?	이 영화의 상영 시간은 얼마나 되나요?
+Is outside food or drink allowed in the theater?	영화관 내에 외부 음식이나 음료 반입이 가능한가요?
+Where is the nearest concession stand?	가장 가까운 매점은 어디에 있나요?
+What snacks or combo deals are available?	어떤 간식이나 세트 상품이 있나요?
+Can I get butter or seasoning on the popcorn?	팝콘에 버터나 시즈닝을 추가할 수 있나요?
+Do you offer vegan or allergen-free snacks?	비건이나 알레르기 유발 성분이 없는 간식이 있나요?
+Where is the entrance for Theater 3?	Theater 3의 입구는 어디인가요?
+Are restrooms located near this screening room?	이 상영관 근처에 화장실이 있나요?
+What time do the doors open before the movie starts?	영화 시작 전에 문은 몇 분 전에 열리나요?
+Is it possible to re-enter the theater once I leave?	영화관을 나갔다가 다시 들어올 수 있나요?
+Can I watch two movies back-to-back with one ticket?	한 장의 티켓으로 두 편 연속 관람이 가능한가요?
+Do you have booster seats available for small children?	어린이를 위한 보조 좌석이 준비되어 있나요?
+Can I use a mobile ticket on my phone?	휴대전화 모바일 티켓으로 입장할 수 있나요?
+Is this showing likely to sell out soon?	이 상영은 곧 매진될 가능성이 있나요?
+Is the movie already in progress or has it not started yet?	영화가 이미 시작했나요, 아니면 아직인가요?
+Can I switch to a different screening time?	다른 시간대로 상영을 변경할 수 있나요?
+Do you offer private screenings or group reservations?	단체 관람이나 프라이빗 상영을 제공하시나요?
+Are noise-canceling headphones available for the hearing impaired?	청각 장애인을 위한 노이즈 캔슬링 헤드폰이 제공되나요?
+Is closed captioning or audio description available for this movie?	이 영화에 자막 또는 음성 해설 서비스가 제공되나요?
+Can I find parking near the theater?	영화관 근처에 주차할 수 있나요?
+Is the theater wheelchair accessible?	이 영화관은 휠체어 접근이 가능한가요?
+Can I speak with a manager about a problem during the screening?	상영 중 문제가 생겼는데 매니저와 이야기할 수 있나요?
+What should I do if someone is being disruptive during the film?	영화 관람 중 누군가가 방해할 경우 어떻게 해야 하나요?
+Is photography or video recording strictly prohibited?	사진 촬영이나 영상 녹화는 엄격히 금지되나요?
+Are there late-night screenings on weekends?	주말 심야 상영이 있나요?
+Can I upgrade my ticket to a premium seat?	프리미엄 좌석으로 티켓을 업그레이드할 수 있나요?
+What happens if I lose my ticket?	티켓을 분실하면 어떻게 되나요?
+Are there themed movie nights or special screenings?	테마 영화의 밤이나 특별 상영이 있나요?
+Do you host Q&A sessions with directors or actors?	감독이나 배우와의 질의응답 시간이 있나요?
+Can I use a gift card or voucher to purchase tickets?	기프트 카드나 바우처로 티켓을 구매할 수 있나요?
+How can I subscribe to movie alerts or newsletters?	영화 알림이나 뉴스레터를 구독하려면 어떻게 하나요?
+Is there a mobile app for checking schedules and booking?	시간표 확인 및 예매를 위한 모바일 앱이 있나요?
+Are lost and found items handled at the box office?	분실물은 매표소에서 처리하나요?
+Can I bring a blanket or cushion for extra comfort?	더 편하게 보기 위해 담요나 쿠션을 가져와도 되나요?
+Is it possible to rent out the theater for a private event?	영화관 전체를 대여해 개인 행사를 열 수 있나요?

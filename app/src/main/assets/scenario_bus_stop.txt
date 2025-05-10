@@ -1,0 +1,49 @@
+Where can I find the nearest bus stop?	가장 가까운 버스 정류장은 어디에 있나요?
+Which bus goes to the city center from here?	여기서 시내 중심가로 가는 버스는 어떤 것인가요?
+What time does the last bus depart from this stop?	이 정류장에서 마지막 버스는 몇 시에 출발하나요?
+Is there a bus schedule posted nearby?	근처에 버스 시간표가 게시되어 있나요?
+Do I need exact change to ride the bus?	버스를 타려면 잔돈이 정확해야 하나요?
+Where can I buy a bus pass or ticket?	버스 패스나 티켓은 어디에서 살 수 있나요?
+Can I pay the fare with a credit card?	요금을 신용카드로 결제할 수 있나요?
+Does this bus stop serve express routes?	이 정류장은 급행 노선을 운행하나요?
+How often do the buses arrive at this stop?	이 정류장에는 버스가 얼마나 자주 오나요?
+Is there a night bus service available from here?	여기서 출발하는 심야 버스가 있나요?
+Which platform does bus number 42 leave from?	42번 버스는 어떤 승강장에서 출발하나요?
+How long does it take to get to the airport by bus?	버스로 공항까지 가는 데 얼마나 걸리나요?
+Is this the right direction for northbound buses?	북쪽 방향으로 가는 버스는 이 방향이 맞나요?
+Are there any detours or route changes today?	오늘 노선 변경이나 우회가 있나요?
+Is this bus wheelchair accessible?	이 버스는 휠체어 접근이 가능한가요?
+Can I bring a stroller or bicycle on the bus?	유모차나 자전거를 버스에 가지고 탈 수 있나요?
+Do buses run on weekends and public holidays?	주말이나 공휴일에도 버스가 운행되나요?
+Is there a mobile app to track the bus in real time?	버스를 실시간으로 추적할 수 있는 모바일 앱이 있나요?
+What is the next stop after this one?	이 정류장 다음은 어디인가요?
+Can I transfer to another line using the same ticket?	같은 티켓으로 다른 노선으로 환승할 수 있나요?
+Is this bus going to stop at the university?	이 버스는 대학교에 정차하나요?
+Are there student discounts available for bus fares?	버스 요금에 학생 할인이 있나요?
+I accidentally got off at the wrong stop.	실수로 잘못된 정류장에서 내렸습니다.
+Do I need to press the stop button before getting off?	내리기 전에 정차 버튼을 눌러야 하나요?
+Where can I find a route map for this bus line?	이 버스 노선의 노선도를 어디에서 볼 수 있나요?
+Is the next bus delayed?	다음 버스가 지연되고 있나요?
+How can I file a complaint about a missed bus?	버스를 놓친 것에 대해 어떻게 불만을 제기할 수 있나요?
+Can I bring luggage with me on the bus?	버스에 짐을 가지고 탈 수 있나요?
+Is this stop safe to wait at during the night?	야간에 이 정류장에서 기다려도 안전한가요?
+Does the bus go directly, or are there multiple stops?	이 버스는 직행인가요, 아니면 여러 정류장을 거치나요?
+Where does this bus route end?	이 버스 노선의 종점은 어디인가요?
+Are pets allowed on the bus if they are in a carrier?	이동장에 넣은 반려동물은 버스에 탈 수 있나요?
+Can I use a contactless transit card on this bus?	이 버스에서 교통카드를 사용할 수 있나요?
+Is there an announcement system for upcoming stops?	다음 정류장을 알려주는 방송 시스템이 있나요?
+Are there reserved seats for elderly or disabled passengers?	노약자나 장애인을 위한 지정 좌석이 있나요?
+Can I check how crowded the next bus is before boarding?	탑승 전에 다음 버스의 혼잡도를 확인할 수 있나요?
+Where should I wait if I missed my bus?	버스를 놓쳤을 경우 어디에서 기다려야 하나요?
+How do I signal the bus driver to stop?	버스 운전사에게 정차 요청을 어떻게 하나요?
+Does the bus operate during bad weather conditions?	악천후에도 버스가 운행되나요?
+Is this bus part of the city's public transportation system?	이 버스는 시 공공교통 시스템에 속하나요?
+Can I use this ticket for multiple rides within the same day?	이 티켓으로 하루 동안 여러 번 탈 수 있나요?
+Are there multilingual signs or announcements on the bus?	버스 내에 다국어 안내 표지나 방송이 있나요?
+Where can I recharge my transit card?	교통카드를 어디에서 충전할 수 있나요?
+Are there any tourist passes that include bus travel?	버스 이용이 포함된 관광 패스가 있나요?
+Is standing allowed during peak hours?	혼잡 시간대에는 서서 타도 되나요?
+Do I need to validate my ticket before boarding?	승차 전에 티켓을 확인해야 하나요?
+Can I sit anywhere, or are there assigned seats?	아무 데나 앉아도 되나요, 아니면 지정 좌석인가요?
+What is the penalty for riding without a valid ticket?	유효한 티켓 없이 탑승할 경우 벌금은 얼마인가요?
+Is this the express or the local version of the route?	이 노선은 급행인가요, 일반 노선인가요?

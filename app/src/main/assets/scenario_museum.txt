@@ -1,0 +1,50 @@
+I would like to purchase a ticket for the museum.	박물관 입장권을 구매하고 싶습니다.
+Are there any discounts for students or seniors?	학생이나 노인을 위한 할인이 있나요?
+Is there a guided tour available in English?	영어로 진행되는 가이드 투어가 있나요?
+What time does the next tour begin?	다음 투어는 몇 시에 시작하나요?
+How long does the average visit take?	평균 관람 소요 시간은 얼마나 되나요?
+Is photography allowed inside the museum?	박물관 내부에서 사진 촬영이 가능한가요?
+Are flash or tripod photography prohibited?	플래시나 삼각대 사용은 금지되어 있나요?
+Where can I find the museum map or floor guide?	박물관 지도나 층별 안내는 어디에서 구할 수 있나요?
+Which exhibitions are currently on display?	현재 전시 중인 전시는 무엇인가요?
+Do you have any temporary or special exhibitions?	임시 전시나 특별 전시가 있나요?
+Is the museum suitable for children or families?	이 박물관은 아이들이나 가족에게 적합한가요?
+Are there any interactive or hands-on exhibits?	직접 체험할 수 있는 전시물이 있나요?
+Do you have audio guides or mobile app tours?	오디오 가이드나 모바일 앱 투어가 있나요?
+Is the museum accessible to people with disabilities?	장애인이 접근 가능한 시설이 갖춰져 있나요?
+Are wheelchairs available for visitors?	방문객을 위한 휠체어가 구비되어 있나요?
+Can I leave my backpack or coat at the cloakroom?	가방이나 코트를 보관소에 맡길 수 있나요?
+Where are the restrooms located?	화장실은 어디에 있나요?
+Is there a café or restaurant inside the museum?	박물관 안에 카페나 레스토랑이 있나요?
+Can I re-enter the museum with my ticket?	입장권으로 재입장이 가능한가요?
+Are group visits or school tours available?	단체 관람이나 학교 견학이 가능한가요?
+How do I book a visit for a large group?	대규모 단체 방문은 어떻게 예약하나요?
+Do you have programs or workshops for children?	어린이를 위한 프로그램이나 워크숍이 있나요?
+Can I attend a lecture or special event today?	오늘 강연이나 특별 행사에 참석할 수 있나요?
+Is there a membership program for frequent visitors?	자주 오는 방문객을 위한 멤버십 프로그램이 있나요?
+Do members receive invitations to private previews?	회원은 사전 공개 행사에 초대되나요?
+Where is the gift shop or museum store located?	기념품 가게나 박물관 상점은 어디에 있나요?
+Do you sell exhibition catalogs or museum publications?	전시 도록이나 박물관 간행물을 판매하나요?
+Can I purchase replicas or art prints of the exhibits?	전시품의 복제품이나 아트 프린트를 구매할 수 있나요?
+Is there a lost and found in case I misplace something?	물건을 잃어버렸을 경우 분실물 센터가 있나요?
+Can I request information about a specific artwork?	특정 작품에 대한 정보를 요청할 수 있나요?
+Is this artifact an original or a reproduction?	이 유물은 진품인가요, 복제품인가요?
+What is the historical context of this exhibit?	이 전시품의 역사적 배경은 무엇인가요?
+Could you tell me more about the artist who made this?	이 작품을 만든 작가에 대해 더 알려주실 수 있나요?
+Where can I learn more about the museum’s collection?	박물관 소장품에 대해 더 알아보려면 어디로 가야 하나요?
+Do you offer any volunteer or internship opportunities?	자원봉사나 인턴십 기회가 있나요?
+Are donations accepted to support the museum?	박물관을 위한 기부를 받을 수 있나요?
+Can I host a private event or reception at the museum?	박물관에서 개인 행사를 개최할 수 있나요?
+Are there any rules for sketching or taking notes inside?	안에서 스케치하거나 필기할 때 지켜야 할 규칙이 있나요?
+Do you have exhibits related to local history or culture?	지역 역사나 문화와 관련된 전시가 있나요?
+Are there multilingual labels or translations available?	다국어 설명이나 번역이 제공되나요?
+Can I subscribe to your newsletter for updates?	소식을 받기 위해 뉴스레터를 구독할 수 있나요?
+Is Wi-Fi available for guests inside the museum?	박물관 내부에 방문객용 와이파이가 제공되나요?
+What is your policy regarding children under a certain age?	특정 연령 이하의 아동에 대한 정책은 어떻게 되나요?
+Do you have lockers or storage for large items?	부피가 큰 물건을 보관할 수 있는 사물함이 있나요?
+Is this museum part of a city-wide pass or cultural program?	이 박물관은 시티 패스나 문화 프로그램에 포함되나요?
+What days is the museum closed during the year?	박물관은 연중 어떤 날에 휴관하나요?
+Can I give feedback about my visit or the exhibitions?	관람이나 전시에 대한 피드백을 남길 수 있나요?
+Do you collaborate with schools or educational institutions?	학교나 교육 기관과 협력하시나요?
+Where can I find information about upcoming exhibitions?	다가오는 전시에 대한 정보를 어디에서 찾을 수 있나요?
+Can I bring a sketchbook or camera into the exhibit halls?	전시관 안으로 스케치북이나 카메라를 가져갈 수 있나요?

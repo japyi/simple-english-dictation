@@ -1,0 +1,50 @@
+I would like to inquire about the undergraduate admission process.	학부 입학 절차에 대해 문의하고 싶습니다.
+What are the minimum GPA and test score requirements?	GPA 및 시험 점수 최소 기준은 어떻게 되나요?
+Do you accept international students, and what are the requirements?	국제 학생을 받나요, 필요한 조건은 무엇인가요?
+Can I apply for multiple majors or programs at once?	한 번에 여러 전공이나 프로그램에 지원할 수 있나요?
+Is there an application fee, and can it be waived?	지원 수수료가 있나요, 면제받을 수 있나요?
+What documents are required for the application package?	지원서류에는 어떤 것이 포함되나요?
+When is the application deadline for the fall semester?	가을 학기 지원 마감일은 언제인가요?
+Do you offer early decision or early action options?	얼리 디시전이나 얼리 액션 제도가 있나요?
+Can I defer my admission to a later semester?	입학을 다음 학기로 연기할 수 있나요?
+Is there an orientation program for new students?	신입생 오리엔테이션 프로그램이 있나요?
+Where can I find a list of available courses for my major?	제 전공의 개설 과목 목록은 어디에서 확인할 수 있나요?
+Do you have academic advisors or counselors for course planning?	수강 계획을 위한 학업 상담 교사가 있나요?
+Can I change my major after enrolling in the university?	입학 후 전공을 변경할 수 있나요?
+Are there any double major or minor options available?	복수 전공이나 부전공을 선택할 수 있나요?
+How do I register for classes each semester?	매 학기 수강 신청은 어떻게 하나요?
+What is the grading policy and GPA scale used here?	이 학교의 성적 평가 기준과 GPA 체계는 어떻게 되나요?
+Are online or hybrid courses available for my program?	제 전공에 온라인 또는 혼합 수업이 제공되나요?
+What is the average class size for undergraduate courses?	학부 수업의 평균 수강 인원은 어떻게 되나요?
+Are lectures recorded and available for review?	강의가 녹화되어 다시 볼 수 있나요?
+Is class attendance mandatory or flexible?	출석은 필수인가요, 아니면 자율적인가요?
+Do you offer academic support such as tutoring or writing centers?	튜터링이나 작문 센터 같은 학습 지원 서비스가 있나요?
+Where is the university library and how can I borrow materials?	도서관은 어디에 있고, 자료는 어떻게 대출하나요?
+Can I use interlibrary loan services to access other collections?	타 학교 도서관 자료를 대출할 수 있는 서비스가 있나요?
+Are there computer labs or printing services for students?	학생을 위한 컴퓨터실이나 인쇄 서비스가 있나요?
+How do I apply for on-campus housing or dormitories?	기숙사 신청은 어떻게 하나요?
+Are there different types of dormitory rooms available?	기숙사에는 다양한 유형의 방이 있나요?
+Is meal service included in the housing plan?	기숙사 식사는 포함되어 있나요?
+Are there off-campus housing resources or support?	교외 주거 정보나 지원이 제공되나요?
+Do you offer scholarships or financial aid for students?	학생을 위한 장학금이나 재정 지원이 있나요?
+How do I apply for need-based or merit-based scholarships?	필요 기반 또는 성적 기반 장학금은 어떻게 신청하나요?
+Are there part-time job opportunities on campus?	교내 아르바이트 기회가 있나요?
+Can international students work while studying here?	유학생도 재학 중에 일을 할 수 있나요?
+Do you have internship or career placement services?	인턴십이나 취업 연계 서비스를 제공하시나요?
+Where can I get help writing my resume or preparing for interviews?	이력서 작성이나 면접 준비는 어디서 도움받을 수 있나요?
+What kind of student clubs or organizations can I join?	가입할 수 있는 학생 동아리나 단체에는 어떤 것이 있나요?
+Is there a student government or leadership program?	학생회나 리더십 프로그램이 있나요?
+Do you offer study abroad or exchange programs?	해외 교환학생이나 유학 프로그램이 있나요?
+What is the process for transferring credits from another institution?	다른 학교의 학점을 이관하려면 어떤 절차가 필요한가요?
+Is health insurance mandatory for all enrolled students?	모든 재학생에게 건강 보험이 의무화되어 있나요?
+Where is the student health center and what services are provided?	학생 보건센터는 어디에 있고 어떤 서비스를 제공하나요?
+Are there mental health resources or counseling services available?	정신 건강 상담이나 심리 지원 서비스가 제공되나요?
+What safety measures are in place on campus?	캠퍼스 내 보안 조치는 어떻게 되어 있나요?
+How do I report a lost item or a safety concern?	분실물이나 안전 문제를 신고하려면 어떻게 해야 하나요?
+Is public transportation easily accessible from the campus?	캠퍼스에서 대중교통을 쉽게 이용할 수 있나요?
+Are there parking permits available for student vehicles?	학생 차량을 위한 주차 허가증이 발급되나요?
+Do you have a campus app or portal for announcements and updates?	공지사항과 업데이트를 확인할 수 있는 캠퍼스 앱이나 포털이 있나요?
+How can I request official transcripts or enrollment verification?	성적표나 재학 증명서를 어떻게 발급받을 수 있나요?
+Can I schedule a campus tour before applying?	입학 지원 전 캠퍼스 투어를 예약할 수 있나요?
+Where can I get help with academic appeals or petitions?	학사 관련 이의 제기나 청원은 어디에서 도움받을 수 있나요?
+Who should I contact if I have more questions about the university?	학교 관련 추가 질문은 누구에게 문의해야 하나요?

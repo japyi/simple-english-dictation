@@ -1,0 +1,49 @@
+I would like to make a reservation for two at 7 p.m.	오후 7시에 두 명 예약하고 싶습니다.
+Do you have any available tables for this evening?	오늘 저녁에 가능한 자리가 있나요?
+Could we sit by the window if possible?	가능하다면 창가 자리로 안내해 주실 수 있나요?
+How long is the expected wait time for a table?	테이블 대기 시간은 얼마나 되나요?
+Is there a dress code at this restaurant?	이 식당에는 복장 규정이 있나요?
+May I see the menu, please?	메뉴판을 볼 수 있을까요?
+Do you have a tasting menu or set course options?	테이스팅 메뉴나 코스 요리가 있나요?
+Could you explain the chef’s special for today?	오늘의 셰프 추천 요리를 설명해 주시겠어요?
+Do you offer vegetarian or vegan options?	채식주의자나 비건을 위한 메뉴가 있나요?
+Are there any gluten-free dishes available?	글루텐 프리 요리가 있나요?
+Do you have a separate menu for allergies or dietary restrictions?	알레르기나 식이 제한이 있는 손님을 위한 별도 메뉴가 있나요?
+What ingredients are used in this dish?	이 요리에 어떤 재료가 들어가 있나요?
+How spicy is this dish on a scale from one to ten?	이 요리는 맵기 정도가 1에서 10 중 어느 정도인가요?
+Can I request this dish to be made less spicy?	이 요리를 덜 맵게 조리해 주실 수 있나요?
+Could I substitute the side dish with something else?	사이드 메뉴를 다른 것으로 바꿀 수 있나요?
+Do your meats come cooked to order?	고기 요리는 굽기 정도를 선택할 수 있나요?
+I would like my steak medium rare, please.	스테이크는 미디엄 레어로 부탁드립니다.
+What kind of wine pairs well with this entrée?	이 메인 요리와 잘 어울리는 와인은 어떤 것이 있나요?
+Do you offer a wine or beverage pairing service?	와인 또는 음료 페어링 서비스를 제공하시나요?
+Is there a corkage fee if I bring my own wine?	제가 와인을 가져오면 콜키지 비용이 있나요?
+Do you have any non-alcoholic signature drinks?	논알콜 시그니처 음료가 있나요?
+Can I order this dish without onions or garlic?	이 요리에서 양파나 마늘을 빼고 주문할 수 있나요?
+We would like to share a few dishes among the table.	저희는 몇 가지 음식을 함께 나눠 먹고 싶습니다.
+Could we have separate checks for our group?	저희 일행은 각자 계산할 수 있을까요?
+May I add a note for a birthday celebration?	생일 축하 메시지를 추가할 수 있을까요?
+Do you offer any desserts made in-house?	직접 만든 디저트가 있나요?
+What is your most popular dessert?	가장 인기 있는 디저트는 무엇인가요?
+Could we see the dessert menu, please?	디저트 메뉴판을 보여주시겠어요?
+I am allergic to nuts. Are any desserts nut-free?	저는 견과류 알레르기가 있는데, 견과류가 없는 디저트가 있나요?
+Is gratuity included in the bill?	계산서에 봉사료가 포함되어 있나요?
+Do you accept credit cards or only cash?	신용카드도 받으시나요, 아니면 현금만 가능한가요?
+Can I pay using contactless or mobile payment?	비접촉식이나 모바일 결제로 결제할 수 있나요?
+Could we split the bill evenly between three people?	세 명이서 계산서를 균등하게 나눌 수 있을까요?
+May I receive an itemized receipt for business purposes?	업무용으로 세부 항목이 기재된 영수증을 받을 수 있을까요?
+Can I take the rest of this to go, please?	남은 음식을 포장해 주실 수 있나요?
+Do you use eco-friendly or compostable containers for takeout?	포장 용기는 친환경 또는 퇴비화 가능한 재질인가요?
+Is there a parking area or valet service available?	주차 공간이나 발렛 서비스가 있나요?
+Do you offer outdoor seating or rooftop dining?	야외 좌석이나 루프탑 다이닝이 있나요?
+Are pets allowed in the outdoor dining area?	야외 좌석에는 반려동물 동반이 가능한가요?
+Is this restaurant wheelchair accessible?	이 식당은 휠체어 접근이 가능한가요?
+Do you take reservations online or only by phone?	온라인 예약이 가능한가요, 아니면 전화만 가능한가요?
+Can I join a waitlist if the restaurant is fully booked?	예약이 모두 찼을 경우 대기 명단에 이름을 올릴 수 있나요?
+Do you host private events or large group bookings?	개인 행사나 대규모 단체 예약이 가능한가요?
+Is there a noise level policy for private gatherings?	단체 모임 시 소음 관련 규정이 있나요?
+Are there seasonal menus or chef’s tasting nights?	계절별 메뉴나 셰프 테이스팅 데이가 있나요?
+Do you source ingredients locally or organically?	재료는 지역산이나 유기농 제품을 사용하시나요?
+Is tipping expected or appreciated at this establishment?	이곳에서는 팁을 주는 것이 일반적인가요?
+Can I leave feedback or a review about my dining experience?	식사 경험에 대한 피드백이나 후기를 남길 수 있나요?
+Is there a manager I can speak to regarding a special request?	특별 요청 사항에 대해 매니저와 이야기할 수 있을까요?

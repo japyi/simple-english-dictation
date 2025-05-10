@@ -1,0 +1,50 @@
+Where can I check in for my campsite reservation?	캠핑장 예약 체크인은 어디에서 하나요?
+Do I need a permit to camp in this area?	이 지역에서 캠핑하려면 허가증이 필요한가요?
+Is this campground open year-round or only seasonally?	이 캠핑장은 연중 내내 운영되나요, 아니면 계절 운영인가요?
+Are there designated areas for tents and RVs?	텐트와 캠핑카를 위한 지정 구역이 따로 있나요?
+Can I choose my own campsite or is one assigned to me?	사이트를 직접 선택할 수 있나요, 아니면 지정되나요?
+Are there any fire restrictions currently in place?	현재 화재 제한이 있나요?
+Is firewood available for purchase on site?	현장에서 장작을 구입할 수 있나요?
+Can I bring my own firewood or must it be purchased here?	장작을 직접 가져와도 되나요, 아니면 여기서만 구입해야 하나요?
+Is it permitted to build a campfire at my site?	내 사이트에서 모닥불을 피워도 되나요?
+Are there quiet hours at this campground?	이 캠핑장에 정해진 소음 제한 시간이 있나요?
+Where are the nearest restrooms and showers?	가장 가까운 화장실과 샤워장은 어디에 있나요?
+Are the showers coin-operated or free of charge?	샤워기는 유료인가요, 무료인가요?
+Is there access to potable drinking water?	식수가 제공되나요?
+Can I hook up to electricity at my campsite?	캠핑 사이트에서 전기를 사용할 수 있나요?
+Is there a dumping station for RV waste disposal?	RV 오수 처리를 위한 덤프 스테이션이 있나요?
+Are there any hiking trails that start near the campground?	캠핑장 근처에서 시작되는 하이킹 코스가 있나요?
+Do you offer maps of the surrounding trails or park area?	주변 하이킹 코스나 공원 지도를 제공하시나요?
+Are there any dangerous animals I should be aware of?	주의해야 할 위험한 야생동물이 있나요?
+What should I do if I encounter a bear or other wildlife?	곰이나 야생동물을 마주쳤을 때 어떻게 해야 하나요?
+Are food storage lockers or bear-proof containers provided?	음식 보관용 사물함이나 곰 침입 방지용 보관함이 있나요?
+Can I bring my pet to the campground?	반려동물을 캠핑장에 데려와도 되나요?
+Are pets allowed off-leash or must they be restrained at all times?	반려동물을 풀어놔도 되나요, 아니면 항상 묶어놔야 하나요?
+Is there a curfew or closing time for entering the campground?	캠핑장 출입 마감 시간이 있나요?
+Do I need to vacate the site by a certain checkout time?	지정된 체크아웃 시간까지 자리를 비워야 하나요?
+Is there a store nearby for basic supplies or food?	기본 물품이나 음식을 살 수 있는 매장이 근처에 있나요?
+Do you offer equipment rentals such as tents or cooking gear?	텐트나 취사용 장비를 대여하나요?
+Are group campsites available for larger parties?	대규모 인원을 위한 단체 캠핑 사이트가 있나요?
+Can I extend my stay if my site is still available?	사이트가 비어 있다면 숙박을 연장할 수 있나요?
+Are there any activities or ranger programs scheduled this week?	이번 주에 예정된 활동이나 레인저 프로그램이 있나요?
+Is fishing allowed in the nearby lake or river?	근처 호수나 강에서 낚시가 가능한가요?
+Do I need a separate license or permit for fishing?	낚시를 하려면 별도의 허가증이 필요한가요?
+Are campfires allowed during fire danger season?	화재 위험 기간에도 모닥불이 허용되나요?
+Is there cell phone reception or Wi-Fi in the area?	이 지역에 휴대전화 신호나 와이파이가 있나요?
+Can I charge my devices somewhere on site?	현장에서 기기를 충전할 수 있나요?
+Are there any safety protocols in case of severe weather?	악천후 시 안전 지침이 있나요?
+Where can I dispose of trash and recycling?	쓰레기와 재활용품은 어디에 버리나요?
+Do you have bear safety tips for campers?	캠핑객을 위한 곰 안전 수칙이 있나요?
+Are drones allowed in this area?	이 지역에서 드론을 사용할 수 있나요?
+Can I collect firewood from the forest floor?	숲에서 떨어진 나무를 주워도 되나요?
+Are there noise restrictions for playing music or generators?	음악이나 발전기 사용에 대한 소음 제한이 있나요?
+Is swimming allowed in the nearby lake or river?	근처 호수나 강에서 수영할 수 있나요?
+Do I need to make a reservation in advance, or can I walk in?	사전 예약이 필요한가요, 아니면 현장 접수도 가능한가요?
+Is this a family-friendly campground with facilities for children?	이곳은 가족 단위 캠핑에 적합한 시설이 있나요?
+Can I use a portable grill or stove at my site?	휴대용 그릴이나 스토브를 사용할 수 있나요?
+Is alcohol consumption allowed at campsites?	캠핑장에서 술을 마셔도 되나요?
+Are there any emergency numbers or ranger contact info posted?	비상 연락처나 레인저 연락처가 게시되어 있나요?
+Can I check the weather forecast at the ranger station?	레인저 사무소에서 날씨 정보를 확인할 수 있나요?
+Do you provide first aid or emergency medical assistance?	응급 처치나 긴급 의료 지원을 제공하나요?
+Is early check-in or late checkout available upon request?	요청 시 얼리 체크인이나 레이트 체크아웃이 가능한가요?
+What should I do in case of a forest fire?	산불이 발생했을 경우 어떻게 해야 하나요?

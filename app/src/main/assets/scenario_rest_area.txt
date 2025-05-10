@@ -1,0 +1,50 @@
+Is this a public rest area or part of a toll road?	이곳은 공공 휴게소인가요, 아니면 유료 도로 구간의 일부인가요?
+Are there any food courts or restaurants available here?	이곳에 푸드코트나 레스토랑이 있나요?
+What time do the food stalls or cafes close?	음식점이나 카페는 몇 시에 문을 닫나요?
+Do you have vegetarian or halal meal options?	채식이나 할랄 식사 옵션이 있나요?
+Where is the nearest coffee shop or convenience store?	가장 가까운 커피숍이나 편의점은 어디에 있나요?
+Are there vending machines with drinks or snacks?	음료나 간식이 있는 자판기가 있나요?
+Is there a separate area for truck drivers to rest?	트럭 운전자를 위한 별도의 휴게 공간이 있나요?
+Do you have restrooms with accessible facilities?	장애인 이용이 가능한 화장실이 있나요?
+Where can I find baby changing stations or family restrooms?	아기 기저귀 교환대나 가족 화장실은 어디에 있나요?
+Are there shower facilities or private stalls available?	샤워 시설이나 개인 샤워 칸이 있나요?
+Do you offer coin-operated massage chairs or relaxation zones?	유료 안마 의자나 휴식 공간이 있나요?
+Is there a map showing nearby attractions or routes?	주변 관광지나 경로가 표시된 지도가 있나요?
+Can I get a printed road map or tourist brochure here?	인쇄된 도로 지도나 관광 브로셔를 받을 수 있나요?
+Are there any cultural displays or local product shops?	문화 전시나 지역 특산물 매장이 있나요?
+Do you sell souvenirs or regional snacks?	기념품이나 지역 간식을 판매하시나요?
+Where can I buy fuel or check tire pressure?	주유하거나 타이어 공기압을 점검할 수 있는 곳은 어디인가요?
+Is there an electric vehicle charging station on site?	이곳에 전기차 충전소가 있나요?
+Do you offer car maintenance or emergency roadside assistance?	차량 정비나 긴급 출동 서비스를 제공하시나요?
+Can I get my windshield cleaned or washer fluid refilled here?	앞유리 청소나 워셔액 보충을 받을 수 있나요?
+Where can I find a recycling or trash disposal station?	재활용품이나 쓰레기 버리는 곳은 어디에 있나요?
+Is overnight parking allowed in this area?	이곳에서 밤샘 주차가 가능한가요?
+Are there surveillance cameras or on-site security staff?	감시 카메라나 보안 요원이 있나요?
+Is this area considered safe for solo travelers or families?	이곳은 혼자 여행하거나 가족이 이용하기에 안전한가요?
+Where can I report a lost item or ask for assistance?	분실물 신고나 도움 요청은 어디에서 할 수 있나요?
+Do you have a lost and found counter?	분실물 센터가 있나요?
+Is there a pet relief area or dog-friendly space?	반려견 전용 공간이나 배변 구역이 있나요?
+Are pets allowed inside the buildings or dining areas?	건물 안이나 식사 공간에 반려동물을 데려갈 수 있나요?
+Where is the designated smoking area located?	지정된 흡연 구역은 어디에 있나요?
+Do you offer free Wi-Fi throughout the rest stop?	휴게소 전역에서 무료 와이파이를 사용할 수 있나요?
+Are there any mobile charging stations or USB ports?	휴대폰 충전소나 USB 포트가 있나요?
+Can I use credit cards or is it cash only?	신용카드 사용이 가능한가요, 아니면 현금만 되나요?
+Do you accept mobile payments like Apple Pay or Google Pay?	애플페이나 구글페이 같은 모바일 결제를 받나요?
+Is there an ATM or currency exchange service available?	ATM이나 환전 서비스가 있나요?
+Do you have weather updates or road condition information?	날씨나 도로 상황 정보를 제공하나요?
+Can I check traffic updates before continuing my trip?	여행을 계속하기 전에 교통 상황을 확인할 수 있나요?
+Is there a first aid station or emergency contact point?	응급 처치소나 긴급 연락처 안내소가 있나요?
+Can I rest in my car overnight, or is it prohibited?	차 안에서 밤새 머물 수 있나요, 아니면 금지되어 있나요?
+Are there noise restrictions during nighttime hours?	야간에 소음 제한이 있나요?
+Is there a picnic area or open seating for outdoor meals?	야외 식사를 위한 피크닉 공간이나 좌석이 있나요?
+Do you provide umbrellas or covered seating during rain?	비 오는 날 사용할 수 있는 우산이나 덮개가 있는 좌석이 있나요?
+Are there charging stations for laptops or other electronics?	노트북이나 전자기기용 충전소가 있나요?
+Do you offer prayer rooms or meditation spaces?	기도실이나 명상 공간이 있나요?
+Are there designated areas for bus or group tour parking?	버스나 단체 관광객을 위한 전용 주차 구역이 있나요?
+Can I leave feedback or suggestions about this facility?	이 시설에 대한 피드백이나 제안을 남길 수 있나요?
+Do you post announcements about road closures or construction?	도로 폐쇄나 공사에 대한 공지를 하고 있나요?
+Is there a time limit for how long I can stay parked here?	여기 주차할 수 있는 시간 제한이 있나요?
+Can I rent a bicycle or scooter at this rest stop?	이 휴게소에서 자전거나 스쿠터를 대여할 수 있나요?
+Are there walking trails or scenic lookouts nearby?	근처에 산책로나 전망대가 있나요?
+Do you provide information about accommodations nearby?	근처 숙박 시설에 대한 정보를 제공하시나요?
+Is there a family zone or children's play area?	가족 전용 구역이나 어린이 놀이 공간이 있나요?

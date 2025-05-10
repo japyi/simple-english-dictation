@@ -1,0 +1,49 @@
+I would like to schedule a dental appointment.	치과 진료 예약을 하고 싶습니다.
+Is the doctor available for a consultation this week?	이번 주에 상담 가능한 의사 선생님이 계신가요?
+What types of dental services do you provide?	어떤 종류의 치과 진료 서비스를 제공하시나요?
+Do I need a referral to see a specialist?	전문의에게 진료받으려면 진료 의뢰서가 필요한가요?
+I have a persistent toothache that needs attention.	계속되는 치통이 있어서 진료를 받고 싶습니다.
+Could you please examine this swollen gum area?	이 부어오른 잇몸을 봐 주시겠어요?
+Do you offer emergency dental services?	응급 치과 진료가 가능한가요?
+How long is the wait time for walk-in patients?	현장 접수 환자의 대기 시간은 얼마나 되나요?
+Is there a fee for the initial consultation?	초진 상담에 비용이 발생하나요?
+Can I receive a second opinion on my diagnosis?	진단에 대해 다른 의사의 소견을 들을 수 있을까요?
+What are the available treatment options for this condition?	이 상태에 대해 가능한 치료 방법은 무엇인가요?
+Do you perform root canal treatments here?	이곳에서 신경 치료를 하시나요?
+How many visits are required for a dental crown?	치관 치료는 몇 번 방문해야 하나요?
+Can I get a breakdown of the treatment costs?	치료 비용 내역서를 받을 수 있나요?
+Are payment plans or financing options available?	분할 납부나 금융 옵션이 있나요?
+Does your clinic accept my dental insurance?	이 병원은 제 치과 보험을 받나요?
+What is covered under my insurance for this procedure?	이 시술에 대해 제 보험에서 보장되는 것은 무엇인가요?
+Can I get a receipt for reimbursement purposes?	보험 청구용 영수증을 받을 수 있을까요?
+Do you provide treatment for sensitive teeth?	이가 시린 증상도 치료하나요?
+Are sedation or anesthesia options available for anxious patients?	불안한 환자를 위한 진정제나 마취 옵션이 있나요?
+Can I get my teeth professionally cleaned today?	오늘 전문적인 스케일링을 받을 수 있을까요?
+Do you offer teeth whitening treatments?	치아 미백 시술도 제공하나요?
+Are digital X-rays used at this clinic?	이 치과에서는 디지털 엑스레이를 사용하나요?
+Is it safe to get dental X-rays while pregnant?	임신 중에도 치과 엑스레이를 찍어도 괜찮은가요?
+Can I receive a copy of my dental records?	치과 진료 기록을 복사받을 수 있나요?
+What is your policy for missed or late appointments?	예약을 놓치거나 늦을 경우의 정책은 어떻게 되나요?
+How can I reschedule my appointment?	예약을 변경하려면 어떻게 해야 하나요?
+Are weekend or evening appointments available?	주말이나 저녁 시간에도 예약이 가능한가요?
+Do you have pediatric dentists for children?	소아 치과 전문의가 계신가요?
+My child is nervous. Can we schedule a gentle first visit?	제 아이가 긴장하고 있어서 부드러운 첫 진료를 예약할 수 있을까요?
+Are there orthodontic services such as braces or aligners?	교정 치료나 투명 교정 장치도 제공하시나요?
+What is the estimated duration of orthodontic treatment?	교정 치료는 예상 기간이 얼마나 되나요?
+Do you perform wisdom tooth extractions here?	이곳에서 사랑니 발치를 하시나요?
+Is swelling normal after an extraction?	발치 후 붓는 것은 정상인가요?
+Can you check if I have signs of gum disease?	제가 잇몸 질환 증상이 있는지 확인해 주시겠어요?
+What should I do if my dental filling falls out?	충전물이 빠졌을 경우 어떻게 해야 하나요?
+Do you offer cosmetic procedures like veneers?	라미네이트 같은 미용 시술도 제공하시나요?
+Is it possible to correct a chipped or cracked tooth?	깨지거나 금이 간 치아를 치료할 수 있나요?
+Can I eat right after this treatment?	이 치료 후 바로 식사해도 괜찮은가요?
+How often should I get a dental checkup?	치과 정기 검진은 얼마나 자주 받아야 하나요?
+What oral hygiene products do you recommend?	추천하시는 구강 위생 용품이 있나요?
+Are antibacterial mouth rinses effective for my case?	제 경우에는 항균 구강세척제가 효과적인가요?
+Should I use an electric toothbrush or a manual one?	전동 칫솔과 일반 칫솔 중 어느 것이 좋을까요?
+Can you show me proper brushing and flossing techniques?	올바른 칫솔질과 치실 사용법을 보여주실 수 있나요?
+Is bleeding while brushing something to worry about?	양치 중 피가 나는 것은 걱정할 일인가요?
+How can I reduce bad breath caused by dental issues?	치과적 원인으로 인한 입 냄새를 줄이는 방법이 있을까요?
+Are language interpretation services available if needed?	필요할 경우 통역 서비스가 제공되나요?
+Can I fill out medical history forms online before the visit?	방문 전에 온라인으로 병력 기록지를 작성할 수 있나요?
+What COVID-19 safety protocols are currently in place?	현재 시행 중인 코로나19 안전 수칙은 무엇인가요?

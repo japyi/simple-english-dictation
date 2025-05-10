@@ -1,0 +1,49 @@
+What time does the Sunday service begin?	일요일 예배는 몇 시에 시작하나요?
+Is there a midweek service or Bible study I can attend?	참석할 수 있는 주중 예배나 성경 공부가 있나요?
+Are newcomers welcome to join the congregation?	새로 오는 사람도 교회에 참석할 수 있나요?
+Do you have any programs for children or teenagers?	어린이 또는 청소년을 위한 프로그램이 있나요?
+Is there a dress code for attending services?	예배 참석 시 복장 규정이 있나요?
+Can I meet with a pastor or church leader for counseling?	상담을 위해 목사님이나 교회 지도자와 만날 수 있나요?
+Are sermons available online or recorded for later viewing?	설교를 온라인이나 녹화로 볼 수 있나요?
+Do you offer services in other languages?	다른 언어로 된 예배가 있나요?
+How can I get involved in volunteer work or ministry?	봉사나 사역에 참여하려면 어떻게 해야 하나요?
+Is there a membership process for joining the church?	교회에 등록하려면 어떤 절차가 필요한가요?
+Do you offer baptism or confirmation classes?	세례나 견진 성사를 위한 교육이 있나요?
+Can I receive communion if I am not a member?	회원이 아니어도 성찬에 참여할 수 있나요?
+What is the format of a typical worship service?	일반적인 예배 형식은 어떻게 되나요?
+Are offerings or tithes expected during the service?	예배 중에 헌금이나 십일조를 드려야 하나요?
+Is there a secure way to give offerings online?	온라인으로 안전하게 헌금할 수 있는 방법이 있나요?
+Are there small group meetings throughout the week?	주중에 소그룹 모임이 있나요?
+Can I request prayer for a specific concern or need?	특정한 기도 제목을 요청할 수 있나요?
+Where is the church office located, and what are its hours?	교회 사무실은 어디에 있으며 운영 시간은 어떻게 되나요?
+Do you offer premarital or marriage counseling services?	결혼 전 또는 부부 상담 서비스를 제공하나요?
+Are there any events for new members or visitors?	새신자나 방문자를 위한 행사가 있나요?
+Can I bring a guest who does not speak English?	영어를 못하는 손님을 데려와도 되나요?
+Is there a nursery or child care service during worship?	예배 중에 유아 돌봄 서비스가 있나요?
+Do you have youth group meetings or retreats?	청소년 모임이나 수련회가 있나요?
+Is parking available on-site or nearby?	현장이나 근처에 주차 공간이 있나요?
+Are there any outreach programs for the community?	지역 사회를 위한 봉사 프로그램이 있나요?
+What denomination is this church affiliated with?	이 교회는 어떤 교단에 속해 있나요?
+Do you offer Bible classes for beginners or non-believers?	초신자나 비신자를 위한 성경 공부가 있나요?
+How can I receive updates or newsletters from the church?	교회 소식이나 뉴스레터를 받으려면 어떻게 하나요?
+Are musical instruments or choirs part of the service?	예배에 악기 연주나 성가대가 포함되나요?
+Can I participate in the worship team or choir?	예배 팀이나 성가대에 참여할 수 있나요?
+Is the church building accessible for people with disabilities?	장애인을 위한 교회 출입이 가능한가요?
+Can I request a visit from a pastor or ministry leader?	목사님이나 사역자의 방문을 요청할 수 있나요?
+Do you offer funeral or memorial services?	장례식이나 추모 예배를 진행하시나요?
+Are weddings conducted here, and how can I apply?	결혼식을 이곳에서 할 수 있나요? 신청 절차는 어떻게 되나요?
+Is there a program for seniors or retirees?	노인이나 은퇴자를 위한 프로그램이 있나요?
+Can I donate goods or food to the church pantry?	교회 푸드 뱅크에 물품이나 음식을 기부할 수 있나요?
+Is it possible to tour the church before attending a service?	예배 참석 전에 교회를 둘러볼 수 있나요?
+Do you provide interpretation services during sermons?	설교 중 통역 서비스를 제공하시나요?
+How can I sign up for a mission trip or outreach event?	선교 여행이나 봉사 행사에 참여하려면 어떻게 하나요?
+Are there quiet rooms for parents with infants?	아기를 동반한 부모를 위한 조용한 방이 있나요?
+Can I request a Bible in a different translation?	다른 번역본의 성경을 요청할 수 있나요?
+What kind of support is available for those in crisis?	위기 상황에 처한 사람들을 위한 지원이 있나요?
+Are there devotional materials available at the church?	교회에서 묵상 자료를 제공하나요?
+Do you hold special services for holidays or holy days?	명절이나 절기에 특별 예배가 있나요?
+How can I share my testimony or speak during service?	간증하거나 예배 중에 발언하려면 어떻게 해야 하나요?
+Is the church involved in international missions?	이 교회는 해외 선교 활동을 하고 있나요?
+Are donations tax-deductible?	기부금은 세금 공제가 가능한가요?
+What should I do if I arrive late to a service?	예배에 늦게 도착하면 어떻게 해야 하나요?
+Can I request transportation assistance to attend church?	교회에 오기 위한 교통 지원을 요청할 수 있나요?
