@@ -11,7 +11,7 @@
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="📚 연습할 상황을 선택하세요"
+        android:text="📚 연습할 상황을 선택하세요\n(Select a scenario to practice)"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="#222222"

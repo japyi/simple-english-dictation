@@ -16,7 +16,7 @@ class ScenarioSelectActivity : AppCompatActivity() {
         val listView = findViewById<ListView>(R.id.listViewScenarios)
 
         val scenarios = mutableListOf(
-            Scenario("🎲 랜덤으로 듣기", "all")
+            Scenario("🎲 랜덤으로 듣기 (Random Play)", "all")
         ) + loadScenarios()
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, scenarios.map { it.name })

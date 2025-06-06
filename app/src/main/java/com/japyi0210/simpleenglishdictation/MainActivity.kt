@@ -1,6 +1,9 @@
 // MainActivity.kt
 package com.japyi0210.simpleenglishdictation
 
+import android.text.SpannableString
+import android.text.style.StyleSpan
+import android.graphics.Typeface
 import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
@@ -54,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
         scenarioNameMap = loadScenarioNameMap()
         val scenarioKey = intent.getStringExtra("scenario_key") ?: "default"
-        val scenarioTitle = scenarioNameMap[scenarioKey] ?: "기본 시나리오"
+        val scenarioTitle = scenarioNameMap[scenarioKey] ?: "무작위 문장"
 
         val testDeviceIds = listOf("3E446EC9116D91100BED7E1F8658114E")
         val configuration = RequestConfiguration.Builder()
@@ -77,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         val backToScenariosBtn = findViewById<Button>(R.id.button_back_to_scenarios)
         val appInfoBtn = findViewById<Button>(R.id.button_app_info)
         scenarioTitleView = findViewById(R.id.textView_scenario)
-        scenarioTitleView.text = "📘 현재 시나리오: $scenarioTitle"
+        scenarioTitleView.text = "📘 현재 시나리오 (Current Scenario)\n      : $scenarioTitle"
 
         voiceModeGroup = findViewById(R.id.voiceModeGroup)
         radioFixed = findViewById(R.id.radio_fixed)
@@ -87,7 +90,7 @@ class MainActivity : AppCompatActivity() {
         exitBtn.alpha = 0.5f
 
         InterstitialAd.load(this,
-            "ca-app-pub-3940256099942544/1033173712",
+            "ca-app-pub-1872760638277957/9712274803",
             adRequest,
             object : InterstitialAdLoadCallback() {
                 override fun onAdLoaded(ad: InterstitialAd) {
@@ -103,29 +106,35 @@ class MainActivity : AppCompatActivity() {
 
         backToScenariosBtn.setOnClickListener {
             AlertDialog.Builder(this)
-                .setTitle("목차로 이동")
-                .setMessage("정말 목차 화면으로 돌아가시겠습니까?")
-                .setPositiveButton("예") { _, _ ->
+                .setTitle("목차로 이동 (Go to Menu)")
+                .setMessage("정말 목차 화면으로 돌아가시겠습니까?\n(Are you sure you want to go back to the menu?)")
+                .setPositiveButton("예 (Yes)") { _, _ ->
                     val intent = Intent(this, ScenarioSelectActivity::class.java)
                     intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK
                     startActivity(intent)
                     finish()
                 }
-                .setNegativeButton("아니오", null)
+                .setNegativeButton("아니오 (No)", null)
                 .show()
         }
 
         appInfoBtn.setOnClickListener {
             val versionName = packageManager.getPackageInfo(packageName, 0).versionName
+
+            val boldTitle = SpannableString("심플 영어 받아쓰기\n(Simple English Dictation)").apply {
+                setSpan(StyleSpan(Typeface.BOLD), 0, length, 0)
+            }
+
             AlertDialog.Builder(this)
-                .setTitle("심플 영어 받아쓰기")
+                .setTitle(boldTitle)
                 .setMessage("""
-                    버전: $versionName
-                    문의: japyi0210@gmail.com
-                """.trimIndent())
-                .setPositiveButton("확인", null)
+            버전 (Version): $versionName
+            문의 (Contact): japyi0210@gmail.com
+        """.trimIndent())
+                .setPositiveButton("확인 (OK)", null)
                 .show()
         }
+
 
         sentences = loadSentences()
 
@@ -159,7 +168,7 @@ class MainActivity : AppCompatActivity() {
             if (!isSentencePlayed) {
                 val remaining = sentences.filterNot { usedSentences.contains(it) }
                 currentSentence = if (remaining.isEmpty()) {
-                    Toast.makeText(this, "모든 문장을 다 풀었습니다! 다시 시작합니다.", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "모든 문장을 다 풀었습니다! 다시 시작합니다.\n(You've completed all the sentences! Let's start again.)", Toast.LENGTH_SHORT).show()
                     usedSentences.clear()
                     sentences.random()
                 } else {
@@ -183,10 +192,10 @@ class MainActivity : AppCompatActivity() {
             translationView.text = ""
             translationView.visibility = TextView.GONE
 
-            checkBtn.text = "✅ 정답 확인"
+            checkBtn.text = "✅ 정답 확인 (Check Answer)"
             checkBtn.isEnabled = true
             checkBtn.backgroundTintList = ColorStateList.valueOf(Color.parseColor("#00AA77"))
-            playBtn.text = "🎧 문장 다시 듣기"
+            playBtn.text = "🎧 문장 다시 듣기 (Replay)"
 
             lifecycleScope.launch {
                 updateResultWithStats()
@@ -194,7 +203,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         checkBtn.setOnClickListener {
-            if (checkBtn.text == "🔊 다시 듣기") {
+            if (checkBtn.text == "🔊 다시 듣기 (Replay)") {
                 tts.speak(currentSentence.english, TextToSpeech.QUEUE_FLUSH, null, null)
                 return@setOnClickListener
             }
@@ -207,11 +216,12 @@ class MainActivity : AppCompatActivity() {
             val isCorrect = similarity >= 85
 
             val message = when {
-                similarity == 100 -> "⭕️ 정답입니다!"
-                similarity >= 85 -> "🟥 거의 정답이에요! ($similarity% 일치)"
-                else -> "❌ 오답입니다. ($similarity% 일치)"
+                similarity == 100 -> "⭕️ 정답입니다! (Correct!)"
+                similarity >= 85 -> "🟥 거의 정답이에요! (Almost correct!)\n$similarity% 일치 (% Match)"
+                else -> "❌ 오답입니다. (Incorrect.)\n$similarity% 일치 (% Match)"
             }
             resultView.text = message
+            resultView.setTypeface(null, Typeface.BOLD)
             resultView.setTextColor(
                 when {
                     similarity == 100 -> Color.parseColor("#4CAF50")
@@ -232,10 +242,10 @@ class MainActivity : AppCompatActivity() {
             val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
             imm.hideSoftInputFromWindow(input.windowToken, 0)
 
-            checkBtn.text = "🔊 다시 듣기"
+            checkBtn.text = "🔊 다시 듣기 (Replay)"
             checkBtn.isEnabled = true
             checkBtn.backgroundTintList = ColorStateList.valueOf(Color.parseColor("#FFA500"))
-            playBtn.text = "🎧 다음 문장 듣기"
+            playBtn.text = "🎧 다음 문장 듣기 (Next Sentence)"
 
             isSentencePlayed = false
 
@@ -265,9 +275,9 @@ class MainActivity : AppCompatActivity() {
 
         exitBtn.setOnClickListener {
             AlertDialog.Builder(this)
-                .setTitle("앱 종료")
-                .setMessage("정말 종료하시겠습니까?")
-                .setPositiveButton("예") { _, _ ->
+                .setTitle("앱 종료 (Exit App)")
+                .setMessage("정말 종료하시겠습니까?\n(Are you sure you want to exit the app?)")
+                .setPositiveButton("예 (Yes)") { _, _ ->
                     interstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
                         override fun onAdDismissedFullScreenContent() {
                             interstitialAd = null
@@ -280,7 +290,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     interstitialAd?.show(this) ?: finishAffinity()
                 }
-                .setNegativeButton("아니오", null)
+                .setNegativeButton("아니오 (No)", null)
                 .show()
         }
     }
@@ -297,7 +307,7 @@ class MainActivity : AppCompatActivity() {
         val total = dao.getTotalCount()
         val correctCount = dao.getCorrectCount()
         val rate = if (total == 0) 0 else (correctCount * 100) / total
-        resultView.text = "현재 정답률: ${rate}% ($correctCount/$total)"
+        resultView.text = "정답률 (Accuracy): ${rate}% ($correctCount/$total)"
         resultView.setTextColor(Color.BLACK)
     }
 
@@ -329,7 +339,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         } catch (e: Exception) {
-            Toast.makeText(this, "문장을 불러오는 데 실패했습니다.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "문장을 불러오는 데 실패했습니다. (Failed to load the sentence.)", Toast.LENGTH_LONG).show()
             emptyList()
         }
     }

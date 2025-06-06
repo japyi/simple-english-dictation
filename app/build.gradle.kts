@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    id("kotlin-kapt") // ✅ 여기에 추가!
+    id("kotlin-kapt")
 }
 
 android {
@@ -13,8 +13,8 @@ android {
         applicationId = "com.japyi0210.simpleenglishdictation"
         minSdk = 21
         targetSdk = 35
-        versionCode = 3
-        versionName = "1.1.0"
+        versionCode = 4
+        versionName = "1.1.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

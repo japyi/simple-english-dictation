@@ -1,0 +1,26 @@
+비공개 테스트에 참여할 사용자를 어떻게 모집하셨나요? 예를 들어 친구나 가족에게 부탁하셨나요? 아니면 유료 테스트 제공업체를 이용하셨나요?
+: I mainly recruited family and friends for this closed test, and added some volunteers from developer communities who were interested in my app to reach 12 testers.
+
+
+비공개 테스트 중 테스터의 참여도에 대해 설명해 주세요.
+: The app aims to provide a simple and easy-to-use English dictation experience. It has only two screens; a situation index and a dictation page. Since the UI was straightforward and intuitive, most testers used the main features without significant difficulties.
+
+
+테스터로부터 받은 의견을 요약하여 제공하세요. 의견을 수집한 방법도 알려주세요.
+: Most feedback came from family and friends through in-person meetings, calls, or messages. There are several feedbacks regarding typo, UI, index page, voice selection, and contents.
+
+
+앱(게임)의 주요 대상은 누구인가요?
+: It is an English dictation app based on easy-to-use interface, so the main audience target is users who want to improve their English listening skills in a short available time without complicated operation.
+
+
+앱이 사용자에게 어떤 가치를 제공하는지 설명하세요 /게임을 돋보이게 하는 요소를 설명하세요.
+: This app helps users improve English listening skills through simple and intuitive dictation practice. With just two screens and easy navigation, users can focus without distraction. Features like categorized situations and voice options add flexibility.
+
+
+비공개 테스트에서 알게 된 내용을 바탕으로 앱(게임)을 어떻게 변경했나요?-
+: Testers pointed out typos that were all corrected. Testers also requested categorized situations for focused listening practice, so the Situation Index page was added. UI improvements were made with the optimization for button size and layout. A voice selection feature was added.
+
+
+게임이 프로덕션용으로 준비되었다고 어떻게 판단했나요?-
+: I fixed all identified issues through repeated self-testing and feedback from testers. I also added useful features, such as situation index and voice options, based on the feebacks. The app runs smoothly now, and I’m ready to improve further from future feedbacks if needed.

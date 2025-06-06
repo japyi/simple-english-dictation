@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+            ads:adUnitId="ca-app-pub-1872760638277957/6919814296"
             android:layout_marginBottom="@dimen/margin_small" />
 
         <!-- 📘 시나리오 이름 표시 -->
@@ -44,7 +44,7 @@
             android:id="@+id/button_play"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="🎧 문장 듣기"
+            android:text="🎧 문장 듣기 (Play)"
             android:backgroundTint="#0066CC"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
@@ -57,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:gravity="top|start"
-            android:hint="답안을 입력하세요"
+            android:hint="답안을 입력하세요. (Enter your answer.)"
             android:background="@android:drawable/edit_text"
             android:padding="@dimen/padding_input"
             android:textSize="@dimen/text_input"
@@ -68,7 +68,7 @@
             android:id="@+id/button_check"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="✅ 정답 확인"
+            android:text="✅ 정답 확인 (Check Answer)"
             android:backgroundTint="#00AA77"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
@@ -105,7 +105,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="🔊 음성 속도 조절"
+            android:text="🔊 음성 속도 (Speech Speed)"
             android:textSize="@dimen/text_small"
             android:textColor="#666666"
             android:layout_marginBottom="@dimen/margin_small" />
@@ -130,7 +130,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="🗣️ 목소리 방식:"
+                android:text="🗣️ 목소리 (Voice):"
                 android:textSize="@dimen/text_small"
                 android:textColor="#444444"
                 android:layout_marginEnd="8dp" />
@@ -145,13 +145,15 @@
                     android:id="@+id/radio_fixed"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="고정 모드" />
+                    android:text="고정 (Fixed)"
+                    android:textSize="@dimen/text_small" />
 
                 <RadioButton
                     android:id="@+id/radio_random"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="랜덤 모드"
+                    android:text="랜덤 (Random)"
+                    android:textSize="@dimen/text_small"
                     android:layout_marginStart="16dp" />
             </RadioGroup>
         </LinearLayout>
@@ -161,7 +163,7 @@
             android:id="@+id/button_back_to_scenarios"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="📚 목차로 가기"
+            android:text="📚 목차로 가기 (Go to Menu)"
             android:backgroundTint="#9C27B0"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
@@ -174,7 +176,7 @@
             android:id="@+id/button_exit"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="⛔ 종료"
+            android:text="⛔ 종료 (Exit)"
             android:backgroundTint="#F44336"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
@@ -194,7 +196,7 @@
             android:id="@+id/button_app_info"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="ℹ️ 앱 정보"
+            android:text="ℹ️ 앱 정보 (App Info)"
             android:backgroundTint="#607D8B"
             android:textColor="#FFFFFF"
             android:textSize="18sp"

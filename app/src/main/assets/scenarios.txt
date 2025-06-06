@@ -1,50 +1,50 @@
-공항	airport  
-식당	restaurant  
-슈퍼마켓	supermarket  
-호텔	hotel  
-병원	hospital  
-약국	pharmacy  
-은행	bank  
-우체국	post_office  
-기차역	station  
-버스정류장	bus_stop  
-학교	school  
-사무실	office  
-집	home  
-헬스장	gym  
-공원	park  
-쇼핑몰	mall  
-영화관	cinema  
-도서관	library  
-커피숍	cafe  
-경찰서	police_station  
-주유소	gas_station  
-미용실	salon  
-세탁소	laundromat  
-식료품점	grocery  
-치과	dentist  
-정비소	garage  
-동물병원	veterinary  
-서점	bookstore  
-미술관	art_gallery  
-박물관	museum  
-공연장	theater  
-놀이공원	amusement_park  
-수영장	pool  
-해변	beach  
-캠핑장	campsite  
-교회	church  
-ATM	atm  
-시장	market  
-노래방	karaoke  
-사진관	photo_studio  
-이케아	IKEA  
-패스트푸드점	fast_food  
-펫샵	pet_store  
-휴게소	rest_area  
-안과	eye_clinic  
-경기장	stadium  
-세차장	car_wash  
-유치원	kindergarten  
-대학교	university  
-출입국관리소	immigration  
+공항 (Airport)	airport  
+식당 (Restaurant)	restaurant  
+슈퍼마켓 (Supermarket)	supermarket  
+호텔 (Hotel)	hotel  
+병원 (Hospital)	hospital  
+약국 (Pharmacy)	pharmacy  
+은행 (Bank)	bank  
+우체국 (Post Office)	post_office  
+기차역 (Station)	station  
+버스정류장 (Bus Stop)	bus_stop  
+학교 (School)	school  
+사무실 (Office)	office  
+집 (Home)	home  
+헬스장 (Gym)	gym  
+공원 (Park)	park  
+쇼핑몰 (Mall)	mall  
+영화관 (Cinema)	cinema  
+도서관 (Library)	library  
+커피숍 (Cafe)	cafe  
+경찰서 (Police station)	police_station  
+주유소 (Gas station)	gas_station  
+미용실 (Salon)	salon  
+세탁소 (Laundromat)	laundromat  
+식료품점 (Grocery)	grocery  
+치과 (Dentist)	dentist  
+정비소 (Garage)	garage  
+동물병원 (Veterinary)	veterinary  
+서점 (Bookstore)	bookstore  
+미술관 (Art Gallery)	art_gallery  
+박물관 (Museum)	museum  
+공연장 (Theater)	theater  
+놀이공원 (Amusement Park)	amusement_park  
+수영장 (Pool)	pool  
+해변 (Beach)	beach  
+캠핑장 (Campsite)	campsite  
+교회 (Church)	church  
+ATM (ATM)	atm  
+시장 (Market)	market  
+노래방 (Karaoke)	karaoke  
+사진관 (Photo Studio)	photo_studio  
+이케아 (IKEA)	IKEA  
+패스트푸드점 (Fast Food)	fast_food  
+펫샵 (Pet Store)	pet_store  
+휴게소 (Rest Area)	rest_area  
+안과 (Eye Clinic)	eye_clinic  
+경기장 (Stadium)	stadium  
+세차장 (Car Wash)	car_wash  
+유치원 (Kindergarten)	kindergarten  
+대학교 (University)	university  
+출입국관리소 (Immigration)	immigration  
