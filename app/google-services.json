@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "507918165403",
+    "project_id": "simpleenglishdictation",
+    "storage_bucket": "simpleenglishdictation.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507918165403:android:77d9f65fa5b964647b6d3e",
+        "android_client_info": {
+          "package_name": "com.japyi0210.simpleenglishdictation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507918165403-9gtvec5o92turledimrrun5pn2a9k0l8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.japyi0210.simpleenglishdictation",
+            "certificate_hash": "f9a47631ce74545243f6d3f2cd8e85f560be78f4"
+          }
+        },
+        {
+          "client_id": "507918165403-d5r4t139hrcq67bs80451helmh0sshv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.japyi0210.simpleenglishdictation",
+            "certificate_hash": "d24818602a46488ae0f5006cbd93e668988b7af4"
+          }
+        },
+        {
+          "client_id": "507918165403-ulivtsgdouf3vvir2s2u069g81fp1sph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh_Hl80AffreYuTZloxGBkuBjmAgBjc14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507918165403-ulivtsgdouf3vvir2s2u069g81fp1sph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

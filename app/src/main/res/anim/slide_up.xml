@@ -1,0 +1,6 @@
+<!-- res/anim/slide_up.xml -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fromYDelta="50%"
+    android:toYDelta="0%"
+    android:interpolator="@android:anim/decelerate_interpolator" />

@@ -9,5 +9,6 @@ data class DictationRecord(
     val sentence: String,
     val userInput: String,
     val similarity: Int,
-    val correct: Boolean
+    val correct: Boolean,
+    val replayCount: Int
 )

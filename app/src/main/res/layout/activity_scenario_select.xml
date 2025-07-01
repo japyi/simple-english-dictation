@@ -1,31 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="24dp"
-    android:background="#FFFFFF">
+    android:background="#FFF6F0">
 
-    <!-- 상단 안내 문구 -->
-    <TextView
-        android:id="@+id/textViewTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="📚 연습할 상황을 선택하세요\n(Select a scenario to practice)"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:textColor="#222222"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp" />
-
-    <!-- 시나리오 목록 -->
-    <ListView
-        android:id="@+id/listViewScenarios"
+    <!-- 상단 콘텐츠 -->
+    <LinearLayout
+        android:id="@+id/scenarioContentLayout"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:divider="@android:color/darker_gray"
-        android:dividerHeight="1dp"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- 카테고리 선택 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <Spinner
+                android:id="@+id/categorySpinner"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:spinnerMode="dropdown"
+                android:background="@drawable/bg_spinner_cute"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:fontFamily="@font/jua_regular" />
+
+            <View android:layout_width="12dp" android:layout_height="0dp" />
+
+            <Spinner
+                android:id="@+id/orderSpinner"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="48dp"
+                android:spinnerMode="dropdown"
+                android:background="@drawable/bg_spinner_cute"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:fontFamily="@font/jua_regular" />
+        </LinearLayout>
+
+        <!-- 시나리오 카드 리스트 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_card_cute"
+            android:padding="12dp"
+            android:elevation="3dp">
+
+            <ListView
+                android:id="@+id/listViewScenarios"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#FFE0E0"
+                android:dividerHeight="1dp"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:fontFamily="@font/nanum_pen" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 하단 네비게이션 -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:background="#FFFFFF"
-        android:padding="8dp" />
-</LinearLayout>
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/selector_nav_icon"
+        app:itemTextColor="@color/selector_nav_text"
+        app:labelVisibilityMode="labeled" />
+</RelativeLayout>

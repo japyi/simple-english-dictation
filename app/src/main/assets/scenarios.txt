@@ -1,50 +1,50 @@
-공항 (Airport)	airport  
-식당 (Restaurant)	restaurant  
-슈퍼마켓 (Supermarket)	supermarket  
-호텔 (Hotel)	hotel  
-병원 (Hospital)	hospital  
-약국 (Pharmacy)	pharmacy  
-은행 (Bank)	bank  
-우체국 (Post Office)	post_office  
-기차역 (Station)	station  
-버스정류장 (Bus Stop)	bus_stop  
-학교 (School)	school  
-사무실 (Office)	office  
-집 (Home)	home  
-헬스장 (Gym)	gym  
-공원 (Park)	park  
-쇼핑몰 (Mall)	mall  
-영화관 (Cinema)	cinema  
-도서관 (Library)	library  
-커피숍 (Cafe)	cafe  
-경찰서 (Police station)	police_station  
-주유소 (Gas station)	gas_station  
-미용실 (Salon)	salon  
-세탁소 (Laundromat)	laundromat  
-식료품점 (Grocery)	grocery  
-치과 (Dentist)	dentist  
-정비소 (Garage)	garage  
-동물병원 (Veterinary)	veterinary  
-서점 (Bookstore)	bookstore  
-미술관 (Art Gallery)	art_gallery  
-박물관 (Museum)	museum  
-공연장 (Theater)	theater  
-놀이공원 (Amusement Park)	amusement_park  
-수영장 (Pool)	pool  
-해변 (Beach)	beach  
-캠핑장 (Campsite)	campsite  
-교회 (Church)	church  
-ATM (ATM)	atm  
-시장 (Market)	market  
-노래방 (Karaoke)	karaoke  
-사진관 (Photo Studio)	photo_studio  
-이케아 (IKEA)	IKEA  
-패스트푸드점 (Fast Food)	fast_food  
-펫샵 (Pet Store)	pet_store  
-휴게소 (Rest Area)	rest_area  
-안과 (Eye Clinic)	eye_clinic  
-경기장 (Stadium)	stadium  
-세차장 (Car Wash)	car_wash  
-유치원 (Kindergarten)	kindergarten  
-대학교 (University)	university  
-출입국관리소 (Immigration)	immigration  
+공항 (Airport)	airport	일상 회화
+식당 (Restaurant)	restaurant	일상 회화
+슈퍼마켓 (Supermarket)	supermarket	일상 회화
+호텔 (Hotel)	hotel	일상 회화
+병원 (Hospital)	hospital	일상 회화
+약국 (Pharmacy)	pharmacy	일상 회화
+은행 (Bank)	bank	일상 회화
+우체국 (Post Office)	post_office	일상 회화
+기차역 (Station)	station	일상 회화
+버스정류장 (Bus Stop)	bus_stop	일상 회화
+학교 (School)	school	일상 회화
+사무실 (Office)	office	일상 회화
+집 (Home)	home	일상 회화
+헬스장 (Gym)	gym	일상 회화
+공원 (Park)	park	일상 회화
+쇼핑몰 (Mall)	mall	일상 회화
+영화관 (Cinema)	cinema	일상 회화
+도서관 (Library)	library	일상 회화
+커피숍 (Cafe)	cafe	일상 회화
+경찰서 (Police station)	police_station	일상 회화
+주유소 (Gas station)	gas_station	일상 회화
+미용실 (Salon)	salon	일상 회화
+세탁소 (Laundromat)	laundromat	일상 회화
+식료품점 (Grocery)	grocery	일상 회화
+치과 (Dentist)	dentist	일상 회화
+정비소 (Garage)	garage	일상 회화
+동물병원 (Veterinary)	veterinary	일상 회화
+서점 (Bookstore)	bookstore	일상 회화
+미술관 (Art Gallery)	art_gallery	일상 회화
+박물관 (Museum)	museum	일상 회화
+공연장 (Theater)	theater	일상 회화
+놀이공원 (Amusement Park)	amusement_park	일상 회화
+수영장 (Pool)	pool	일상 회화
+해변 (Beach)	beach	일상 회화
+캠핑장 (Campsite)	campsite	일상 회화
+교회 (Church)	church	일상 회화
+ATM (ATM)	atm	일상 회화
+시장 (Market)	market	일상 회화
+노래방 (Karaoke)	karaoke	일상 회화
+사진관 (Photo Studio)	photo_studio	일상 회화
+이케아 (IKEA)	IKEA	일상 회화
+패스트푸드점 (Fast Food)	fast_food	일상 회화
+펫샵 (Pet Store)	pet_store	일상 회화
+휴게소 (Rest Area)	rest_area	일상 회화
+안과 (Eye Clinic)	eye_clinic	일상 회화
+경기장 (Stadium)	stadium	일상 회화
+세차장 (Car Wash)	car_wash	일상 회화
+유치원 (Kindergarten)	kindergarten	일상 회화
+대학교 (University)	university	일상 회화
+출입국관리소 (Immigration)	immigration	일상 회화

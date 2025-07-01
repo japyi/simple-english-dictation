@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<alpha xmlns:android="http://schemas.android.com/apk/res/android"
-    android:fromAlpha="0.0"
-    android:toAlpha="1.0"
-    android:duration="500" />
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/decelerate_interpolator">
+
+    <!-- 투명도 점점 나타나기 -->
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="400"
+        android:startOffset="50" />
+
+    <!-- 약간의 위로 이동하면서 나타나는 효과 -->
+    <translate
+        android:fromYDelta="8dp"
+        android:toYDelta="0"
+        android:duration="400" />
+
+</set>

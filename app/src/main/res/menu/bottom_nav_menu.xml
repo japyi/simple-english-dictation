@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_menu"
+        android:icon="@drawable/ic_menu"
+        android:title="시나리오" />
+
+    <item
+        android:id="@+id/nav_dictation"
+        android:icon="@drawable/ic_dictation"
+        android:title="받아쓰기" />
+
+    <item
+        android:id="@+id/ai_review"
+        android:icon="@drawable/ic_ai_review"
+        android:title="AI리뷰" />
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account"
+        android:title="학습기록" />
+
+    <item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/ic_close"
+        android:title="종료" />
+</menu>

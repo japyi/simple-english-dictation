@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.japyi0210.simpleenglishdictation">
 
+    <!-- ✅ 권한 설정 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -21,22 +22,51 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
+        <!-- ✅ 구글 광고용 앱 ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+            android:value="ca-app-pub-1872760638277957~5741344435" />
 
+        <!-- ✅ Firebase 메시징 아이콘 -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher_foreground" />
+
+        <!-- ✅ Firebase 로그인 -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
+        <!-- ✅ 기존 통계 화면 -->
         <activity android:name=".StatisticsActivity" />
 
+        <!-- ✅ 새로 만든 통계 차트 화면 -->
+        <activity
+            android:name=".StatisticsChartActivity"
+            android:exported="true" />
+
+        <!-- ✅ 메인 기능 -->
         <activity
             android:name=".MainActivity"
             android:windowSoftInputMode="stateVisible|adjustPan"
             android:exported="true" />
 
+        <!-- ✅ 시나리오 선택 -->
         <activity
             android:name=".ScenarioSelectActivity"
             android:exported="true" />
 
-        <!-- ✅ SplashActivity를 다시 앱 시작점으로 등록 -->
+        <!-- ✅ AI 복습 기능 -->
+        <activity
+            android:name=".AiReviewActivity"
+            android:exported="true" />
+
+        <!-- ✅ 로그인 or 게스트 선택 화면 -->
+        <activity
+            android:name=".StartActivity"
+            android:exported="true" />
+
+        <!-- ✅ 앱 시작 지점 (Splash → StartActivity로 전환됨) -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">

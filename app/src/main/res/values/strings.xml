@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">영.받.쓰.AI</string>
+    <string name="default_web_client_id">507918165403-ulivtsgdouf3vvir2s2u069g81fp1sph.apps.googleusercontent.com</string>
+
+    <!-- 📊 Spinner 드롭다운 필터 옵션 -->
+    <string-array name="filter_options">
+        <item>일별</item>
+        <item>월별</item>
+        <item>주별</item>
+    </string-array>
 </resources>

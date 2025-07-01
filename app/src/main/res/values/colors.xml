@@ -9,4 +9,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green">#4CAF50</color> <!-- 초록 -->
     <color name="red">#F44336</color>   <!-- 빨강 -->
+    <color name="blue_500">#2979FF</color> <!-- 버튼 배경 -->
+    <color name="blue_600">#1E88E5</color>
+    <color name="green_600">#43A047</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
 </resources>

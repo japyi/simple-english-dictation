@@ -1,208 +1,221 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true"
-    android:background="#FFFFFF">
+    android:background="@drawable/gradient_background">
 
-    <LinearLayout
+    <!-- 상단 배너 광고 -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1872760638277957/6919814296"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 고정된 CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fixedCardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
         android:maxWidth="600dp"
-        android:orientation="vertical"
-        android:gravity="center_horizontal"
-        android:layout_gravity="center"
-        android:paddingStart="@dimen/horizontal_padding"
-        android:paddingEnd="@dimen/horizontal_padding"
-        android:paddingTop="@dimen/vertical_padding"
-        android:paddingBottom="@dimen/vertical_padding">
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintTop_toBottomOf="@id/adView"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
-        <!-- 📢 상단 배너 광고 -->
-        <com.google.android.gms.ads.AdView
-            android:id="@+id/adView"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-1872760638277957/6919814296"
-            android:layout_marginBottom="@dimen/margin_small" />
+            android:layout_height="match_parent"
+            android:fillViewport="true">
 
-        <!-- 📘 시나리오 이름 표시 -->
-        <TextView
-            android:id="@+id/textView_scenario"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="📘 현재 시나리오: "
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="#222222"
-            android:layout_marginBottom="8dp"
-            android:layout_gravity="center_horizontal" />
-
-        <!-- 🎧 문장 듣기 버튼 -->
-        <Button
-            android:id="@+id/button_play"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="🎧 문장 듣기 (Play)"
-            android:backgroundTint="#0066CC"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:padding="@dimen/padding_button"
-            android:layout_marginBottom="@dimen/margin_normal" />
-
-        <!-- ✍️ 입력창 -->
-        <EditText
-            android:id="@+id/editText_input"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:gravity="top|start"
-            android:hint="답안을 입력하세요. (Enter your answer.)"
-            android:background="@android:drawable/edit_text"
-            android:padding="@dimen/padding_input"
-            android:textSize="@dimen/text_input"
-            android:layout_marginBottom="@dimen/margin_normal" />
-
-        <!-- ✅ 정답 확인 버튼 -->
-        <Button
-            android:id="@+id/button_check"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="✅ 정답 확인 (Check Answer)"
-            android:backgroundTint="#00AA77"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:padding="@dimen/padding_button"
-            android:layout_marginBottom="@dimen/margin_normal" />
-
-        <!-- 🇰🇷 해석 영역 -->
-        <TextView
-            android:id="@+id/textView_translation"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textSize="@dimen/text_normal"
-            android:textColor="#444444"
-            android:padding="@dimen/padding_text"
-            android:background="#EEEEEE"
-            android:visibility="gone"
-            android:layout_marginBottom="@dimen/margin_small" />
-
-        <!-- 결과 텍스트 -->
-        <TextView
-            android:id="@+id/textView_result"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:background="#FFFFFF"
-            android:textColor="#333333"
-            android:textSize="@dimen/text_result"
-            android:padding="@dimen/padding_text"
-            android:gravity="center"
-            android:layout_marginBottom="@dimen/margin_small" />
-
-        <!-- 🔊 음성 속도 조절 -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="🔊 음성 속도 (Speech Speed)"
-            android:textSize="@dimen/text_small"
-            android:textColor="#666666"
-            android:layout_marginBottom="@dimen/margin_small" />
-
-        <SeekBar
-            android:id="@+id/speedSeekBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:max="20"
-            android:progress="10"
-            android:layout_marginBottom="@dimen/margin_small" />
-
-        <!-- 🗣️ 목소리 선택 -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical"
-            android:layout_marginTop="@dimen/margin_small"
-            android:layout_marginBottom="@dimen/margin_small">
-
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="🗣️ 목소리 (Voice):"
-                android:textSize="@dimen/text_small"
-                android:textColor="#444444"
-                android:layout_marginEnd="8dp" />
+                android:orientation="vertical"
+                android:padding="20dp">
 
-            <RadioGroup
-                android:id="@+id/voiceModeGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                <!-- 시나리오 이미지 + 제목 -->
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="12dp">
 
-                <RadioButton
-                    android:id="@+id/radio_fixed"
+                    <ImageView
+                        android:id="@+id/imageView_scenario"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="시나리오 대표 이미지" />
+
+                    <TextView
+                        android:id="@+id/textView_scenario_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|start"
+                        android:layout_margin="8dp"
+                        android:text="시나리오 제목"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/nanum_pen"
+                        android:background="@android:color/transparent"
+                        android:padding="4dp" />
+                </FrameLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="56dp"
+                    android:text="🎧 문장 듣기"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/bg_button_blue"
+                    android:layout_marginBottom="12dp" />
+
+                <EditText
+                    android:id="@+id/editText_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:hint="답안을 입력하세요."
+                    android:gravity="top|start"
+                    android:padding="12dp"
+                    android:textSize="16sp"
+                    android:background="@android:drawable/edit_text"
+                    android:layout_marginBottom="8dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="56dp"
+                    android:text="✅ 정답 확인"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/bg_button_green"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/textView_translation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="#444444"
+                    android:padding="12dp"
+                    android:background="#EEEEEE"
+                    android:visibility="gone"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/textView_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:textColor="#333333"
+                    android:padding="10dp"
+                    android:background="#FFFCE8"
+                    android:visibility="gone"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/nanum_pen" />
+
+                <TextView
+                    android:id="@+id/textView_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:padding="10dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="고정 (Fixed)"
-                    android:textSize="@dimen/text_small" />
+                    android:text="🔊 음성 속도"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#666666"
+                    android:layout_marginBottom="4dp" />
 
-                <RadioButton
-                    android:id="@+id/radio_random"
+                <SeekBar
+                    android:id="@+id/speedSeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="20"
+                    android:progress="10" />
+
+                <TextView
+                    android:id="@+id/speedLabel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="랜덤 (Random)"
-                    android:textSize="@dimen/text_small"
-                    android:layout_marginStart="16dp" />
-            </RadioGroup>
-        </LinearLayout>
+                    android:text="배속: 1.0x"
+                    android:layout_gravity="end"
+                    android:textColor="#444444"
+                    android:textSize="13sp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="12dp" />
 
-        <!-- 📚 목차로 가기 버튼 -->
-        <Button
-            android:id="@+id/button_back_to_scenarios"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="📚 목차로 가기 (Go to Menu)"
-            android:backgroundTint="#9C27B0"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:padding="@dimen/padding_button"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="1dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
 
-        <!-- ⛔ 종료 버튼 -->
-        <Button
-            android:id="@+id/button_exit"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="⛔ 종료 (Exit)"
-            android:backgroundTint="#F44336"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:padding="@dimen/padding_button"
-            android:layout_marginTop="1dp"
-            android:layout_marginBottom="4dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🗣️ 목소리:"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#444444"
+                        android:layout_marginEnd="8dp" />
 
-        <!-- 🔻 구분선 -->
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#CCCCCC"
-            android:layout_marginVertical="2dp" />
+                    <RadioGroup
+                        android:id="@+id/voiceModeGroup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
-        <!-- ℹ️ 앱 정보 버튼 -->
-        <Button
-            android:id="@+id/button_app_info"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="ℹ️ 앱 정보 (App Info)"
-            android:backgroundTint="#607D8B"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:padding="@dimen/padding_button"
-            android:layout_marginTop="4dp"
-            android:layout_marginBottom="8dp" />
+                        <RadioButton
+                            android:id="@+id/radio_fixed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="고정"
+                            android:textSize="14sp" />
 
-    </LinearLayout>
-</ScrollView>
+                        <RadioButton
+                            android:id="@+id/radio_random"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="랜덤"
+                            android:textSize="14sp"
+                            android:layout_marginStart="16dp" />
+                    </RadioGroup>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/selector_nav_icon"
+        app:itemTextColor="@color/selector_nav_text"
+        app:labelVisibilityMode="labeled" />
+</androidx.constraintlayout.widget.ConstraintLayout>

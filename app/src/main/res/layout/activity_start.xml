@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <!-- 상단 아이콘 (모자 + 체크 표시) -->
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_login_record"
+    android:contentDescription="학습 아이콘"
+    android:layout_marginBottom="32dp" />
+
+    <!-- 안내 문구 -->
+    <TextView
+        android:id="@+id/tv_login_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인하시면 학습 진도를\n기록하고 확인할 수 있습니다."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:lineSpacingExtra="4dp" />
+
+    <!-- Google 계정 로그인 버튼 -->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Google 계정으로 로그인"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#4285F4"
+        android:background="@drawable/btn_login_bg"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 로그인 없이 사용하기 버튼 -->
+    <Button
+        android:id="@+id/btn_guest"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="로그인 없이 사용하기"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="@drawable/btn_guest_bg"
+        android:fontFamily="sans-serif" />
+
+</LinearLayout>
