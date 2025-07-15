@@ -34,7 +34,11 @@ class ReviewAdapter(
         holder.sentenceText.text = "정답: ${review.sentence}"
 
         // ✅ 여기를 수정하여 듣기 횟수와 일치율 포함
-        holder.inputText.text = "입력: ${review.userInput} (${review.replayCount}회 듣기, ${review.similarity}% 일치)"
+        holder.inputText.text = buildString {
+            append("입력: ${review.userInput} (${review.replayCount}회 듣기, ${review.similarity}% 일치")
+            if (review.usedHint) append(", 힌트 사용")
+            append(")")
+        }
 
         holder.feedbackText.text = review.feedback
 

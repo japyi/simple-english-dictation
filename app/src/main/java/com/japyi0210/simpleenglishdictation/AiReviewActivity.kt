@@ -25,7 +25,8 @@ data class Review(
     val similarity: Int = 0,
     val timestamp: Date? = null,
     val id: String = "",
-    val replayCount: Int = 0
+    val replayCount: Int = 0,
+    val usedHint: Boolean = false
 )
 
 class AiReviewActivity : AppCompatActivity() {
@@ -131,14 +132,14 @@ class AiReviewActivity : AppCompatActivity() {
                     }
 
                     val exitMessage = """
-                        정말 종료하시겠습니까?
+                        학습기록을 저장하고 종료하시겠습니까?
 
                         📦 버전: $versionName
                         📧 문의: CREN-J (japyi0210@gmail.com)
                     """.trimIndent()
 
                     androidx.appcompat.app.AlertDialog.Builder(this)
-                        .setTitle("앱 종료")
+                        .setTitle("저장 및 종료")
                         .setMessage(exitMessage)
                         .setPositiveButton("예") { _, _ ->
                             showAdOrExit()

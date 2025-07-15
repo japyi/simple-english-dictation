@@ -30,7 +30,7 @@ class ScenarioAdapter(
         textView.text = scenario.name
 
         try {
-            val ims = context.assets.open("scenarios/${scenario.fileKey}.webp")
+            val ims = context.assets.open("scenarios/${scenario.imageFileName}") // 확장자 포함된 이름 사용
             val drawable = Drawable.createFromStream(ims, null)
             imageView.setImageDrawable(drawable)
         } catch (e: Exception) {

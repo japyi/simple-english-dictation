@@ -57,7 +57,7 @@ class SplashActivity : AppCompatActivity() {
             val delay = index * typingInterval
 
             mainHandler.postDelayed({
-                builder.append(if (index > 0) "." else "").append(text)
+                builder.append(text)
                 secondLine.text = builder.toString()
 
                 // 강조 애니메이션

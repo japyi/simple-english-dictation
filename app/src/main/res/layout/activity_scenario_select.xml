@@ -22,29 +22,61 @@
             android:gravity="center"
             android:layout_marginBottom="16dp">
 
-            <Spinner
-                android:id="@+id/categorySpinner"
+            <!-- 카테고리 영역 -->
+            <LinearLayout
                 android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_height="48dp"
-                android:spinnerMode="dropdown"
-                android:background="@drawable/bg_spinner_cute"
-                android:paddingStart="12dp"
-                android:paddingEnd="12dp"
-                android:fontFamily="@font/jua_regular" />
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="주제 선택"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/nanum_pen"
+                    android:layout_marginBottom="4dp"/>
+
+                <Spinner
+                    android:id="@+id/categorySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:spinnerMode="dropdown"
+                    android:background="@drawable/bg_spinner_cute"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:fontFamily="@font/nanum_pen" />
+            </LinearLayout>
 
             <View android:layout_width="12dp" android:layout_height="0dp" />
 
-            <Spinner
-                android:id="@+id/orderSpinner"
+            <!-- 문장 순서 영역 -->
+            <LinearLayout
                 android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:layout_height="48dp"
-                android:spinnerMode="dropdown"
-                android:background="@drawable/bg_spinner_cute"
-                android:paddingStart="12dp"
-                android:paddingEnd="12dp"
-                android:fontFamily="@font/jua_regular" />
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="재생 순서"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/nanum_pen"
+                    android:layout_marginBottom="4dp"/>
+
+                <Spinner
+                    android:id="@+id/orderSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:spinnerMode="dropdown"
+                    android:background="@drawable/bg_spinner_cute"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:fontFamily="@font/nanum_pen" />
+            </LinearLayout>
         </LinearLayout>
 
         <!-- 시나리오 카드 리스트 -->

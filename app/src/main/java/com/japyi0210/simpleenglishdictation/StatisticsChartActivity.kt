@@ -138,13 +138,13 @@ class StatisticsChartActivity : AppCompatActivity() {
                         "알 수 없음"
                     }
                     val exitMessage = """
-                        정말 종료하시겠습니까?
+                        학습기록을 저장하고 종료하시겠습니까?
 
                         📦 비전: $versionName
                         📧 문의: CREN-J (japyi0210@gmail.com)
                     """.trimIndent()
                     AlertDialog.Builder(this)
-                        .setTitle("앱 종료")
+                        .setTitle("저장 및 종료")
                         .setMessage(exitMessage)
                         .setPositiveButton("예") { _, _ -> showAdOrExit() }
                         .setNegativeButton("아니오", null)
@@ -313,6 +313,11 @@ class StatisticsChartActivity : AppCompatActivity() {
             valueTextColor = COLOR_DAILY_BAR
             valueTypeface = ResourcesCompat.getFont(this@StatisticsChartActivity, R.font.nanum_pen)
             setColor(COLOR_DAILY_BAR)
+            valueFormatter = object : ValueFormatter() {
+                override fun getFormattedValue(value: Float): String {
+                    return value.toInt().toString()
+                }
+            }
         }
 
         val cuteFont = ResourcesCompat.getFont(this, R.font.nanum_pen)

@@ -16,6 +16,8 @@ import android.view.animation.AnimationUtils
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.google.android.play.core.review.ReviewManagerFactory
+import com.google.android.play.core.review.ReviewManager
 import com.google.android.gms.ads.*
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
@@ -56,7 +58,11 @@ class MainActivity : AppCompatActivity() {
     private lateinit var scenarioNameMap: Map<String, String>
     private lateinit var currentSentence: Sentence
     private lateinit var sentences: List<Sentence>
-    private val usedSentences = mutableSetOf<Sentence>()
+    private lateinit var hintButton: Button
+    private lateinit var wordHintView: TextView
+    private lateinit var scenarioKey: String
+    private val prefs by lazy { getSharedPreferences("UsedSentences", Context.MODE_PRIVATE) }
+    private val usedSentences = mutableSetOf<String>()
     private var sentenceIndex = 0
     private var speechRate = 1.0f
     private var isSentencePlayed = false
@@ -65,9 +71,8 @@ class MainActivity : AppCompatActivity() {
     private var replayCount = 0
     private var orderMode: String = "랜덤"
     private var isFeedbackFetched = false
-
+    private var isHintVisible = false
     private var mInterstitialAd: InterstitialAd? = null
-
     private val dao by lazy { AppDatabase.getDatabase(this).dictationDao() }
 
     data class Sentence(val english: String, val korean: String)
@@ -77,14 +82,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         scenarioNameMap = loadScenarioNameMap()
-        val scenarioKey = intent.getStringExtra("scenario_key") ?: "default"
+        scenarioKey = intent.getStringExtra("scenario_key") ?: "default"
         orderMode = intent.getStringExtra("order_mode") ?: "랜덤"
+        val imageFileName = intent.getStringExtra("image_file_name") ?: "default.webp"
         val scenarioTitle = scenarioNameMap[scenarioKey] ?: "무작위 문장"
 
         scenarioImageView = findViewById(R.id.imageView_scenario)
-        loadScenarioImageFromAssets(scenarioKey)
+        loadScenarioImageFromAssets(imageFileName)
 
-        // 시나리오 제목 표시
         val titleView: TextView = findViewById(R.id.textView_scenario_title)
         titleView.text = scenarioTitle
 
@@ -102,6 +107,8 @@ class MainActivity : AppCompatActivity() {
         voiceModeGroup = findViewById(R.id.voiceModeGroup)
         radioFixed = findViewById(R.id.radio_fixed)
         radioRandom = findViewById(R.id.radio_random)
+        hintButton = findViewById(R.id.button_hint)
+        wordHintView = findViewById(R.id.textView_word_hint)
 
         val speed = findViewById<SeekBar>(R.id.speedSeekBar)
         speed.max = 20
@@ -116,6 +123,24 @@ class MainActivity : AppCompatActivity() {
             override fun onStartTrackingTouch(seekBar: SeekBar?) {}
             override fun onStopTrackingTouch(seekBar: SeekBar?) {}
         })
+
+        hintButton.setOnClickListener {
+            if (!::currentSentence.isInitialized) {
+                Toast.makeText(this, "먼저 문장을 들어주세요.", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            if (isHintVisible) {
+                wordHintView.visibility = TextView.GONE
+                hintButton.text = "🧩 단어 힌트 보기"
+            } else {
+                val words = currentSentence.english.split(" ").shuffled()
+                wordHintView.text = "${words.joinToString("   ")}"
+                wordHintView.visibility = TextView.VISIBLE
+                hintButton.text = "🙈 힌트 숨기기"
+            }
+            isHintVisible = !isHintVisible
+        }
 
         bottomNavigation = findViewById(R.id.bottom_navigation)
         bottomNavigation.selectedItemId = R.id.nav_dictation
@@ -154,14 +179,14 @@ class MainActivity : AppCompatActivity() {
                     }
 
                     val exitMessage = """
-                        정말 종료하시겠습니까?
+                    학습기록을 저장하고 종료하시겠습니까?
 
-                        📦 버전: $versionName
-                        📧 문의: CREN-J (japyi0210@gmail.com)
-                    """.trimIndent()
+                    📦 버전: $versionName
+                    📧 문의: CREN-J (japyi0210@gmail.com)
+                """.trimIndent()
 
                     AlertDialog.Builder(this)
-                        .setTitle("앱 종료")
+                        .setTitle("저장 및 종료")
                         .setMessage(exitMessage)
                         .setPositiveButton("예") { _, _ ->
                             if (mInterstitialAd != null) {
@@ -191,6 +216,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         sentences = loadSentences()
+        loadUsedSentences()
         sentenceIndex = 0
 
         lifecycleScope.launch {
@@ -204,14 +230,19 @@ class MainActivity : AppCompatActivity() {
                 tts.setSpeechRate(speechRate)
                 val voices = tts.voices.filter { it.locale.language == "en" && !it.isNetworkConnectionRequired }
                 fixedVoice = voices.find { it.name.contains("female", true) }
-                    ?: voices.find { it.name.contains("en-us-x-sfg", true) } ?: voices.randomOrNull()
+                    ?: voices.find { it.name.contains("en-us-x-sfg", true) }
+                            ?: voices.randomOrNull()
                 fixedVoice?.let { tts.voice = it }
                 radioFixed.isChecked = true
             }
         }
-
         playBtn.setOnClickListener {
-            if (playBtn.text == "🎙 문장 다시 듣기") {
+            if (sentences.isEmpty()) {
+                Toast.makeText(this, "문장을 불러올 수 없습니다.", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            if (playBtn.text == "🎙 문장 다시 듣기" && ::currentSentence.isInitialized) {
                 val voices = tts.voices.filter { it.locale.language == "en" && !it.isNetworkConnectionRequired }
                 tts.voice = when {
                     radioRandom.isChecked && voices.isNotEmpty() -> voices.random()
@@ -223,30 +254,62 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            if (usedSentences.size >= sentences.size) {
-                Toast.makeText(this, "모든 문장을 다 풀었습니다! 다시 시작합니다.", Toast.LENGTH_SHORT).show()
-                usedSentences.clear()
-                sentenceIndex = 0
-            }
-
-            if (orderMode == "순서대로") {
+            // ✅ 문장 선택 (순서 or 랜덤)
+            if (orderMode.contains("순서")) {
                 if (sentenceIndex >= sentences.size) sentenceIndex = 0
                 currentSentence = sentences[sentenceIndex++]
-            } else {
-                val remaining = sentences.filterNot { usedSentences.contains(it) }
-                currentSentence = if (remaining.isEmpty()) {
-                    usedSentences.clear()
-                    sentences.random()
-                } else {
-                    remaining.random()
+
+                // 이미 사용된 문장일 경우 다음으로 넘김
+                var attempts = 0
+                while (usedSentences.contains(currentSentence.english)) {
+                    if (sentenceIndex >= sentences.size) sentenceIndex = 0
+                    currentSentence = sentences[sentenceIndex++]
+                    attempts++
+                    if (attempts >= sentences.size) break // 무한 루프 방지
                 }
-                usedSentences.add(currentSentence)
+
+                // 모두 사용했다면 복습 안내
+                if (usedSentences.contains(currentSentence.english)) {
+                    AlertDialog.Builder(this)
+                        .setTitle("학습 완료 🎉")
+                        .setMessage("모든 문장을 학습했습니다.\n복습을 시작할까요?")
+                        .setPositiveButton("복습 시작") { _, _ ->
+                            usedSentences.clear()
+                            saveUsedSentences()
+                            sentenceIndex = 0
+                            playBtn.performClick()
+                        }
+                        .setNegativeButton("돌아가기") { _, _ -> finish() }
+                        .show()
+                    return@setOnClickListener
+                }
+
+            } else {
+                val remaining = sentences.filterNot { usedSentences.contains(it.english) }
+                if (remaining.isEmpty()) {
+                    AlertDialog.Builder(this)
+                        .setTitle("학습 완료 🎉")
+                        .setMessage("모든 문장을 학습했습니다.\n복습을 시작할까요?")
+                        .setPositiveButton("복습 시작") { _, _ ->
+                            usedSentences.clear()
+                            saveUsedSentences()
+                            sentenceIndex = 0
+                            playBtn.performClick()
+                        }
+                        .setNegativeButton("돌아가기") { _, _ -> finish() }
+                        .show()
+                    return@setOnClickListener
+                }
+                currentSentence = remaining.random()
             }
 
-            usedSentences.add(currentSentence)
-            replayCount = 0
-            isFeedbackFetched = false
-            isSentencePlayed = true
+            // UI 초기화
+            resultView.text = ""
+            translationView.text = ""
+            feedbackView.text = ""
+            translationView.visibility = TextView.GONE
+            feedbackView.visibility = TextView.GONE
+            resultView.setTypeface(null, Typeface.NORMAL)
 
             val voices = tts.voices.filter { it.locale.language == "en" && !it.isNetworkConnectionRequired }
             tts.voice = when {
@@ -254,13 +317,16 @@ class MainActivity : AppCompatActivity() {
                 radioFixed.isChecked && fixedVoice != null -> fixedVoice
                 else -> tts.voice
             }
-
             tts.speak(currentSentence.english, TextToSpeech.QUEUE_FLUSH, null, null)
-            replayCount++
+            replayCount = 1
+            isSentencePlayed = true
+            isFeedbackFetched = false
 
-            translationView.visibility = TextView.GONE
-            feedbackView.visibility = TextView.GONE
-            checkBtn.text = "⏳ 10초 후에 제출하실 수 있습니다."
+            wordHintView.visibility = TextView.GONE
+            hintButton.text = "🧩 단어 힌트 보기"
+            isHintVisible = false
+
+            checkBtn.text = "⏳ 10초 후에 제출할 수 있습니다."
             checkBtn.isEnabled = false
             checkBtn.backgroundTintList = android.content.res.ColorStateList.valueOf(Color.parseColor("#CCCCCC"))
             isCheckEnabled = false
@@ -289,8 +355,19 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // ✅ 기존 정답 확인 로직 유지
+            // ✅ 중복 방지: 사용된 문장 저장은 한 번만
+            if (!usedSentences.contains(currentSentence.english)) {
+                usedSentences.add(currentSentence.english)
+                saveUsedSentences()
+            }
+
             val userInputText = input.text.toString().trim()
+
+            if (userInputText.isEmpty()) {
+                Toast.makeText(this, "답안을 입력하세요.", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
             val correctText = currentSentence.english.trim()
             val similarity = calculateSimilarity(userInputText.lowercase(), correctText.lowercase())
             val isCorrect = similarity >= 85
@@ -301,10 +378,32 @@ class MainActivity : AppCompatActivity() {
                 else -> "❌ 오답입니다. ($similarity% 일치)"
             }
 
+            if (similarity >= 50) {
+                val user = FirebaseAuth.getInstance().currentUser
+                if (user != null) {
+                    val db = FirebaseFirestore.getInstance()
+                    val weekId = getCurrentWeekId()
+                    val userRef = db.collection("weekly_rankings")
+                        .document(weekId)
+                        .collection("users")
+                        .document(user.uid)
+
+                    userRef.get().addOnSuccessListener { snapshot ->
+                        val currentScore = snapshot.getLong("score") ?: 0
+                        val newScore = currentScore + 1
+                        val email = user.email ?: "unknown@example.com"
+                        userRef.set(mapOf(
+                            "name" to email,  // ✅ displayName 대신 email 저장
+                            "score" to newScore
+                        ))
+                    }
+                }
+            }
+
             resultView.text = """
-                $message
-                🔁 문장 듣기: ${replayCount}회
-            """.trimIndent()
+        $message
+        🔁 문장 듣기: ${replayCount}회
+    """.trimIndent()
             resultView.setTypeface(null, Typeface.BOLD)
             resultView.setTextColor(
                 when {
@@ -315,10 +414,10 @@ class MainActivity : AppCompatActivity() {
             )
 
             translationView.text = """
-                🇰🇷 ${currentSentence.korean}
-                🇺🇸 ${currentSentence.english}
-                📝 $userInputText
-            """.trimIndent()
+        🇰🇷 ${currentSentence.korean}
+        🇺🇸 ${currentSentence.english}
+        📝 $userInputText
+    """.trimIndent()
             translationView.visibility = TextView.VISIBLE
 
             if (!isFeedbackFetched) {
@@ -329,6 +428,7 @@ class MainActivity : AppCompatActivity() {
                     runOnUiThread {
                         feedbackView.text = "AI 피드백: $feedback"
                         isFeedbackFetched = true
+
                         val currentUser = FirebaseAuth.getInstance().currentUser
                         if (currentUser != null) {
                             val db = FirebaseFirestore.getInstance()
@@ -338,12 +438,17 @@ class MainActivity : AppCompatActivity() {
                                 "feedback" to feedback,
                                 "timestamp" to FieldValue.serverTimestamp(),
                                 "similarity" to similarity,
-                                "replayCount" to replayCount
+                                "replayCount" to replayCount,
+                                "usedHint" to isHintVisible
                             )
                             db.collection("users")
                                 .document(currentUser.uid)
                                 .collection("reviews")
                                 .add(reviewData)
+                                .addOnFailureListener { e ->
+                                    e.printStackTrace()
+                                    Toast.makeText(this, "Firebase 저장 실패", Toast.LENGTH_SHORT).show()
+                                }
                         }
                     }
                 }
@@ -464,6 +569,39 @@ class MainActivity : AppCompatActivity() {
         val rate = if (total == 0) 0 else (correctCount * 100) / total
         resultView.text = "정답률: ${rate}% ($correctCount/$total)"
         resultView.setTextColor(Color.BLACK)
+
+        if (!prefs.getBoolean("review_shown", false) && correctCount >= 10) {
+            prefs.edit().putBoolean("review_shown", true).apply()
+            showReviewDialogIfEligible()
+        }
+    }
+
+    private fun showReviewDialogIfEligible() {
+        AlertDialog.Builder(this)
+            .setTitle("앱이 도움이 되셨나요?")
+            .setMessage("간단한 리뷰를 남겨주시면 큰 힘이 됩니다 😊")
+            .setPositiveButton("리뷰 남기기") { _, _ ->
+                requestInAppReview()
+                prefs.edit().putBoolean("review_shown", true).apply()
+            }
+            .setNegativeButton("다음에 할게요", null)
+            .show()
+    }
+
+    private fun requestInAppReview() {
+        val manager = ReviewManagerFactory.create(this)
+        val request = manager.requestReviewFlow()
+
+        request.addOnCompleteListener { task ->
+            if (task.isSuccessful) {
+                val reviewInfo = task.result
+                val flow = manager.launchReviewFlow(this, reviewInfo)
+                flow.addOnCompleteListener {
+                }
+            } else {
+                Toast.makeText(this, "리뷰 요청을 불러오지 못했어요.", Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 
     private fun fetchApiKeyFromRemoteConfig(onKeyFetched: (String?) -> Unit) {
@@ -539,22 +677,30 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun loadScenarioImageFromAssets(scenarioKey: String) {
-        val assetManager = assets
-        val fileName = "scenarios/$scenarioKey.webp"
-
+    private fun loadScenarioImageFromAssets(imageFileName: String) {
         try {
-            val inputStream = assetManager.open(fileName)
-            val drawable = Drawable.createFromStream(inputStream, null)
+            val ims = assets.open("scenarios/$imageFileName")
+            val drawable = Drawable.createFromStream(ims, null)
             scenarioImageView.setImageDrawable(drawable)
         } catch (e: Exception) {
-            try {
-                val fallback = assetManager.open("scenarios/default.webp")
-                val drawable = Drawable.createFromStream(fallback, null)
-                scenarioImageView.setImageDrawable(drawable)
-            } catch (_: Exception) {
-                // 기본 이미지도 없는 경우 무시
-            }
+            scenarioImageView.setImageResource(R.drawable.default_background)
         }
+    }
+
+    private fun saveUsedSentences() {
+        prefs.edit().putStringSet("used_$scenarioKey", usedSentences).apply()
+    }
+
+    private fun loadUsedSentences() {
+        val saved = prefs.getStringSet("used_$scenarioKey", emptySet())
+        usedSentences.clear()
+        usedSentences.addAll(saved ?: emptySet())
+    }
+
+    private fun getCurrentWeekId(): String {
+        val cal = Calendar.getInstance()
+        val week = cal.get(Calendar.WEEK_OF_YEAR)
+        val year = cal.get(Calendar.YEAR)
+        return String.format("%04d-W%02d", year, week)
     }
     }

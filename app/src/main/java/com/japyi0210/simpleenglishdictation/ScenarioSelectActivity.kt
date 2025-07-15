@@ -1,22 +1,25 @@
 package com.japyi0210.simpleenglishdictation
 
+
 import android.app.AlertDialog
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.firebase.auth.FirebaseAuth
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.*
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
-import com.google.android.gms.ads.FullScreenContentCallback
-import com.google.android.gms.ads.AdError
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
+import java.util.Calendar
+
+
 
 class ScenarioSelectActivity : AppCompatActivity() {
 
-    data class Scenario(val name: String, val fileKey: String, val category: String)
+    data class Scenario(val name: String, val fileKey: String, val category: String, val imageFileName: String)
 
     private var mInterstitialAd: InterstitialAd? = null
 
@@ -30,6 +33,8 @@ class ScenarioSelectActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_scenario_select)
 
+        showWeeklyRankingDialog()
+
         MobileAds.initialize(this) {}
         loadInterstitialAd()
 
@@ -38,7 +43,8 @@ class ScenarioSelectActivity : AppCompatActivity() {
         orderSpinner = findViewById(R.id.orderSpinner)
 
         val allScenarios = mutableListOf(
-            Scenario("무작위 시나리오 듣기 (Random Play)", "all", "전체")
+            // 임시 항목에는 imageFileName 지정 (기본 배경만 쓸 것이므로 아무 문자열도 가능)
+            Scenario("무작위 문장 듣기", "all", "전체", "all.webp")
         ) + loadScenarios()
 
         val categories = allScenarios.map { it.category }.distinct().sorted()
@@ -103,13 +109,15 @@ class ScenarioSelectActivity : AppCompatActivity() {
                     }
 
                     AlertDialog.Builder(this)
-                        .setTitle("앱 종료")
-                        .setMessage("""
-                            정말 종료하시겠습니까?
+                        .setTitle("저장 및 종료")
+                        .setMessage(
+                            """
+                            학습기록을 저장하고 종료하시겠습니까?
 
                             📦 버전: $versionName
                             📧 문의: CREN-J (japyi0210@gmail.com)
-                        """.trimIndent())
+                            """.trimIndent()
+                        )
                         .setPositiveButton("예") { _, _ -> showAdOrExit() }
                         .setNegativeButton("아니오", null)
                         .show()
@@ -121,16 +129,41 @@ class ScenarioSelectActivity : AppCompatActivity() {
     }
 
     private fun updateList(filteredScenarios: List<Scenario>) {
-        val adapter = ScenarioAdapter(this, filteredScenarios)
+        val prefs = getSharedPreferences("UsedSentences", Context.MODE_PRIVATE)
+        val allScenarioKeys = loadScenarios().map { it.fileKey }
+
+        val itemsWithProgress = filteredScenarios.map { scenario ->
+            val totalCount = getTotalSentenceCount(scenario.fileKey)
+
+            val usedCount = if (scenario.fileKey == "all") {
+                allScenarioKeys.sumOf { key ->
+                    prefs.getStringSet("used_$key", emptySet())?.size ?: 0
+                }
+            } else {
+                prefs.getStringSet("used_${scenario.fileKey}", emptySet())?.size ?: 0
+            }
+
+            val progressText = " ($usedCount / $totalCount)"
+            Scenario(
+                name = scenario.name + progressText,
+                fileKey = scenario.fileKey,
+                category = scenario.category,
+                imageFileName = scenario.imageFileName  // ✅ 빠졌던 인자 추가
+            )
+        }
+
+        val adapter = ScenarioAdapter(this, itemsWithProgress)
         listView.adapter = adapter
 
         listView.setOnItemClickListener { _, _, position, _ ->
             val selected = filteredScenarios[position]
-            val order = orderOptions[orderSpinner.selectedItemPosition]
+            val userOrderSelection = orderOptions[orderSpinner.selectedItemPosition]
+            val internalOrderMode = if (userOrderSelection.contains("순서")) "순서" else "랜덤"
 
             val intent = Intent(this, MainActivity::class.java)
             intent.putExtra("scenario_key", selected.fileKey)
-            intent.putExtra("order_mode", order)
+            intent.putExtra("order_mode", internalOrderMode)
+            intent.putExtra("image_file_name", selected.imageFileName)
             startActivity(intent)
         }
     }
@@ -140,11 +173,43 @@ class ScenarioSelectActivity : AppCompatActivity() {
             val inputStream = assets.open("scenarios.txt")
             inputStream.bufferedReader().readLines().mapNotNull {
                 val parts = it.split("\t")
-                if (parts.size >= 3) Scenario(parts[0].trim(), parts[1].trim(), parts[2].trim()) else null
+                if (parts.size >= 4) {
+                    Scenario(
+                        name = parts[0].trim(),
+                        fileKey = parts[1].trim(),
+                        category = parts[2].trim(),
+                        imageFileName = parts[3].trim()
+                    )
+                } else null
             }
         } catch (e: Exception) {
             Toast.makeText(this, "시나리오 목록을 불러오는 데 실패했습니다.", Toast.LENGTH_SHORT).show()
             emptyList()
+        }
+    }
+
+    private fun getTotalSentenceCount(fileKey: String): Int {
+        return try {
+            val assetManager = assets
+            val lines = if (fileKey == "all") {
+                val files = assetManager.list("")?.filter {
+                    it.startsWith("scenario_") && it.endsWith(".txt")
+                } ?: emptyList()
+                files.flatMap { file ->
+                    try {
+                        assetManager.open(file).bufferedReader().readLines()
+                    } catch (e: Exception) {
+                        emptyList()
+                    }
+                }
+            } else {
+                val fileName = "scenario_${fileKey}.txt"
+                assetManager.open(fileName).bufferedReader().readLines()
+            }
+
+            lines.count { it.contains("\t") }
+        } catch (e: Exception) {
+            0
         }
     }
 
@@ -156,7 +221,7 @@ class ScenarioSelectActivity : AppCompatActivity() {
                     mInterstitialAd = ad
                 }
 
-                override fun onAdFailedToLoad(adError: com.google.android.gms.ads.LoadAdError) {
+                override fun onAdFailedToLoad(adError: LoadAdError) {
                     mInterstitialAd = null
                 }
             })
@@ -180,5 +245,115 @@ class ScenarioSelectActivity : AppCompatActivity() {
             FirebaseAuth.getInstance().signOut()
             finishAffinity()
         }
+    }
+
+    private fun showWeeklyRankingDialog() {
+        // 1. 우선 다이얼로그를 띄운다
+        val messageView = TextView(this).apply {
+            text = "   불러오는 중..."
+            setPadding(50, 40, 50, 0)
+        }
+
+        val dialog = AlertDialog.Builder(this)
+            .setTitle("🏆 주간 랭킹 TOP 10")
+            .setView(messageView)
+            .setPositiveButton("확인", null)
+            .create()
+
+        dialog.setCanceledOnTouchOutside(false)
+        dialog.setCancelable(false)
+        dialog.show()
+
+        // 2. Firebase에서 데이터를 비동기로 받아온다
+        val db = FirebaseFirestore.getInstance()
+        val weekId = getCurrentWeekId()
+        val currentUser = FirebaseAuth.getInstance().currentUser
+
+        db.collection("weekly_rankings")
+            .document(weekId)
+            .collection("users")
+            .orderBy("score", com.google.firebase.firestore.Query.Direction.DESCENDING)
+            .limit(10)
+            .get()
+            .addOnSuccessListener { result ->
+
+                // 공동 순위 계산
+                val rankListBuilder = StringBuilder()
+                var previousScore: Long? = null
+                var currentRank = 0
+                var actualIndex = 0
+
+                for (doc in result) {
+                    actualIndex++
+                    val score = doc.getLong("score") ?: 0
+                    if (score != previousScore) {
+                        currentRank = actualIndex
+                        previousScore = score
+                    }
+                    val name = maskEmail(doc.getString("name") ?: "익명")
+                    rankListBuilder.append("   ${currentRank}위: $name (${score}문장)\n")
+                }
+
+                val rankList = rankListBuilder.toString().ifEmpty { "아직 랭킹 데이터가 없습니다." }
+
+                // 사용자 점수 또는 안내 문구 준비
+                val afterTextLoad: (String) -> Unit = { footnote ->
+                    val fullText = "$rankList\n\n$footnote"
+                    val spannable = android.text.SpannableString(fullText).apply {
+                        // footnote 스타일
+                        setSpan(android.text.style.RelativeSizeSpan(0.85f), rankList.length, fullText.length, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+                        setSpan(android.text.style.StyleSpan(android.graphics.Typeface.ITALIC), rankList.length, fullText.length, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+                        setSpan(android.text.style.ForegroundColorSpan(0xFF888888.toInt()), rankList.length, fullText.length, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+
+                        // 선택사항: 순위는 굵게
+                        setSpan(android.text.style.StyleSpan(android.graphics.Typeface.BOLD), 0, rankList.length, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+                    }
+                    messageView.text = spannable
+                }
+
+                if (currentUser != null) {
+                    db.collection("weekly_rankings")
+                        .document(weekId)
+                        .collection("users")
+                        .document(currentUser.uid)
+                        .get()
+                        .addOnSuccessListener { userDoc ->
+                            val myScore = userDoc.getLong("score") ?: 0
+                            val footnote = listOf(
+                                "   ※ 50% 이상 일치한 답변만 순위에 반영됩니다.",
+                                "   ※ 순위는 매주 월요일 자정에 초기화됩니다.",
+                                "   ※ 이번 주에 총 ${myScore}문장을 푸셨습니다!"
+                            ).joinToString("\n")
+                            afterTextLoad(footnote)
+                        }
+                } else {
+                    val footnote = listOf(
+                        "   ※ 50% 이상 일치한 답변만 순위에 반영됩니다.",
+                        "   ※ 순위는 매주 월요일 자정에 초기화됩니다.",
+                        "   ※ 로그인하면 이번 주 기록을 확인할 수 있습니다."
+                    ).joinToString("\n")
+                    afterTextLoad(footnote)
+                }
+            }
+            .addOnFailureListener {
+                messageView.text = "랭킹 정보를 불러오지 못했습니다."
+            }
+    }
+
+    private fun getCurrentWeekId(): String {
+        val cal = Calendar.getInstance()
+        val week = cal.get(Calendar.WEEK_OF_YEAR)
+        val year = cal.get(Calendar.YEAR)
+        return String.format("%04d-W%02d", year, week)
+    }
+    private fun maskEmail(email: String): String {
+        val parts = email.split("@")
+        if (parts.size != 2) return email  // 비정상 이메일 그대로 반환
+
+        val id = parts[0]
+        val domain = parts[1]
+
+        val prefix = if (id.length <= 3) id else id.substring(0, 3)
+        return "$prefix*****@$domain"
     }
 }

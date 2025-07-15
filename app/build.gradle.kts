@@ -14,8 +14,8 @@ android {
         applicationId = "com.japyi0210.simpleenglishdictation"
         minSdk = 23
         targetSdk = 35
-        versionCode = 8
-        versionName = "1.2.1"
+        versionCode = 24
+        versionName = "1.3.4"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         // ✅ OpenAI API 키를 BuildConfig에 안전하게 주입
@@ -65,6 +65,9 @@ dependencies {
     implementation("com.google.firebase:firebase-config-ktx")
     implementation("com.google.android.gms:play-services-auth:21.0.0")
 
+    // ✅ Google In-App Review (⭐ 추가)
+    implementation("com.google.android.play:review:2.0.1")
+
     // ✅ UI
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
@@ -102,7 +105,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-}
+
+    }
 
 // ✅ Firebase 설정 적용
 apply(plugin = "com.google.gms.google-services")
