@@ -6,15 +6,112 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF">
 
+    <!-- ✅ 상단 배너 광고 (AdMob) -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1872760638277957/1843630280" />
+
+    <!-- ✅ 리뷰 목록 -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:padding="8dp"
+        android:padding="12dp"
         android:clipToPadding="false"
-        android:contentDescription="리뷰 목록" /> <!-- ✅ 접근성 개선 -->
+        android:contentDescription="리뷰 목록" />
 
+    <!-- ✅ 구분선 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD" />
+
+    <!-- ✅ GPT 대화 영역 타이틀 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🗨️ AI 학습 도우미"
+        android:fontFamily="sans-serif-medium"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="#444444"
+        android:background="#F1F1F1"
+        android:textSize="15sp" />
+
+    <!-- ✅ GPT 대화창 + 비어 있을 때 안내 -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#F9F9F9"
+        android:padding="12dp">
+
+        <!-- GPT 대화 목록 -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chatRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:scrollbars="vertical"
+            android:contentDescription="AI코치 대화창" />
+
+        <!-- 대화 없을 때 안내 메시지 -->
+        <TextView
+            android:id="@+id/empty_chat_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textAlignment="center"
+            android:textColor="#777777"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:typeface="monospace"
+            android:background="#FAFAFA"
+            android:text="\n아직 대화가 없어요!\n아래에 질문을 입력해 보세요."
+            android:visibility="visible" />
+    </FrameLayout>
+
+    <!-- ✅ 질문 입력 영역 -->
+    <LinearLayout
+        android:id="@+id/chat_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#EEEEEE">
+
+        <EditText
+            android:id="@+id/input_question"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="질문을 입력하세요 (최대 200자)"
+            android:maxLength="200"
+            android:inputType="textMultiLine"
+            android:lines="1"
+            android:maxLines="3"
+            android:scrollHorizontally="false"
+            android:gravity="top|start"
+            android:background="@drawable/bg_edittext_outline"
+            android:padding="12dp"
+            android:textSize="14sp"
+            android:textColorHint="#888888"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전송"
+            android:textSize="14sp"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- ✅ 하단 네비게이션 -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"

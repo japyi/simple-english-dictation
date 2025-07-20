@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp"
+        android:layout_marginTop="80dp">
+
+        <!-- Email 입력 -->
+        <EditText
+            android:id="@+id/et_register_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_bg"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Password 입력 + 토글 -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="12dp">
+
+            <EditText
+                android:id="@+id/et_register_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:background="@drawable/edittext_bg"
+                android:paddingStart="12dp"
+                android:paddingEnd="44dp" />
+
+            <ImageButton
+                android:id="@+id/btn_toggle_password"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end|center_vertical"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_eye_closed"
+                android:contentDescription="비밀번호 보기 전환"
+                android:scaleType="centerInside"
+                android:padding="8dp" />
+        </FrameLayout>
+
+        <!-- Confirm Password 입력 + 토글 -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/et_register_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:background="@drawable/edittext_bg"
+                android:paddingStart="12dp"
+                android:paddingEnd="44dp" />
+
+            <ImageButton
+                android:id="@+id/btn_toggle_confirm"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end|center_vertical"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_eye_closed"
+                android:contentDescription="비밀번호 보기 전환"
+                android:scaleType="centerInside"
+                android:padding="8dp" />
+        </FrameLayout>
+
+        <!-- 회원가입 버튼 -->
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="회원가입"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:backgroundTint="@color/button_active"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 뒤로가기 -->
+        <TextView
+            android:id="@+id/tv_register_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이미 계정이 있으신가요? 로그인"
+            android:textColor="#4285F4"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>

@@ -14,8 +14,8 @@ android {
         applicationId = "com.japyi0210.simpleenglishdictation"
         minSdk = 23
         targetSdk = 35
-        versionCode = 24
-        versionName = "1.3.4"
+        versionCode = 26
+        versionName = "1.3.6"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         // ✅ OpenAI API 키를 BuildConfig에 안전하게 주입
@@ -82,7 +82,7 @@ dependencies {
     kapt("androidx.room:room-compiler:2.6.1")
 
     // ✅ Google Ads
-    implementation("com.google.android.gms:play-services-ads:23.0.0")
+    implementation("com.google.android.gms:play-services-ads:24.4.0")
 
     // ✅ Jetpack Compose
     implementation(libs.androidx.core.ktx)

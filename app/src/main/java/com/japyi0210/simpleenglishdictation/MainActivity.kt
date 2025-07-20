@@ -373,8 +373,8 @@ class MainActivity : AppCompatActivity() {
             val isCorrect = similarity >= 85
 
             val message = when {
-                similarity == 100 -> "⭕️ 정답입니다!"
-                similarity >= 85 -> "🔵 거의 정답이에요! ($similarity% 일치)"
+                similarity == 100 -> "⭕️ 정답입니다! (100% 일치)"
+                similarity >= 85 -> "🔺 거의 정답이에요! ($similarity% 일치)"
                 else -> "❌ 오답입니다. ($similarity% 일치)"
             }
 
@@ -669,7 +669,7 @@ class MainActivity : AppCompatActivity() {
                                 .getString("content")
                             onResult(reply.trim())
                         } catch (e: Exception) {
-                            onResult("❗ 응답 파싱 오류")
+                            onResult("❗ AI 연결 실패")
                         }
                     } ?: onResult("❗ 응답이 비어 있습니다.")
                 }

@@ -14,7 +14,7 @@
     <item
         android:id="@+id/ai_review"
         android:icon="@drawable/ic_ai_review"
-        android:title="AI리뷰" />
+        android:title="AI도우미" />
 
     <item
         android:id="@+id/nav_account"

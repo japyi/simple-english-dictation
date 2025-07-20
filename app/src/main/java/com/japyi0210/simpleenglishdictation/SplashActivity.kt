@@ -29,7 +29,12 @@ class SplashActivity : AppCompatActivity() {
         firstLine.typeface = nanumPenFont
         secondLine.typeface = nanumPenFont
 
-        // 1. 첫 문장: 1초 지연 후 페이드 인 + 슬라이드 인
+        // ✅ 애니메이션 먼저 시작
+        startAnimations(firstLine, secondLine)
+    }
+
+    private fun startAnimations(firstLine: TextView, secondLine: TextView) {
+        // 첫 줄 애니메이션 설정
         firstLine.translationX = -800f
         firstLine.alpha = 0f
         firstLine.visibility = View.VISIBLE
@@ -44,9 +49,9 @@ class SplashActivity : AppCompatActivity() {
                 interpolator = DecelerateInterpolator()
                 start()
             }
-        }, 1000) // ✅ 1초 지연
+        }, 1000)
 
-        // 2. 딜레이 후 타이핑 애니메이션 시작
+        // 타이핑 애니메이션 시작
         mainHandler.postDelayed({ startTypingAnimation(secondLine) }, 2700)
     }
 
@@ -60,7 +65,7 @@ class SplashActivity : AppCompatActivity() {
                 builder.append(text)
                 secondLine.text = builder.toString()
 
-                // 강조 애니메이션
+                // 강조 효과
                 secondLine.animate()
                     .scaleX(1.1f).scaleY(1.1f).setDuration(150)
                     .withEndAction {
@@ -69,12 +74,14 @@ class SplashActivity : AppCompatActivity() {
                     }
                     .start()
 
-                // 마지막 글자 후 화면 전환
+                // 마지막 글자 후 광고 → 그 후 화면 전환
                 if (index == textArray.lastIndex) {
                     mainHandler.postDelayed({
-                        startActivity(Intent(this, StartActivity::class.java))
-                        finish()
-                    }, 3000) // ✅ 3초 대기
+                        (application as MyApplication).loadAdAndShowIfAvailable(this@SplashActivity) {
+                            startActivity(Intent(this@SplashActivity, StartActivity::class.java))
+                            finish()
+                        }
+                    }, 3000) // 마지막 여운 시간
                 }
             }, delay)
         }

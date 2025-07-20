@@ -1,6 +1,5 @@
 package com.japyi0210.simpleenglishdictation
 
-
 import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
@@ -14,8 +13,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import java.util.Calendar
-
-
 
 class ScenarioSelectActivity : AppCompatActivity() {
 
@@ -43,7 +40,6 @@ class ScenarioSelectActivity : AppCompatActivity() {
         orderSpinner = findViewById(R.id.orderSpinner)
 
         val allScenarios = mutableListOf(
-            // 임시 항목에는 imageFileName 지정 (기본 배경만 쓸 것이므로 아무 문자열도 가능)
             Scenario("무작위 문장 듣기", "all", "전체", "all.webp")
         ) + loadScenarios()
 
@@ -148,7 +144,7 @@ class ScenarioSelectActivity : AppCompatActivity() {
                 name = scenario.name + progressText,
                 fileKey = scenario.fileKey,
                 category = scenario.category,
-                imageFileName = scenario.imageFileName  // ✅ 빠졌던 인자 추가
+                imageFileName = scenario.imageFileName
             )
         }
 
@@ -248,15 +244,44 @@ class ScenarioSelectActivity : AppCompatActivity() {
     }
 
     private fun showWeeklyRankingDialog() {
-        // 1. 우선 다이얼로그를 띄운다
+        val db = FirebaseFirestore.getInstance()
+        val currentUser = FirebaseAuth.getInstance().currentUser
+        val weekId = getCurrentWeekId()
+
         val messageView = TextView(this).apply {
-            text = "   불러오는 중..."
-            setPadding(50, 40, 50, 0)
+            text = "불러오는 중..."
+            setPadding(50, 40, 50, 20)
+            textSize = 15f
+            setLineSpacing(0f, 1.3f)
+        }
+
+        val noticeTextView = TextView(this).apply {
+            text = ""
+            setPadding(50, 20, 50, 40)
+            textSize = 15f
+            setLineSpacing(0f, 1.2f)
+        }
+
+        val scrollView = ScrollView(this).apply {
+            val layout = LinearLayout(this@ScenarioSelectActivity).apply {
+                orientation = LinearLayout.VERTICAL
+                addView(messageView)
+                addView(noticeTextView)
+            }
+            addView(layout)
+        }
+
+        // ⬇️ 타이틀을 커스텀 View로 대체
+        val titleView = TextView(this).apply {
+            text = "🏆 실시간 랭킹 TOP 5"
+            setPadding(50, 50, 50, 30)
+            textSize = 18f
+            setTypeface(null, android.graphics.Typeface.BOLD)
         }
 
         val dialog = AlertDialog.Builder(this)
-            .setTitle("🏆 주간 랭킹 TOP 10")
-            .setView(messageView)
+            .setCustomTitle(titleView)
+            .setView(scrollView)
             .setPositiveButton("확인", null)
             .create()
 
@@ -264,20 +289,31 @@ class ScenarioSelectActivity : AppCompatActivity() {
         dialog.setCancelable(false)
         dialog.show()
 
-        // 2. Firebase에서 데이터를 비동기로 받아온다
-        val db = FirebaseFirestore.getInstance()
-        val weekId = getCurrentWeekId()
-        val currentUser = FirebaseAuth.getInstance().currentUser
+        // 🔹 공지사항
+        db.collection("notices").document("weekly_notice").get()
+            .addOnSuccessListener { doc ->
+                val msg = doc.getString("message") ?: ""
+                if (msg.isNotBlank()) {
+                    val noticeText = "\n\n$msg"
+                    val spannable = android.text.SpannableString(noticeText).apply {
+                        setSpan(android.text.style.RelativeSizeSpan(0.85f), 0, length, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+                        setSpan(android.text.style.ForegroundColorSpan(0xFF888888.toInt()), 0, length, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
+                    }
+                    noticeTextView.text = spannable
+                }
+            }
+            .addOnFailureListener {
+                noticeTextView.text = ""
+            }
 
+        // 🔹 주간 랭킹
         db.collection("weekly_rankings")
             .document(weekId)
             .collection("users")
             .orderBy("score", com.google.firebase.firestore.Query.Direction.DESCENDING)
-            .limit(10)
+            .limit(5)
             .get()
             .addOnSuccessListener { result ->
-
-                // 공동 순위 계산
                 val rankListBuilder = StringBuilder()
                 var previousScore: Long? = null
                 var currentRank = 0
@@ -291,21 +327,17 @@ class ScenarioSelectActivity : AppCompatActivity() {
                         previousScore = score
                     }
                     val name = maskEmail(doc.getString("name") ?: "익명")
-                    rankListBuilder.append("   ${currentRank}위: $name (${score}문장)\n")
+                    rankListBuilder.append("${currentRank}위: $name (${score}문장)\n")
                 }
 
                 val rankList = rankListBuilder.toString().ifEmpty { "아직 랭킹 데이터가 없습니다." }
 
-                // 사용자 점수 또는 안내 문구 준비
                 val afterTextLoad: (String) -> Unit = { footnote ->
-                    val fullText = "$rankList\n\n$footnote"
+                    val fullText = "$rankList\n$footnote"
                     val spannable = android.text.SpannableString(fullText).apply {
-                        // footnote 스타일
                         setSpan(android.text.style.RelativeSizeSpan(0.85f), rankList.length, fullText.length, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
                         setSpan(android.text.style.StyleSpan(android.graphics.Typeface.ITALIC), rankList.length, fullText.length, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
                         setSpan(android.text.style.ForegroundColorSpan(0xFF888888.toInt()), rankList.length, fullText.length, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
-
-                        // 선택사항: 순위는 굵게
                         setSpan(android.text.style.StyleSpan(android.graphics.Typeface.BOLD), 0, rankList.length, android.text.Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
                     }
                     messageView.text = spannable
@@ -320,17 +352,17 @@ class ScenarioSelectActivity : AppCompatActivity() {
                         .addOnSuccessListener { userDoc ->
                             val myScore = userDoc.getLong("score") ?: 0
                             val footnote = listOf(
-                                "   ※ 50% 이상 일치한 답변만 순위에 반영됩니다.",
-                                "   ※ 순위는 매주 월요일 자정에 초기화됩니다.",
-                                "   ※ 이번 주에 총 ${myScore}문장을 푸셨습니다!"
+                                "※ 50% 이상 일치한 답변만 순위에 반영됩니다.",
+                                "※ 순위는 매주 월요일 자정에 초기화됩니다.",
+                                "※ 이번 주에 총 ${myScore}문장을 푸셨습니다!"
                             ).joinToString("\n")
                             afterTextLoad(footnote)
                         }
                 } else {
                     val footnote = listOf(
-                        "   ※ 50% 이상 일치한 답변만 순위에 반영됩니다.",
-                        "   ※ 순위는 매주 월요일 자정에 초기화됩니다.",
-                        "   ※ 로그인하면 이번 주 기록을 확인할 수 있습니다."
+                        "※ 50% 이상 일치한 답변만 순위에 반영됩니다.",
+                        "※ 순위는 매주 월요일 자정에 초기화됩니다.",
+                        "※ 로그인하면 이번 주 기록을 확인할 수 있습니다."
                     ).joinToString("\n")
                     afterTextLoad(footnote)
                 }
@@ -346,13 +378,12 @@ class ScenarioSelectActivity : AppCompatActivity() {
         val year = cal.get(Calendar.YEAR)
         return String.format("%04d-W%02d", year, week)
     }
+
     private fun maskEmail(email: String): String {
         val parts = email.split("@")
-        if (parts.size != 2) return email  // 비정상 이메일 그대로 반환
-
+        if (parts.size != 2) return email
         val id = parts[0]
         val domain = parts[1]
-
         val prefix = if (id.length <= 3) id else id.substring(0, 3)
         return "$prefix*****@$domain"
     }
